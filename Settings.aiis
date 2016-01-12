@@ -32,9 +32,9 @@
                 {
                   "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
                   "__value": {
-                    "IsLocked": false,
-                    "SearchType": 0,
-                    "AttributeName": "id"
+                    "IsLocked": true,
+                    "SearchType": 1,
+                    "AttributeName": null
                   }
                 },
                 {
@@ -43,6 +43,14 @@
                     "IsLocked": false,
                     "SearchType": 0,
                     "AttributeName": "name"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "id"
                   }
                 },
                 {
@@ -74,15 +82,15 @@
                   "__value": {
                     "IsLocked": false,
                     "SearchType": 0,
-                    "AttributeName": "alt"
+                    "AttributeName": "xpath"
                   }
                 },
                 {
                   "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
                   "__value": {
-                    "IsLocked": true,
-                    "SearchType": 1,
-                    "AttributeName": null
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "alt"
                   }
                 },
                 {
@@ -91,14 +99,6 @@
                     "IsLocked": true,
                     "SearchType": 8,
                     "AttributeName": null
-                  }
-                },
-                {
-                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
-                  "__value": {
-                    "IsLocked": false,
-                    "SearchType": 0,
-                    "AttributeName": "xpath"
                   }
                 }
               ]
@@ -216,6 +216,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 3
+    "SelectedBrowserOption": 2
   }
 }

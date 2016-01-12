@@ -643,7 +643,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\FillPresentLevel2.resx",
+    "ResourceFilePath": "Methods\\FillForms\\FillPresentLevel2.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -688,7 +688,7 @@
     "Description": "",
     "Name": "FillPresentLevel2",
     "Owner": "",
-    "Path": "Methods\\FillPresentLevel2.tstest",
+    "Path": "Methods\\FillForms\\FillPresentLevel2.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "237e7954-89c1-401e-8a4b-35d76a121ead",

@@ -2945,7 +2945,7 @@
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "TestName": "FillNoticeOfMeeting",
-                "TestPath": "Methods\\FillNoticeOfMeeting.tstest",
+                "TestPath": "Methods\\FillForms\\FillNoticeOfMeeting.tstest",
                 "TestUniqueId": "197c905b-1077-49b7-9504-75cbc3112479",
                 "Pause": 0,
                 "RunsAgainstVersion": "",

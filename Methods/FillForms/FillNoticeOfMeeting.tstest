@@ -1065,7 +1065,7 @@
               "uniqueKey": "y5IiTQ9F3shUm5+M9OsXNlBbPqU=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "ArrowOpenList",
+              "Name": "ArrowOpenList0",
               "FindExpressions": [
                 {
                   "Key": 1,
@@ -1138,7 +1138,7 @@
               "uniqueKey": "y5IiTQ9F3shUm5+M9OsXNlBbPqU=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "ArrowOpenList",
+              "Name": "ArrowOpenList0",
               "FindExpressions": [
                 {
                   "Key": 1,
@@ -1198,7 +1198,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\FillNoticeOfMeeting.resx",
+    "ResourceFilePath": "Methods\\FillForms\\FillNoticeOfMeeting.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1229,8 +1229,8 @@
     "TestLinks": [],
     "Description": "",
     "Name": "FillNoticeOfMeeting",
-    "Owner": null,
-    "Path": "Methods\\FillNoticeOfMeeting.tstest",
+    "Owner": "",
+    "Path": "Methods\\FillForms\\FillNoticeOfMeeting.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "197c905b-1077-49b7-9504-75cbc3112479",
