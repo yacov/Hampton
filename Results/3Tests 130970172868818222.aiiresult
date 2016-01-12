@@ -1,0 +1,1188 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.RunResult",
+  "__value": {
+    "IsComplete": true,
+    "Name": "3Tests",
+    "StartTime": "2016-01-11T20:19:34",
+    "EndTime": "2016-01-11T20:21:26.8788209Z",
+    "DataCollectors": {},
+    "TestResults": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 1,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'1/11/2016 10:19:34 PM' - Executing test: '3Tests', path: 'TestRuns\\3Tests.tstest.'\r\n'1/11/2016 10:19:34 PM' - Using .Net Runtime version: '4.0.30319.34209' for test execution. Build version is '2015.3.1015.0'.\r\n'1/11/2016 10:19:34 PM' - Starting execution....\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'1/11/2016 10:19:37 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/11/2016 10:19:37 PM' - Using 'InternetExplorer' version '11.0' as default browser. \r\n'1/11/2016 10:19:37 PM' - Using 'http://Hampton-demo.accelidemo.com' as base url.\r\n'1/11/2016 10:19:39 PM' - 'Pass' : 1. Custom Annotation : Running 3 test in one browser session in order to save time\r\n'1/11/2016 10:20:31 PM' - 'Pass' : 2. Execute test '5836'\r\n\r\n>>> Test-as-Step 'Tests\\5836.tstest' log starts:\r\n\r\nOverall Result: Pass\r\n------------------------------------------------------------\r\n'1/11/2016 10:19:39 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/11/2016 10:19:39 PM' - Using 'InternetExplorer' version '11.0' as default browser. \r\n'1/11/2016 10:19:39 PM' - Using 'http://Hampton-demo.accelidemo.com' as base url.\r\n'1/11/2016 10:20:00 PM' - 'Pass' : 1. Execute test 'Login'\r\n\r\n>>> Test-as-Step 'Methods\\Login.tstest' log starts:\r\n\r\nOverall Result: Pass\r\n------------------------------------------------------------\r\n'1/11/2016 10:19:39 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/11/2016 10:19:39 PM' - Using 'InternetExplorer' version '11.0' as default browser. \r\n'1/11/2016 10:19:39 PM' - Using 'http://Hampton-demo.accelidemo.com' as base url.\r\n'1/11/2016 10:19:39 PM' - 'Pass' : 1. Clear Browser Cache\r\n'1/11/2016 10:19:44 PM' - 'Pass' : 2. Navigate to : 'http://Hampton-demo.accelidemo.com'\r\n'1/11/2016 10:19:44 PM' - 'Pass' : 3. Enter text 'Superlion' in 'UserNameField'\r\n'1/11/2016 10:19:44 PM' - 'Pass' : 4. Enter text 'CTAKAH' in 'PasswordField'\r\n'1/11/2016 10:19:48 PM' - 'Pass' : 5. Click 'LoginButton'\r\n'1/11/2016 10:20:00 PM' - 'Pass' : 6. Click 'SpEdLink'\r\n------------------------------------------------------------\r\n'1/11/2016 10:20:00 PM' - Overall Result: Pass\r\n'1/11/2016 10:20:00 PM' - Duration: [0 min: 20 sec: 748 msec]\r\n------------------------------------------------------------\r\n\r\n<<< Test-as-Step 'Methods\\Login.tstest' log ends.\r\n\r\n'1/11/2016 10:20:05 PM' - 'Pass' : 2. Click 'StudentsLink'\r\n'1/11/2016 10:20:13 PM' - 'Pass' : 3. Click 'AaronLink'\r\n'1/11/2016 10:20:16 PM' - 'Pass' : 4. Verify 'TextContent' 'Contains' 'Student Information' on 'StudentH5Tag'\r\n'1/11/2016 10:20:20 PM' - 'Pass' : 5. Click 'EventsLink'\r\n'1/11/2016 10:20:21 PM' - 'Pass' : 6. Verify element 'PnlStudentTitleH4Tag' 'is' visible.\r\n'1/11/2016 10:20:21 PM' - 'Pass' : 7. Click 'BtnCreateEventGroupLink'\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 8. Wait for element 'CreateEventPopUp' 'is' visible.\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 9. Click 'SelectSpan'\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 10. Click 'InitialIEPListItem'\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 11. Enter text '11/11/2016' in 'ScheduleDateText'\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 12. Enter text '11/11/2016' in 'DueDateText'\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 13. Click 'BtnSaveEventGroupLink'\r\n'1/11/2016 10:20:31 PM' - 'Pass' : 14. Verify element 'InitialIEPPTag' 'is' visible.\r\n'1/11/2016 10:20:31 PM' - 'Pass' : 15. KendoGrid: [3, 0]Cell text 'Exact' '11/11/2016'\r\n'1/11/2016 10:20:31 PM' - 'Pass' : 16. KendoGrid: [5, 0]Cell text 'Exact' '11/11/2016'\r\n------------------------------------------------------------\r\n'1/11/2016 10:20:31 PM' - Overall Result: Pass\r\n'1/11/2016 10:20:31 PM' - Duration: [0 min: 51 sec: 422 msec]\r\n------------------------------------------------------------\r\n\r\n<<< Test-as-Step 'Tests\\5836.tstest' log ends.\r\n\r\n'1/11/2016 10:21:22 PM' - 'Fail' : 3. Execute test '5837'\r\n\r\n>>> Test-as-Step 'Tests\\5837.tstest' log starts:\r\n\r\nOverall Result: Fail\r\n------------------------------------------------------------\r\n'1/11/2016 10:20:32 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/11/2016 10:20:32 PM' - Using 'InternetExplorer' version '11.0' as default browser. \r\n'1/11/2016 10:20:32 PM' - Using 'http://Hampton-demo.accelidemo.com' as base url.\r\n'1/11/2016 10:20:32 PM' - 'NotRun' : 1. Execute test 'Login'\r\n'1/11/2016 10:20:36 PM' - 'Pass' : 2. Click 'StudentsLink'\r\n'1/11/2016 10:20:44 PM' - 'Pass' : 3. Click 'AaronLink'\r\n'1/11/2016 10:20:52 PM' - 'Pass' : 4. Click 'EventsLink'\r\n'1/11/2016 10:21:22 PM' - 'Fail' : 5. Click 'InitialIEPLink'\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nUnable to locate element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [href 'Exact' /IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c] AND [tagname 'Exact' a]\r\n\r\nUnable to locate element. Search failed!\r\n\r\nLearn more about finding elements here:\r\nhttp://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx\r\n------------------------------------------------------------\r\n'1/11/2016 10:21:22 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'1/11/2016 10:21:22 PM' - Overall Result: Fail\r\n'1/11/2016 10:21:22 PM' - Duration: [0 min: 50 sec: 211 msec]\r\n------------------------------------------------------------\r\n\r\n<<< Test-as-Step 'Tests\\5837.tstest' log ends.\r\n\r\n------------------------------------------------------------\r\n'1/11/2016 10:21:22 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'1/11/2016 10:21:22 PM' - Overall Result: Fail\r\n'1/11/2016 10:21:22 PM' - Duration: [1 min: 44 sec: 508 msec]\r\n------------------------------------------------------------\r\n'1/11/2016 10:21:26 PM' - Test completed!\r\n",
+          "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [href 'Exact' /IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c] AND [tagname 'Exact' a]\r\n\r\nUnable to locate element. Search failed!\r\n\r\nLearn more about finding elements here:\r\nhttp://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "LFGGeNGKLuwgK9cXbTkvMVeCojs=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "InitialIEPLink",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=a"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "href=/IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": null,
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "3Tests 130970172868818222_files\\5837_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "3Tests 130970172868818222_files\\5837_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (...ng - Initial IEP for Eli Aaron)' @1/11/2016 10:21:22 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "LFGGeNGKLuwgK9cXbTkvMVeCojs=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "InitialIEPLink",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=a"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "href=/IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+          "Result": 1,
+          "TestId": "648fb8af-d6f9-43a1-b2df-3d4d622c94b0",
+          "TestName": "3Tests",
+          "TestPath": "TestRuns\\3Tests.tstest",
+          "TestOwner": null,
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "3Tests",
+                "TestPath": "TestRuns\\3Tests.tstest",
+                "TestId": "648fb8af-d6f9-43a1-b2df-3d4d622c94b0",
+                "TestStepIndex": 0,
+                "StepDescription": "Custom Annotation : Running 3 test in one browser session in order to save time",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1032883506,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.TestAsStepResult",
+              "__value": {
+                "TestResult": {
+                  "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+                  "__value": {
+                    "Browser": 0,
+                    "ExeType": 5,
+                    "SeparatorLineCharCount": 60,
+                    "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'1/11/2016 10:19:39 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/11/2016 10:19:39 PM' - Using 'InternetExplorer' version '11.0' as default browser. \r\n'1/11/2016 10:19:39 PM' - Using 'http://Hampton-demo.accelidemo.com' as base url.\r\n'1/11/2016 10:20:00 PM' - 'Pass' : 1. Execute test 'Login'\r\n\r\n>>> Test-as-Step 'Methods\\Login.tstest' log starts:\r\n\r\nOverall Result: Pass\r\n------------------------------------------------------------\r\n'1/11/2016 10:19:39 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/11/2016 10:19:39 PM' - Using 'InternetExplorer' version '11.0' as default browser. \r\n'1/11/2016 10:19:39 PM' - Using 'http://Hampton-demo.accelidemo.com' as base url.\r\n'1/11/2016 10:19:39 PM' - 'Pass' : 1. Clear Browser Cache\r\n'1/11/2016 10:19:44 PM' - 'Pass' : 2. Navigate to : 'http://Hampton-demo.accelidemo.com'\r\n'1/11/2016 10:19:44 PM' - 'Pass' : 3. Enter text 'Superlion' in 'UserNameField'\r\n'1/11/2016 10:19:44 PM' - 'Pass' : 4. Enter text 'CTAKAH' in 'PasswordField'\r\n'1/11/2016 10:19:48 PM' - 'Pass' : 5. Click 'LoginButton'\r\n'1/11/2016 10:20:00 PM' - 'Pass' : 6. Click 'SpEdLink'\r\n------------------------------------------------------------\r\n'1/11/2016 10:20:00 PM' - Overall Result: Pass\r\n'1/11/2016 10:20:00 PM' - Duration: [0 min: 20 sec: 748 msec]\r\n------------------------------------------------------------\r\n\r\n<<< Test-as-Step 'Methods\\Login.tstest' log ends.\r\n\r\n'1/11/2016 10:20:05 PM' - 'Pass' : 2. Click 'StudentsLink'\r\n'1/11/2016 10:20:13 PM' - 'Pass' : 3. Click 'AaronLink'\r\n'1/11/2016 10:20:16 PM' - 'Pass' : 4. Verify 'TextContent' 'Contains' 'Student Information' on 'StudentH5Tag'\r\n'1/11/2016 10:20:20 PM' - 'Pass' : 5. Click 'EventsLink'\r\n'1/11/2016 10:20:21 PM' - 'Pass' : 6. Verify element 'PnlStudentTitleH4Tag' 'is' visible.\r\n'1/11/2016 10:20:21 PM' - 'Pass' : 7. Click 'BtnCreateEventGroupLink'\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 8. Wait for element 'CreateEventPopUp' 'is' visible.\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 9. Click 'SelectSpan'\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 10. Click 'InitialIEPListItem'\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 11. Enter text '11/11/2016' in 'ScheduleDateText'\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 12. Enter text '11/11/2016' in 'DueDateText'\r\n'1/11/2016 10:20:22 PM' - 'Pass' : 13. Click 'BtnSaveEventGroupLink'\r\n'1/11/2016 10:20:31 PM' - 'Pass' : 14. Verify element 'InitialIEPPTag' 'is' visible.\r\n'1/11/2016 10:20:31 PM' - 'Pass' : 15. KendoGrid: [3, 0]Cell text 'Exact' '11/11/2016'\r\n'1/11/2016 10:20:31 PM' - 'Pass' : 16. KendoGrid: [5, 0]Cell text 'Exact' '11/11/2016'\r\n------------------------------------------------------------\r\n'1/11/2016 10:20:31 PM' - Overall Result: Pass\r\n'1/11/2016 10:20:31 PM' - Duration: [0 min: 51 sec: 422 msec]\r\n------------------------------------------------------------\r\n",
+                    "FailureException": null,
+                    "Result": 0,
+                    "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                    "TestName": "5836",
+                    "TestPath": "Tests\\5836.tstest",
+                    "TestOwner": null,
+                    "TestDescription": " 1. Create event",
+                    "ProjectPath": "",
+                    "StepResults": [
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.Execution.TestAsStepResult",
+                        "__value": {
+                          "TestResult": {
+                            "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+                            "__value": {
+                              "Browser": 0,
+                              "ExeType": 5,
+                              "SeparatorLineCharCount": 60,
+                              "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'1/11/2016 10:19:39 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/11/2016 10:19:39 PM' - Using 'InternetExplorer' version '11.0' as default browser. \r\n'1/11/2016 10:19:39 PM' - Using 'http://Hampton-demo.accelidemo.com' as base url.\r\n'1/11/2016 10:19:39 PM' - 'Pass' : 1. Clear Browser Cache\r\n'1/11/2016 10:19:44 PM' - 'Pass' : 2. Navigate to : 'http://Hampton-demo.accelidemo.com'\r\n'1/11/2016 10:19:44 PM' - 'Pass' : 3. Enter text 'Superlion' in 'UserNameField'\r\n'1/11/2016 10:19:44 PM' - 'Pass' : 4. Enter text 'CTAKAH' in 'PasswordField'\r\n'1/11/2016 10:19:48 PM' - 'Pass' : 5. Click 'LoginButton'\r\n'1/11/2016 10:20:00 PM' - 'Pass' : 6. Click 'SpEdLink'\r\n------------------------------------------------------------\r\n'1/11/2016 10:20:00 PM' - Overall Result: Pass\r\n'1/11/2016 10:20:00 PM' - Duration: [0 min: 20 sec: 748 msec]\r\n------------------------------------------------------------\r\n",
+                              "FailureException": null,
+                              "Result": 0,
+                              "TestId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
+                              "TestName": "Login",
+                              "TestPath": "Methods\\Login.tstest",
+                              "TestOwner": null,
+                              "TestDescription": "",
+                              "ProjectPath": "",
+                              "StepResults": [
+                                {
+                                  "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                                  "__value": {
+                                    "TestName": "Login",
+                                    "TestPath": "Methods\\Login.tstest",
+                                    "TestId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
+                                    "TestStepIndex": 0,
+                                    "StepDescription": "Clear Browser Cache",
+                                    "Exception": null,
+                                    "ResultType": 0,
+                                    "State": null,
+                                    "Order": 1,
+                                    "LogMessageOnError": "",
+                                    "UserComment": null,
+                                    "HashCode": 955643458,
+                                    "IsManual": false,
+                                    "WasStepEnabled": false
+                                  }
+                                },
+                                {
+                                  "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                                  "__value": {
+                                    "TestName": "Login",
+                                    "TestPath": "Methods\\Login.tstest",
+                                    "TestId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
+                                    "TestStepIndex": 1,
+                                    "StepDescription": "Navigate to : 'http://Hampton-demo.accelidemo.com'",
+                                    "Exception": null,
+                                    "ResultType": 0,
+                                    "State": null,
+                                    "Order": 2,
+                                    "LogMessageOnError": "",
+                                    "UserComment": null,
+                                    "HashCode": 1347723235,
+                                    "IsManual": false,
+                                    "WasStepEnabled": false
+                                  }
+                                },
+                                {
+                                  "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                                  "__value": {
+                                    "TestName": "Login",
+                                    "TestPath": "Methods\\Login.tstest",
+                                    "TestId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
+                                    "TestStepIndex": 2,
+                                    "StepDescription": "Enter text 'Superlion' in 'UserNameField'",
+                                    "Exception": null,
+                                    "ResultType": 0,
+                                    "State": null,
+                                    "Order": 3,
+                                    "LogMessageOnError": "",
+                                    "UserComment": null,
+                                    "HashCode": 1106498605,
+                                    "IsManual": false,
+                                    "WasStepEnabled": false
+                                  }
+                                },
+                                {
+                                  "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                                  "__value": {
+                                    "TestName": "Login",
+                                    "TestPath": "Methods\\Login.tstest",
+                                    "TestId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
+                                    "TestStepIndex": 3,
+                                    "StepDescription": "Enter text 'CTAKAH' in 'PasswordField'",
+                                    "Exception": null,
+                                    "ResultType": 0,
+                                    "State": null,
+                                    "Order": 4,
+                                    "LogMessageOnError": "",
+                                    "UserComment": null,
+                                    "HashCode": 1106498606,
+                                    "IsManual": false,
+                                    "WasStepEnabled": false
+                                  }
+                                },
+                                {
+                                  "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                                  "__value": {
+                                    "TestName": "Login",
+                                    "TestPath": "Methods\\Login.tstest",
+                                    "TestId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
+                                    "TestStepIndex": 4,
+                                    "StepDescription": "Click 'LoginButton'",
+                                    "Exception": null,
+                                    "ResultType": 0,
+                                    "State": null,
+                                    "Order": 5,
+                                    "LogMessageOnError": "",
+                                    "UserComment": null,
+                                    "HashCode": 2087960564,
+                                    "IsManual": false,
+                                    "WasStepEnabled": false
+                                  }
+                                },
+                                {
+                                  "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                                  "__value": {
+                                    "TestName": "Login",
+                                    "TestPath": "Methods\\Login.tstest",
+                                    "TestId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
+                                    "TestStepIndex": 5,
+                                    "StepDescription": "Click 'SpEdLink'",
+                                    "Exception": null,
+                                    "ResultType": 0,
+                                    "State": null,
+                                    "Order": 6,
+                                    "LogMessageOnError": "",
+                                    "UserComment": null,
+                                    "HashCode": 2087960565,
+                                    "IsManual": false,
+                                    "WasStepEnabled": false
+                                  }
+                                }
+                              ],
+                              "NotRunStepDescriptions": [],
+                              "TotalPassedSteps": 6,
+                              "ExecutingTestStepCount": 6,
+                              "TotalNumberOfNotRunSteps": 0,
+                              "IsDataDrivenResult": false,
+                              "DataIterationResults": [],
+                              "EndTime": "2016-01-11T20:20:00.6201875Z",
+                              "StartTime": "2016-01-11T20:19:39.8713253Z",
+                              "ProfilerResultsPath": null,
+                              "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+                              "CommitedBy": null
+                            }
+                          },
+                          "ResultType": 0,
+                          "Exception": null,
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 0,
+                          "StepDescription": "Execute test 'Login'",
+                          "State": null,
+                          "Order": 1,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": -832664899,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 1,
+                          "StepDescription": "Click 'StudentsLink'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 2,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960561,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 2,
+                          "StepDescription": "Click 'AaronLink'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 3,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960562,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 3,
+                          "StepDescription": "Verify 'TextContent' 'Contains' 'Student Information' on 'StudentH5Tag'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 4,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": -1313506170,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 4,
+                          "StepDescription": "Click 'EventsLink'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 5,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960564,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 5,
+                          "StepDescription": "Verify element 'PnlStudentTitleH4Tag' 'is' visible.",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 6,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1164883282,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 6,
+                          "StepDescription": "Click 'BtnCreateEventGroupLink'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 7,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960566,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 7,
+                          "StepDescription": "Wait for element 'CreateEventPopUp' 'is' visible.",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 8,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1164883284,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 8,
+                          "StepDescription": "Click 'SelectSpan'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 9,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960568,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 9,
+                          "StepDescription": "Click 'InitialIEPListItem'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 10,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960569,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 10,
+                          "StepDescription": "Enter text '11/11/2016' in 'ScheduleDateText'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 11,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1106498613,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 11,
+                          "StepDescription": "Enter text '11/11/2016' in 'DueDateText'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 12,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1106498614,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 12,
+                          "StepDescription": "Click 'BtnSaveEventGroupLink'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 13,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960572,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 13,
+                          "StepDescription": "Verify element 'InitialIEPPTag' 'is' visible.",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 14,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1164883290,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 14,
+                          "StepDescription": "KendoGrid: [3, 0]Cell text 'Exact' '11/11/2016'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 15,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": -1742373076,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5836",
+                          "TestPath": "Tests\\5836.tstest",
+                          "TestId": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+                          "TestStepIndex": 15,
+                          "StepDescription": "KendoGrid: [5, 0]Cell text 'Exact' '11/11/2016'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 16,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": -1742373075,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      }
+                    ],
+                    "NotRunStepDescriptions": [],
+                    "TotalPassedSteps": 16,
+                    "ExecutingTestStepCount": 16,
+                    "TotalNumberOfNotRunSteps": 0,
+                    "IsDataDrivenResult": false,
+                    "DataIterationResults": [],
+                    "EndTime": "2016-01-11T20:20:31.2066238Z",
+                    "StartTime": "2016-01-11T20:19:39.7842674Z",
+                    "ProfilerResultsPath": null,
+                    "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+                    "CommitedBy": null
+                  }
+                },
+                "ResultType": 0,
+                "Exception": null,
+                "TestName": "3Tests",
+                "TestPath": "TestRuns\\3Tests.tstest",
+                "TestId": "648fb8af-d6f9-43a1-b2df-3d4d622c94b0",
+                "TestStepIndex": 1,
+                "StepDescription": "Execute test '5836'",
+                "State": null,
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -832664898,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.TestAsStepResult",
+              "__value": {
+                "TestResult": {
+                  "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+                  "__value": {
+                    "Browser": 0,
+                    "ExeType": 5,
+                    "SeparatorLineCharCount": 60,
+                    "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'1/11/2016 10:20:32 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/11/2016 10:20:32 PM' - Using 'InternetExplorer' version '11.0' as default browser. \r\n'1/11/2016 10:20:32 PM' - Using 'http://Hampton-demo.accelidemo.com' as base url.\r\n'1/11/2016 10:20:32 PM' - 'NotRun' : 1. Execute test 'Login'\r\n'1/11/2016 10:20:36 PM' - 'Pass' : 2. Click 'StudentsLink'\r\n'1/11/2016 10:20:44 PM' - 'Pass' : 3. Click 'AaronLink'\r\n'1/11/2016 10:20:52 PM' - 'Pass' : 4. Click 'EventsLink'\r\n'1/11/2016 10:21:22 PM' - 'Fail' : 5. Click 'InitialIEPLink'\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nUnable to locate element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [href 'Exact' /IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c] AND [tagname 'Exact' a]\r\n\r\nUnable to locate element. Search failed!\r\n\r\nLearn more about finding elements here:\r\nhttp://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx\r\n------------------------------------------------------------\r\n'1/11/2016 10:21:22 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'1/11/2016 10:21:22 PM' - Overall Result: Fail\r\n'1/11/2016 10:21:22 PM' - Duration: [0 min: 50 sec: 211 msec]\r\n------------------------------------------------------------\r\n",
+                    "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [href 'Exact' /IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c] AND [tagname 'Exact' a]\r\n\r\nUnable to locate element. Search failed!\r\n\r\nLearn more about finding elements here:\r\nhttp://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "LFGGeNGKLuwgK9cXbTkvMVeCojs=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "InitialIEPLink",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=a"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "href=/IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": null,
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "3Tests 130970172868818222_files\\5837_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "3Tests 130970172868818222_files\\5837_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (...ng - Initial IEP for Eli Aaron)' @1/11/2016 10:21:22 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "LFGGeNGKLuwgK9cXbTkvMVeCojs=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "InitialIEPLink",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=a"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "href=/IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                    "Result": 1,
+                    "TestId": "29a04310-7a1e-4ba8-85b3-2878888d3108",
+                    "TestName": "5837",
+                    "TestPath": "Tests\\5837.tstest",
+                    "TestOwner": null,
+                    "TestDescription": " Fill, print and Lock Event",
+                    "ProjectPath": "",
+                    "StepResults": [
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.Execution.TestAsStepResult",
+                        "__value": {
+                          "TestResult": null,
+                          "ResultType": 2,
+                          "Exception": null,
+                          "TestName": "5837",
+                          "TestPath": "Tests\\5837.tstest",
+                          "TestId": "29a04310-7a1e-4ba8-85b3-2878888d3108",
+                          "TestStepIndex": 0,
+                          "StepDescription": "Execute test 'Login'",
+                          "State": null,
+                          "Order": 1,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": -832664899,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5837",
+                          "TestPath": "Tests\\5837.tstest",
+                          "TestId": "29a04310-7a1e-4ba8-85b3-2878888d3108",
+                          "TestStepIndex": 1,
+                          "StepDescription": "Click 'StudentsLink'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 2,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960561,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5837",
+                          "TestPath": "Tests\\5837.tstest",
+                          "TestId": "29a04310-7a1e-4ba8-85b3-2878888d3108",
+                          "TestStepIndex": 2,
+                          "StepDescription": "Click 'AaronLink'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 3,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960562,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5837",
+                          "TestPath": "Tests\\5837.tstest",
+                          "TestId": "29a04310-7a1e-4ba8-85b3-2878888d3108",
+                          "TestStepIndex": 3,
+                          "StepDescription": "Click 'EventsLink'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 4,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960563,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "5837",
+                          "TestPath": "Tests\\5837.tstest",
+                          "TestId": "29a04310-7a1e-4ba8-85b3-2878888d3108",
+                          "TestStepIndex": 4,
+                          "StepDescription": "Click 'InitialIEPLink'",
+                          "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [href 'Exact' /IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c] AND [tagname 'Exact' a]\r\n\r\nUnable to locate element. Search failed!\r\n\r\nLearn more about finding elements here:\r\nhttp://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "LFGGeNGKLuwgK9cXbTkvMVeCojs=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "InitialIEPLink",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=a"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "href=/IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": null,
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "3Tests 130970172868818222_files\\5837_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "3Tests 130970172868818222_files\\5837_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (...ng - Initial IEP for Eli Aaron)' @1/11/2016 10:21:22 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "LFGGeNGKLuwgK9cXbTkvMVeCojs=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "InitialIEPLink",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=a"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "href=/IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                          "ResultType": 1,
+                          "State": {
+                            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                            "__value": {
+                              "Mode": 2,
+                              "DomFilePath": "3Tests 130970172868818222_files\\5837_0_DomTreeOnFailure.txt",
+                              "ImageFilePath": "3Tests 130970172868818222_files\\5837_0_ImageOnFailure.png",
+                              "ExpectedImageFilePath": null,
+                              "TechnologyType": 1,
+                              "FriendlyName": "Capture Of 'Page (...ng - Initial IEP for Eli Aaron)' @1/11/2016 10:21:22 PM"
+                            }
+                          },
+                          "Order": 5,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960564,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      }
+                    ],
+                    "NotRunStepDescriptions": [
+                      "Verify 'TextContent' 'Contains' 'Initial IEP' on 'InitialIEPLink'",
+                      "Click 'PresentLevelsLink'",
+                      "Enter text 'ST, In, Prefs' in 'Social'",
+                      "Enter text 'Concern' in 'FormFieldValues576cf26042884622B996Ff288f255a95ValueStringTextArea'",
+                      "Enter text 'Source' in 'FormFieldValues734ca72878554de3Af55Af5e2c64e31bValueStringTextArea'",
+                      "Enter text 'Communication' in 'FormFieldValues75120de64c4a490cAd920f4e94b71608ValueStringTextArea'",
+                      "Click 'PresentLevelSpan'",
+                      "Enter text 'Social' in 'FormFieldValues8c0ba8e6Fd7b44db91ce08a5b63702dcValueStringTextArea'",
+                      "Click 'BtnCheckEventComplienceLink'",
+                      "Click 'CloseSpan'",
+                      "Click 'BtnCheckEventComplienceLink'",
+                      "Desktop command: Drag & Drop Div to Window Target",
+                      "Verify 'TextContent' 'Contains' 'Summary' on 'PnlValidationSummaryLockWndTitleSpan'",
+                      "Click 'CloseSpan'",
+                      "Click 'BtnUpdateFormLink'",
+                      "Click 'BtnLockEventLink'",
+                      "Handle 'OnBeforeUnload' dialog.",
+                      "Click 'CloseSpan'",
+                      "Click 'NoticeOfLink'",
+                      "Click 'NoticeOfLink'",
+                      "Click 'SelectSpan'",
+                      "Click 'ManifestationListItem'",
+                      "Click 'SelectSpan'",
+                      "Click 'MondayLink'",
+                      "Click 'SelectSpan'",
+                      "Click '700AMListItem'",
+                      "Click 'YesSpan'",
+                      "Click 'YesSpan'",
+                      "Click 'BtnLockEventLink'",
+                      "Handle 'OnBeforeUnload' dialog.",
+                      "Verify 'TextContent' 'Contains' 'Fill in Required fields' on 'FillInDiv'",
+                      "Enter text 'Motor' in 'MotorAndDayli'",
+                      "Enter text 'WorkHabits' in 'WorkHabits'",
+                      "Enter text 'RelatedInfo' in 'Custom'",
+                      "Click 'NoSpan'",
+                      "Click 'BtnValidateFormLink'",
+                      "Click 'BtnMessageBoxConfirmSaveLink'",
+                      "Handle 'Alert' dialog.",
+                      "Click 'BtnPrintFormLink'",
+                      "Handle 'Download' dialog.",
+                      "Click 'StudentsLink'"
+                    ],
+                    "TotalPassedSteps": 3,
+                    "ExecutingTestStepCount": 4,
+                    "TotalNumberOfNotRunSteps": 1,
+                    "IsDataDrivenResult": false,
+                    "DataIterationResults": [],
+                    "EndTime": "2016-01-11T20:21:22.3648042Z",
+                    "StartTime": "2016-01-11T20:20:32.1532558Z",
+                    "ProfilerResultsPath": null,
+                    "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+                    "CommitedBy": null
+                  }
+                },
+                "ResultType": 1,
+                "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [href 'Exact' /IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c] AND [tagname 'Exact' a]\r\n\r\nUnable to locate element. Search failed!\r\n\r\nLearn more about finding elements here:\r\nhttp://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "LFGGeNGKLuwgK9cXbTkvMVeCojs=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "InitialIEPLink",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=a"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "href=/IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": null,
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "3Tests 130970172868818222_files\\5837_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "3Tests 130970172868818222_files\\5837_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (...ng - Initial IEP for Eli Aaron)' @1/11/2016 10:21:22 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "LFGGeNGKLuwgK9cXbTkvMVeCojs=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "InitialIEPLink",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=a"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "href=/IEP/Events/ViewEvent?eventId=cfa4a270-e459-41cf-9100-a58a0091bc9c"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                "TestName": "3Tests",
+                "TestPath": "TestRuns\\3Tests.tstest",
+                "TestId": "648fb8af-d6f9-43a1-b2df-3d4d622c94b0",
+                "TestStepIndex": 2,
+                "StepDescription": "Execute test '5837'",
+                "State": null,
+                "Order": 3,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -832664897,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [
+            "Execute test '5838'"
+          ],
+          "TotalPassedSteps": 2,
+          "ExecutingTestStepCount": 3,
+          "TotalNumberOfNotRunSteps": 0,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2016-01-11T20:21:22.3658056Z",
+          "StartTime": "2016-01-11T20:19:37.8569782Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null
+        }
+      }
+    ],
+    "FileName": "3Tests 130970172868818222",
+    "Id": "8579cbe9-7e3f-4bd6-a1a5-604e475b8a6f",
+    "Machine": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.Machine",
+      "__value": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "NetworkName": "IAKOV",
+        "OperatingSystem": "Windows 8",
+        "InstalledBrowsers": [
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 1,
+              "Version": "9.11.9600.18125"
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 2,
+              "Version": "42.0 (x86 en-US)"
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 7,
+              "Version": ""
+            }
+          }
+        ],
+        "Status": 0,
+        "ServiceUri": null,
+        "DBState": 0,
+        "UserName": "Iakov Volf"
+      }
+    },
+    "Messages": null,
+    "RunId": "8579cbe9-7e3f-4bd6-a1a5-604e475b8a6f",
+    "Comment": null,
+    "TestListId": "b768f690-d8fe-4d16-8c2f-f0fe8981d686",
+    "IsManual": false,
+    "DispatchGroupId": "00000000-0000-0000-0000-000000000000"
+  }
+}
