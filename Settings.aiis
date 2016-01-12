@@ -266,7 +266,27 @@
       ".git\\refs\\heads",
       ".git\\refs\\remotes",
       ".git\\refs\\remotes\\origin",
-      ".git\\refs\\tags"
+      ".git\\refs\\tags",
+      ".git\\objects\\0a",
+      ".git\\objects\\11",
+      ".git\\objects\\14",
+      ".git\\objects\\1a",
+      ".git\\objects\\1e",
+      ".git\\objects\\2f",
+      ".git\\objects\\3e",
+      ".git\\objects\\47",
+      ".git\\objects\\50",
+      ".git\\objects\\51",
+      ".git\\objects\\56",
+      ".git\\objects\\58",
+      ".git\\objects\\68",
+      ".git\\objects\\7f",
+      ".git\\objects\\b4",
+      ".git\\objects\\b9",
+      ".git\\objects\\f5",
+      ".git\\objects\\f9",
+      ".git\\objects\\fb",
+      ".git\\objects\\fc"
     ],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
@@ -276,6 +296,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 2
+    "SelectedBrowserOption": 3
   }
 }
