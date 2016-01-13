@@ -770,7 +770,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "pkLPmFfZ/1gKO+IeRR54ReEy/Mk=",
+                          "uniqueKey": "ltSaWqqNo9sbByJZfZtTaSdqbpc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "ModifyLink",
@@ -790,7 +790,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=a:15"
+                                        "Clause": "TextContent=Notice of Meeting - Initial IEP"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "InnerText=Notice of Meeting - Initial IEP"
                                       }
                                     }
                                   ],
@@ -802,7 +808,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[11]/td[3]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
