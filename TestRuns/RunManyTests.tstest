@@ -27,12 +27,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "f2f931f9-3012-4215-bb28-3c3244de329b",
-            "Description": "Custom Annotation : Running 3 test in one browser session in order to save time",
+            "Description": "Running 3 test in one browser session in order to save time",
             "CustomDescription": "Running 3 test in one browser session in order to save time",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CustomAnnotationActionDescriptor",
               "__value": {
-                "AnnotationText": "Running 3 test in one browser session in order to save time",
+                "AnnotationText": "Running several tests in one browser session in order to save time",
                 "DisplayLocation": 4,
                 "DisplayTime": 1000,
                 "WaitOnElements": false,
@@ -57,7 +57,7 @@
             "Order": 1,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "3Testsisycoomn.kj0",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -67,18 +67,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6dfbfa83-3ec8-4a34-ad28-a605256cf4ca",
-            "Description": "Custom Annotation : Running test 5836 - Creating Event",
-            "CustomDescription": "Running test 5836 - Creating Event",
+            "Runtime ID": "516115f1-43a4-4087-86f6-7cbadd75a5c5",
+            "Description": "Execute test 'Login'",
+            "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CustomAnnotationActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "AnnotationText": "Running test 5836 - Creating Event",
-                "DisplayLocation": 4,
-                "DisplayTime": 1000,
-                "WaitOnElements": false,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "Login",
+                "TestPath": "Methods\\Login.tstest",
+                "TestUniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -98,8 +98,8 @@
             "Order": 2,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "3Testsun2onzq5.052",
+            "ContinueOnFailure": true,
+            "StepImageKey": "3Teststg5wtes3.gi3",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -139,49 +139,8 @@
             "Order": 3,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "3Tests3oxxrdun.gim",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "33f18d6e-98ac-414f-9ce0-42db334a5552",
-            "Description": "Custom Annotation : Running test 5837 - Fill, print and Lock Event",
-            "CustomDescription": "Running test 5837 - Fill, print and Lock Event",
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CustomAnnotationActionDescriptor",
-              "__value": {
-                "AnnotationText": "Running test 5837 - Fill, print and Lock Event",
-                "DisplayLocation": 4,
-                "DisplayTime": 1000,
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 4,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "3Testsvsodgkjl.js2",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -218,52 +177,11 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "3Testszbldwreq.pga",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "ab7a6a8e-48f2-4d16-a8a2-f0e1b4f18492",
-            "Description": "Custom Annotation : Running test 5838 - Check if  no Parenting consense",
-            "CustomDescription": " Running test 5838 - Check if  no Parenting consense",
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CustomAnnotationActionDescriptor",
-              "__value": {
-                "AnnotationText": "Running test 5838 - Check if  no Parenting consense",
-                "DisplayLocation": 4,
-                "DisplayTime": 1000,
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 6,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "3Testsi1xe5100.kqs",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -300,11 +218,52 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "3Testslkxev34r.sq0",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "538386d7-2234-42fa-99de-f315a8d6afdc",
+            "Description": "Execute test '5839'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "5839",
+                "TestPath": "Tests\\5839.tstest",
+                "TestUniqueId": "7049c9b2-f6df-4878-848d-068d569a8553",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "3Tests2lmjcjaq.sx1",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -326,7 +285,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "TestRuns\\3Tests.resx",
+    "ResourceFilePath": "TestRuns\\RunManyTests.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -355,10 +314,10 @@
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
     "TestLinks": [],
-    "Description": "Running all 3 tests toghether",
-    "Name": "3Tests",
+    "Description": "Running tests toghether",
+    "Name": "RunManyTests",
     "Owner": null,
-    "Path": "TestRuns\\3Tests.tstest",
+    "Path": "TestRuns\\RunManyTests.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "648fb8af-d6f9-43a1-b2df-3d4d622c94b0",

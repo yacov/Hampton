@@ -26,18 +26,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "54226de2-22fd-40ea-83f5-1f693ae5b83d",
-            "Description": "Execute test 'Login'",
+            "Runtime ID": "5a8fba8c-2dd3-40df-a927-ae5b131bebdc",
+            "Description": "Running test 5837 - Fill, print and Lock Event",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CustomAnnotationActionDescriptor",
               "__value": {
+                "AnnotationText": "Running test 5837 - Fill, print and Lock Event",
+                "DisplayLocation": 4,
+                "DisplayTime": 1000,
+                "WaitOnElements": false,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "Login",
-                "TestPath": "Methods\\Login.tstest",
-                "TestUniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -53,12 +53,12 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
+            "Enabled": true,
             "Order": 1,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "58371ejng4sm.40s",
+            "ContinueOnFailure": false,
+            "StepImageKey": "5837j1xn5mi1.hfp",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1271,7 +1271,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "2387f67b-f062-4ea7-a856-944c093ed35b",
-            "Description": "Execute test 'FillPresentLevel1.tstest'",
+            "Description": "Execute test 'FillPresentLevel1'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -1279,7 +1279,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "FillPresentLevel1.tstest",
+                "TestName": "FillPresentLevel1",
                 "TestPath": "Methods\\FillForms\\FillPresentLevel1.tstest",
                 "TestUniqueId": "cba55644-7104-4761-b3b4-9201f9e93765",
                 "Pause": 0,
@@ -1750,51 +1750,6 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "c65f5892-9c10-439c-942b-ccfd336e74f2",
-            "Description": "Handle 'OnBeforeUnload' dialog.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.OnBeforeUnloadDialogHandlerDescriptor",
-              "__value": {
-                "HandlerTimeout": 5000,
-                "DialogType": 5,
-                "HandleButton": 0,
-                "InitializationTime": 250,
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainst": 2,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainst": "FirefoxOnly"
-                    }
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 18,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "5837tjh2way2.4aj",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
             "Runtime ID": "e99d5f11-9c19-4a42-a123-b5417f2208b8",
             "Description": "Handle 'Alert' dialog.",
             "CustomDescription": null,
@@ -1809,13 +1764,12 @@
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
                 "Pause": 0,
-                "RunsAgainst": 1,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
                     "ConstraintValues": {
-                      "RunsAgainst": "InternetExplorerOnly"
+                      "RunsAgainst": "AllBrowsers"
                     }
                   }
                 },
@@ -1827,7 +1781,7 @@
               }
             },
             "Enabled": true,
-            "Order": 19,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1936,7 +1890,7 @@
               }
             },
             "Enabled": true,
-            "Order": 20,
+            "Order": 19,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2045,7 +1999,7 @@
               }
             },
             "Enabled": true,
-            "Order": 21,
+            "Order": 20,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2154,7 +2108,7 @@
               }
             },
             "Enabled": true,
-            "Order": 22,
+            "Order": 21,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2197,7 +2151,7 @@
               }
             },
             "Enabled": true,
-            "Order": 23,
+            "Order": 22,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2314,7 +2268,7 @@
               }
             },
             "Enabled": true,
-            "Order": 24,
+            "Order": 23,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2336,7 +2290,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "FillPresentLevel1.tstest",
+                "TestName": "FillPresentLevel1",
                 "TestPath": "Methods\\FillForms\\FillPresentLevel1.tstest",
                 "TestUniqueId": "cba55644-7104-4761-b3b4-9201f9e93765",
                 "Pause": 0,
@@ -2355,7 +2309,7 @@
               }
             },
             "Enabled": true,
-            "Order": 25,
+            "Order": 24,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2464,7 +2418,7 @@
               }
             },
             "Enabled": true,
-            "Order": 26,
+            "Order": 25,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2573,7 +2527,7 @@
               }
             },
             "Enabled": true,
-            "Order": 27,
+            "Order": 26,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2685,7 +2639,7 @@
               }
             },
             "Enabled": true,
-            "Order": 28,
+            "Order": 27,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2794,7 +2748,7 @@
               }
             },
             "Enabled": true,
-            "Order": 29,
+            "Order": 28,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2839,7 +2793,7 @@
               }
             },
             "Enabled": true,
-            "Order": 30,
+            "Order": 29,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2884,7 +2838,7 @@
               }
             },
             "Enabled": true,
-            "Order": 31,
+            "Order": 30,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2993,7 +2947,7 @@
               }
             },
             "Enabled": true,
-            "Order": 32,
+            "Order": 31,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3102,7 +3056,7 @@
               }
             },
             "Enabled": true,
-            "Order": 33,
+            "Order": 32,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3211,7 +3165,7 @@
               }
             },
             "Enabled": true,
-            "Order": 34,
+            "Order": 33,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3254,7 +3208,7 @@
               }
             },
             "Enabled": true,
-            "Order": 35,
+            "Order": 34,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,

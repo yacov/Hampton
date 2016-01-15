@@ -46,9 +46,9 @@
         "ElementWaitTimeout": 20000,
         "ExecuteCommandTimeout": 15000,
         "ExecutionDelay": 0,
-        "UnexpectedDialogAction": 2,
+        "UnexpectedDialogAction": 1,
         "AnnotateExecution": true,
-        "AnnotationMode": 2,
+        "AnnotationMode": 0,
         "XMultiMgr": true,
         "ClientReadyTimeout": 60000,
         "DisableDialogMonitoring": false
@@ -59,7 +59,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "648fb8af-d6f9-43a1-b2df-3d4d622c94b0",
-          "Path": "TestRuns\\3Tests.tstest",
+          "Path": "TestRuns\\RunManyTests.tstest",
           "PathType": 0
         }
       }
