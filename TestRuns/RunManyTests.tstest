@@ -28,7 +28,7 @@
           "__value": {
             "Runtime ID": "f2f931f9-3012-4215-bb28-3c3244de329b",
             "Description": "Running 3 test in one browser session in order to save time",
-            "CustomDescription": "Running 3 test in one browser session in order to save time",
+            "CustomDescription": "Running several tests in one browser session in order to save time",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CustomAnnotationActionDescriptor",
               "__value": {
@@ -135,7 +135,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 3,
             "Id": "",
             "StepState": 0,
@@ -176,7 +176,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 4,
             "Id": "",
             "StepState": 0,
@@ -217,7 +217,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 5,
             "Id": "",
             "StepState": 0,
@@ -258,12 +258,53 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
             "StepImageKey": "3Tests2lmjcjaq.sx1",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "80d0297e-487d-41c5-8df8-7bbf05eb64e9",
+            "Description": "Execute test '6079_1'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "6079_1",
+                "TestPath": "Tests\\6079_1.tstest",
+                "TestUniqueId": "e78486b6-c8db-4da1-9d71-000975adad6f",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "RunManyTestspk3k3dwy.hro",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

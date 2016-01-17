@@ -550,7 +550,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "TfdzrSPnKk7LcigbxCY5ueeni98=",
+                          "uniqueKey": null,
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "EventsLink",
@@ -570,7 +570,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=a:3"
+                                        "Clause": "TextContent=Events"
                                       }
                                     }
                                   ],
@@ -582,7 +582,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[1]/ul[1]/li[4]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },

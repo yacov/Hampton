@@ -395,7 +395,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "643c43b4-2a68-47ab-8534-063ca2d38fdd",
-            "Description": "Click 'AaronLink'",
+            "Description": "Click 'AaronLinkName'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -441,10 +441,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "gTaN7MG/assPnZ6TylRjQvS9b8w=",
+                          "uniqueKey": "YTKYYgltVtiiCDkTEdEZVN4JoTU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "AaronLink",
+                          "Name": "AaronLinkName",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -455,13 +455,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "href=/IEP/Students/ViewStudent?commonStudentId=11250"
+                                        "Clause": "TextContent=Aaron, Eli"
                                       }
                                     }
                                   ],
@@ -471,7 +465,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
