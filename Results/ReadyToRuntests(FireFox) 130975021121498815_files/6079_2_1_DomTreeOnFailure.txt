@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="k-ff k-ff42" webdriver="true"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+        <title>Accelify - Initial IEP for Eli Aaron</title>
+        <meta charset="UTF-8" />
+        <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+        <link href="/IEP/Content/Images/favicon.ico" rel="shortcut icon" />
+        <link rel="stylesheet" href="/IEP/Content/kendo/2015.3.1002/bundle?v=K2DaiDqgKxV2vvcnBEmMxCc-WBQzdNHp06k9IoOVj0o1" />
+
+        <link rel="stylesheet" href="/IEP/Content/accelify.hampton.iep/bundle?v=BjmCV7ReK-dY5xw7EV0Ohk010A8UpKIp56ZBV2rXJ241" />
+
+        <script async="" src="//www.google-analytics.com/analytics.js"></script><script src="/IEP/Scripts/bundle?v=g2E9zafRIBK992Ev3Q3wyJmQDSYZICWcp-CPJQbfGR01"></script><style type="text/css" media="screen">object.FusionCharts:focus, embed.FusionCharts:focus {outline: none}</style>
+
+        <script src="/IEP/Scripts/accelify.hampton.iep/bundle?v=KE6tG76MTQc_8iTP1sBZQwKHcyKqXbUNwedpU4MrB881"></script>
+
+    </head>
+    <body style="">
+        <script type="text/javascript">
+            var AjaxManager;
+            var ControlsManager;
+            var SelectorManager;
+            var UserMultiSelectManager;
+            var ErrorManager;
+            var MessageBoxManager;
+
+            jQuery(function() {
+                AjaxManager = new AjaxManager({
+                    loginUrl: "/Login.aspx",
+                    unauthorizedAjaxRequest: "Unauthorized AJAX Request",
+                    statusCodeForbidden: 403
+                });
+                ControlsManager = new ControlsManager({
+                    dateFormat: "M/d/yyyy",
+                    timeFormat: "h:mm tt",
+                    gridEmptyMessage: "No items to display"
+                });
+                SelectorManager = new SelectorManager({
+                    currentUserId: "301",
+                    currentUserName: "Shum, Leonid"
+                });
+                UserMultiSelectManager = new UserMultiSelectManager({
+                    selectUserUrl: "/IEP/Selector/OpenUserSelector"
+                });
+                ErrorManager = new ErrorManager({
+                    errorUrl: "/IEP/Error/LogJavaScriptError"
+                });
+                MessageBoxManager = new MessageBoxManager({
+                    confirmMessage: "Changes were made. Do you want to save them?"
+                });
+            });
+        </script>
+
+        
+
+<div class="layout">
+    <div class="container">
+        <div>
+            <div class="header">
+
+
+<script type="text/javascript">
+    jQuery(function() {
+        var pnlLogo = $("#pnlLogo");
+        var pnlLogoMenu = $("#pnlLogoMenu");
+        pnlLogo.mouseover(function() { pnlLogoMenu.slideDown("fast"); });
+        pnlLogoMenu.mouseleave(function() { pnlLogoMenu.slideUp("fast"); });
+        ControlsManager.initializeKendoTooltip(
+            "#pnlSupport", {
+                autoHide: false,
+                showOn: "click",
+                position: "left",
+                content: "&lt;div class='txt-l p5'&gt;" +
+                    "&lt;div&gt;(888) 523-6107&lt;/div&gt;" +
+                    "&lt;div class='mT5'&gt;&lt;a href='mailto:VAHelp@accelify.com'&gt;VAHelp@accelify.com&lt;/a&gt;&lt;/div&gt;" +
+                    "&lt;/div&gt;"
+            });
+    });
+</script>
+
+<div class="clearfix">
+    <div class="left">
+        <div class="logo" id="pnlLogo"></div>
+        <ul class="logo-menu" id="pnlLogoMenu">
+            <li title="AcceliPlan" class="logo-plan">
+                <a href="/IEP/"></a>
+            </li>
+            <li title="AcceliTrack" class="logo-track">
+                <a href="http://hampton-demo.accelidemo.com"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="right">
+        <ul class="navigation">
+            <li>
+                <a href="/IEP/Messages"><span class="inbox"></span>Inbox</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><span class="live-chat"></span>Live Chat</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" id="pnlSupport" data-role="tooltip"><span class="support"></span>Support</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><span class="settings"></span>Settings</a>
+            </li>
+        </ul>
+        <div class="user">
+                <span>ACCELIFY DEMO</span>
+                <span>|</span>
+            <span>
+             Leonid Shum
+                    (Super Admin Plus)
+            </span>
+            <span><a class="logout" href="/IEP/Account/Logout">Logout</a></span>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+        <div>
+            <div class="content">
+                <div>
+<script type="text/javascript">
+    jQuery(function() {
+        var pnlMenu = $("#pnlMenu");
+        ControlsManager.initializeKendoMenu(pnlMenu);
+        pnlMenu.css("display", "block");
+    });
+</script>
+
+<ul style="display: block;" id="pnlMenu" data-role="menu" class="k-widget k-reset k-header k-menu k-menu-horizontal" tabindex="0" role="menubar">
+    <li class="k-item k-state-default k-first" role="menuitem"><a href="/IEP/" class="k-link">Home</a></li>
+    <li class="k-item k-state-default" role="menuitem"><a href="/IEP/Students" class="k-link">Students</a></li>
+    <li class="k-item k-state-default" role="menuitem"><span class="k-link">Caseload<span class="k-icon k-i-arrow-s"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first" role="menuitem"><a href="/IEP/Caseload/MyCaseload" class="k-link">My Caseload</a></li><li class="k-item k-state-default k-last" role="menuitem"><a href="/IEP/Watchlist/MyWatchlist" class="k-link">My Watchlist</a></li></ul></li>
+    <li class="k-item k-state-default" role="menuitem"><span class="k-link">Reports<span class="k-icon k-i-arrow-s"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first" role="menuitem"><a href="/IEP/Reports/ReportsDashboard" class="k-link">Reports Dashboard</a></li><li class="k-item k-state-default" role="menuitem"><span class="k-link">Accommodation Reports<span class="k-icon k-i-arrow-e"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first" role="menuitem"><a href="/IEP/Reports/ReportAccommodationsByStudent" class="k-link">Hampton IEP: Accommodations by Student</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Reports/ReportStudentsByAccommodation" class="k-link">Hampton IEP: Students By Accommodation</a></li><li class="k-item k-state-default k-last" role="menuitem"><a href="/IEP/Reports/ReportHampton504StudentsByAccommodation" class="k-link">Hampton 504: Students By Accommodation</a></li></ul></li><li class="k-item k-state-default" role="menuitem"><span class="k-link">Student Reports<span class="k-icon k-i-arrow-e"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first k-last" role="menuitem"><a href="/IEP/Reports/ReportStudentDetails" class="k-link">Student Details</a></li></ul></li><li class="k-item k-state-default" role="menuitem"><span class="k-link">Events Reports<span class="k-icon k-i-arrow-e"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first k-last" role="menuitem"><a href="/IEP/Reports/ReportEventDue" class="k-link">Report Events Due</a></li></ul></li><li class="k-item k-state-default" role="menuitem"><span class="k-link">Indicator<span class="k-icon k-i-arrow-e"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first" role="menuitem"><a href="/IEP/Reports/ReportIndicator9" class="k-link">Indicator 9</a></li><li class="k-item k-state-default k-last" role="menuitem"><a href="/IEP/Reports/ReportIndicator10" class="k-link">Indicator 10</a></li></ul></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Reports/ReportBuilder" class="k-link">Report Builder</a></li><li class="k-item k-state-default k-last" role="menuitem"><a href="/IEP/Reports/ReportManager" class="k-link">Report Manager</a></li></ul></li>
+    
+    <li class="k-item k-state-default" role="menuitem"><a href="/IEP/Messages" class="k-link">Inbox (<span id="lblInboxCount">0</span>)</a></li>
+    <li class="k-item k-state-default" role="menuitem"><span class="k-link">Administration<span class="k-icon k-i-arrow-s"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first" role="menuitem"><span class="k-link">Caseload<span class="k-icon k-i-arrow-e"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first" role="menuitem"><a href="/IEP/Administration/CaseloadManager" class="k-link">Caseload Manager</a></li><li class="k-item k-state-default k-last" role="menuitem"><a href="/IEP/Administration/WatchlistManager" class="k-link">Watchlist Manager</a></li></ul></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/AnnouncementManager" class="k-link">Announcement Manager</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/StudentInformationManager" class="k-link">Student Info Manager</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/UserAccessManager" class="k-link">User Access Manager</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/UserManager" class="k-link">User Role Manager</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/PermissionManager" class="k-link">Permission Manager</a></li><li class="k-item k-state-default" role="menuitem"><span class="k-link">Forms <span class="k-icon k-i-arrow-e"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first" role="menuitem"><a href="/IEP/Administration/FormDefinitionManager" class="k-link">Form Definition Manager</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/FormFieldDefinitionManager" class="k-link">Form Field Definition Manager</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/EventDependency" class="k-link">Event Dependency Manager</a></li><li class="k-item k-state-default" role="menuitem"><span class="k-link">Event Section Dependency Manager<span class="k-icon k-i-arrow-e"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first" role="menuitem"><a href="/IEP/Administration/EventSectionRequirementDependency" class="k-link">Event Section Requirement</a></li><li class="k-item k-state-default k-last" role="menuitem"><a href="/IEP/Administration/EventSectionMigrationDependency" class="k-link">Event Sections Copy On Lock</a></li></ul></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/LookupTypeManager" class="k-link">Lookup Type Manager</a></li><li class="k-item k-state-default k-last" role="menuitem"><a href="/IEP/Administration/LookupValueManager" class="k-link">Lookup Value Manager</a></li></ul></li><li class="k-item k-state-default" role="menuitem"><span class="k-link">System<span class="k-icon k-i-arrow-e"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first" role="menuitem"><a href="/IEP/Administration/StudentImport" class="k-link">Student Import</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/ExportManager" class="k-link">Export Manager</a></li><hr /><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/ServiceGroupManager" class="k-link">Service Group Manager</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/SettingsManager" class="k-link">Settings Manager</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/EventLogManager" class="k-link">Event Log Manager</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/EvaluationManager" class="k-link">Evaluation Manager</a></li><li class="k-item k-state-default" role="menuitem"><a href="/IEP/Administration/CacheManager" class="k-link">Cache Manager</a></li><li class="k-item k-state-default k-last" role="menuitem"><a href="/IEP/Administration/RunOnceActions" class="k-link">Run Once Actions</a></li></ul></li><li class="k-item k-state-default k-last" role="menuitem"><span class="k-link">Form Builder<span class="k-icon k-i-arrow-e"></span></span><ul class="k-group k-menu-group" role="menu" aria-hidden="false"><li class="k-item k-state-default k-first" role="menuitem"><a href="/IEP/FormBuilder/CreateForm" class="k-link">Create Form</a></li><li class="k-item k-state-default k-last" role="menuitem"><a href="/IEP/FormBuilder/BuiltFormsManager" class="k-link">Manage Built Forms</a></li></ul></li></ul></li>
+    <li class="k-item k-state-default" role="menuitem"><a href="http://hampton-demo.accelidemo.com" class="k-link">AcceliTrack</a></li>
+    <li class="k-item k-state-default k-last" role="menuitem"><a href="/IEP/Account/Logout" class="k-link">Logout</a></li>
+</ul>
+                </div>
+                <div>
+                    
+
+<script type="text/javascript">
+    var EventDetails;
+    var GoalManager;
+    var ServiceManager;
+    var DisabilityManager;
+    var EvaluationManager;
+    var EventAttachmentManager;
+    var ContactHistoryManager;
+    var ContactNoteManager;
+    var AssessmentsAccommodationsManager;
+    var ConcurrencyManager;
+    var StudentInformationManager;
+    var Section504PlanAccommodationsManager;
+    var Broward504PlanAccommodationsManager;
+    var ControlStateManager;
+    var Broward504ServiceManager;
+    var DistributionListManager;
+    var AttendingPersonManager;
+    jQuery(function() {
+        EventDetails = new EventDetails({
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            changeEventSectionUrl: "/IEP/Events/ChangeEventSection",
+            viewFormUrl: "/IEP/Events/ViewForm",
+            printFormUrl: "/IEP/Forms/PrintForm",
+            checkLanguageFormUrl: "/IEP/Forms/CheckMultiLanguage",
+            downloadFormUrl: "/IEP/Forms/DownloadForm",
+            getEventOverviewUrl: "/IEP/Events/GetEventOverview",
+            lockEventUrl: "/IEP/Events/LockEvent?eventId=e417b115-900b-4960-9969-a58a0103f397",
+            checkComplianceEventUrl: "/IEP/Events/CheckCompliance?eventId=e417b115-900b-4960-9969-a58a0103f397",
+            unlockEventUrl: "/IEP/Events/UnlockEvent?eventId=e417b115-900b-4960-9969-a58a0103f397",
+            printEventUrl: "/IEP/Events/PrintEvent?eventId=e417b115-900b-4960-9969-a58a0103f397",
+            downloadEventUrl: "/IEP/Events/DownloadEvent",
+            isReadOnly: false,
+            enableAutoSave: false,
+            autoSaveInterval: 0
+        });
+        GoalManager = new GoalManager({
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            openGoalUrl: "/IEP/Events/OpenGoal",
+            getGoalAreasUrl: "/IEP/Events/GetGoalAreas",
+            getGoalDefinitionsUrl: "/IEP/Events/GetGoalDefinitions",
+            goalTypeGoal: "Goal",
+            changeGoalIsActiveUrl: "/IEP/Events/ChangeGoalIsActive",
+            printGoalUrl: "/IEP/Events/PrintGoal",
+            downloadGoalUrl: "/IEP/Events/DownloadGoal",
+            removeGoalUrl: "/IEP/Events/RemoveGoal",
+            openObjectiveUrl: "/IEP/Events/OpenObjective"
+        });
+        AttendingPersonManager = new AttendingPersonManager({
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            openTeamMemberUrl: "/IEP/AttendingPerson/OpenAdditionalTeamMember",
+            saveAttendingPersonsUrl: "/IEP/AttendingPerson/SaveAttendingPersons",
+            removeMemberUrl: "/IEP/AttendingPerson/RemoveAdditionalTeamMember",
+            isReadOnly: false,
+            printMeetingAttendanceUrl: "/IEP/AttendingPerson/Print504MeetingAttendance",
+            downloadMeetingAttendanceUrl: "/IEP/AttendingPerson/Download504MeetingAttendance"
+        });
+        if (true)
+            ServiceManager = new ServiceManager({
+                eventId: "e417b115-900b-4960-9969-a58a0103f397",
+                isElementaryLre: false,
+                resetFiltersUrl: "/IEP/Services/ResetHamptonIEPServiceFilters",
+                getServicesUrl: "/IEP/Services/GetHamptonIEPEventServices",
+                getLreUrl: "/IEP/Services/GetEventLre",
+                openServiceUrl: "/IEP/Services/OpenHamptonIepService",
+                inactivateServiceUrl: "/IEP/Services/InactivateService",
+                recalculateLreUrl: "/IEP/Services/RecalculateLre",
+                printServicesUrl: "/IEP/Services/PrintHamptonIEPServices",
+                downloadServicesUrl: "/IEP/Services/DownloadServices",
+                openServiceLreUrl: "/IEP/Services/OpenServiceLre",
+                transportationServiceDefaultMinutesLimit: 10,
+                hasUpdatePermission: true
+            });
+        if (false)
+            ServiceManager = new ServiceManager({
+                eventId: "e417b115-900b-4960-9969-a58a0103f397",
+                resetFiltersUrl: "/IEP/Services/ResetBroward504ServiceFilters",
+                getServicesUrl: "/IEP/Services/GetBroward504EventServices",
+                openServiceUrl: "/IEP/Services/OpenBroward504Service",
+                inactivateServiceUrl: "/IEP/Services/InactivateService",
+                printServicesUrl: "/IEP/Services/PrintBroward504Services",
+                downloadServicesUrl: "/IEP/Services/DownloadServices",
+                hasUpdatePermission: true
+            });
+        DisabilityManager = new DisabilityManager({
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            studentId: "11250",
+            disabilityPriorityCount: "4",
+            getStudentDisabilitiesUrl: "/IEP/Disabilities/GetStudentDisabilities",
+            openStudentDisabilityUrl: "/IEP/Disabilities/OpenStudentDisability",
+            inactivateStudentDisabilityUrl: "/IEP/Disabilities/InactivateStudentDisability"
+        });
+        EvaluationManager = new EvaluationManager({
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            openEvaluationUrl: "/IEP/Events/OpenEvaluation",
+            getEvaluationTypesUrl: "/IEP/Events/GetEvaluationTypes",
+            evaluationTypeCategory: "Category",
+            changeEvaluationIsActiveUrl: "/IEP/Events/ChangeEvaluationIsActive",
+            removeEvaluationUrl: "/IEP/Events/RemoveEvaluation",
+            uploadEvaluationAttachments: "/IEP/Events/UploadEvaluationAttachments",
+            printEvaluationsUrl: "/IEP/Events/PrintEvaluations",
+            downloadEvaluationsUrl: "/IEP/Events/DownloadEvaluations"
+        });
+        EventAttachmentManager = new EventAttachmentManager({
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            getEventAttachmentsUrl: "/IEP/Events/GetEventAttachments",
+            getEventDefinitionAttachmentsUrl: "/IEP/Events/GetEventDefinitionAttachments",
+            uploadEventAttachments: "/IEP/Events/UploadEventAttachments",
+            resetEventAttachmentsFiltersUrl: "/IEP/Events/ResetEventAttachmentsFilters",
+            modifyEventAttachmentUrl: "/IEP/Events/OpenEventAttachment",
+            downloadAttachment: "/IEP/Events/DownloadAttachment",
+            removeEventAttachmentUrl: "/IEP/Events/RemoveEventAttachment",
+            updatedConfirmation: "Attachment has been updated successfully.",
+            removedConfirmation: "Attachment has been removed successfully."
+        });
+        ContactHistoryManager = new ContactHistoryManager({
+            studentId: "11250",
+            getContactHistory: "/IEP/Students/GetContactHistory",
+            openContactHistoryUrl: "/IEP/Students/OpenContactHistory",
+            printContactHistoryUrl: "/IEP/Students/PrintContactHistory",
+            downloadContactHistoryUrl: "/IEP/Students/DownloadContactHistory",
+            updateContactHistory: "/IEP/Students/UpdateContactHistory",
+            removeContactHistory: "/IEP/Students/RemoveContactHistory",
+            filterContactHistory: "/IEP/Students/FilterContactHistory",
+            resetFilter: "/IEP/Students/ResetContactHistoryFilter",
+            programType: "HamptonIEP"
+        });
+        ContactNoteManager = new ContactNoteManager({
+            studentId: "11250",
+            getNotes: "/IEP/Students/GetContactNotes",
+            createNote: "/IEP/Students/CreateContactNote",
+            openNote: "/IEP/Students/OpenContactNote",
+            removeNote: "/IEP/Students/RemoveContactNote",
+            programType: "HamptonIEP"
+        });
+        AssessmentsAccommodationsManager = new AssessmentsAccommodationsManager({
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            getAccommodations: "/IEP/Events/GetAccommodations",
+            getAssemmentAccommodations: "/IEP/Events/GetAssessmentAccommodations",
+            getAssessments: "/IEP/Events/GetAssessments",
+            updateAccomodations: "/IEP/Events/UpdateAccommodation",
+            updateAssessmentAccommodations: "/IEP/Events/UpdateAssessmentAccommodation",
+            createAssessment: "/IEP/Events/CreateAssessment",
+            viewAssessment: "/IEP/Events/ViewAssessment",
+            removeAssessment: "/IEP/Events/RemoveAssessment",
+            getAssessmentTypeUrl: "/IEP/Events/GetAssessmentType",
+            getAssessmentSectionByAssessmentTypeUrl: "/IEP/Events/GetAssessmentSessionByAssessmentType",
+            printAccommodationAssessmentUrl: "/IEP/Events/PrintAccommodationAssessment?eventId=e417b115-900b-4960-9969-a58a0103f397",
+            downloadAccommodationassessmentUrl: "/IEP/Events/DownloadAccommodationAssessment"
+        });
+        ConcurrencyManager = new ConcurrencyManager({
+            id: "",
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            isReadOnly: false,
+            timeout: "5",
+            checkAndSaveUrl: "/IEP/Events/CheckAndSaveConcurrency",
+            saveUrl: "/IEP/Events/SaveConcurrency",
+            removeUrl: "/IEP/Events/RemoveConcurrency",
+            updateDateUrl: "/IEP/Events/UpdateConcurrencyDate",
+        });
+        StudentInformationManager = new StudentInformationManager({
+            studentId: "11250",
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            getStudentContactsUrl: "/IEP/Administration/GetStudentContacts",
+            residenceOtherId: "f5e15113-c22f-41e7-b200-6c136b86be27",
+            modifyStudentContactUrl: "/IEP/Administration/ModifyStudentContact",
+            getStudentDisabilitiesUrl: "/IEP/Disabilities/GetStudentDisabilities",
+            modifyStudentLiaisonUrl: "/IEP/Administration/ModifyLiaison",
+            saveStudentLiaisonUrl: "/IEP/Administration/SaveLiaison",
+            isReadOnly: "False"
+        });
+        Section504PlanAccommodationsManager = new Section504PlanAccommodationsManager({
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            getAccommodationsUrl: "/IEP/Events/GetSection504PlanAccommodations",
+            updateAccommodationsUrl: "/IEP/Events/UpdateSection504PlanAccommodations",
+            getLocationsUrl: "/IEP/Events/GetLocations",
+            printAccommodationsUrl: "/IEP/Events/PrintSection504PlanAccommodations",
+            downloadAccommodationsUrl: "/IEP/Events/DownloadSection504PlanAccommodations"
+        });
+        Broward504PlanAccommodationsManager = new Broward504PlanAccommodationsManager({
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            getAccommodationsUrl: "/IEP/Events/GetBroward504PlanAccommodations",
+            openAccommodationUrl: "/IEP/Events/OpenAccommodation",
+            removeAccommodationUrl: "/IEP/Events/RemoveAccommodation",
+            printAccommodationsUrl: "/IEP/Events/PrintMatchingNeedAndAccommodations",
+            downloadAccommodationsUrl: "/IEP/Events/DownloadMatchingNeedAndAccommodations"
+        });
+        ControlStateManager = new ControlStateManager();
+        DistributionListManager = new DistributionListManager({
+            getDistributionListUrl: "/IEP/Events/GetDistributionList",
+            eventId: "e417b115-900b-4960-9969-a58a0103f397",
+            getEseMembersUrl: "/IEP/Events/GetEseTeamList",
+            studentId: "11250",
+            saveDistributionUrl: "/IEP/Events/UpdateDistributionList"
+        });
+    });
+</script>
+
+<h1>
+
+
+
+
+<a title="Students" href="/IEP/Students">Students</a>
+&gt;
+<a title="Eli Aaron" href="/IEP/Students/ViewStudent?CommonStudentId=11250&amp;ProgramType=HamptonIEP">Eli Aaron</a>
+&gt;
+<a title="IEP Events" href="/IEP/Students/ViewStudent?CommonStudentId=11250&amp;StudentViewType=Events&amp;ProgramType=HamptonIEP">IEP Events</a>
+&gt;
+<a title="Initial IEP" href="/IEP/Events/ViewEvent?EventId=e417b115-900b-4960-9969-a58a0103f397">Initial IEP</a>
+</h1>
+
+<div>
+    <table class="w-full">
+        <tbody><tr>
+            <td style="width: 220px; height: 649px;" class="cell-left relative" id="pnlEventMenuCell">
+
+
+<table style="width: 220px; top: 0px;" class="absolute menu-vertical k-widget k-reset k-header k-menu k-menu-vertical" id="pnlEventMenu" data-role="menu" tabindex="0" role="menubar">
+            <tbody><tr class="k-section-group" data-title="Summary" data-section-id="21eddf68-41d8-4fda-bd35-2ed79056052e">
+                <td> </td>
+                <td class="w-full pL10 pR5">
+                    <span style="display: inline; padding: 0; font-size: 95%">
+                        Summary
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Event Overview" data-id="8ba7ce52-9174-47f9-bfc2-f1991b36e26d">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_overview.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#EventOverview">
+                            Event Overview
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Student Information" data-id="eb11f270-d7ff-4fcb-8e57-14874b984f9a">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_student_information.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#StudentInformation">
+                            Student Information
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-group" data-title="Forms" data-section-id="ecacac23-cdea-4537-a3bc-e41e871245cc">
+                <td> </td>
+                <td class="w-full pL10 pR5">
+                    <span style="display: inline; padding: 0; font-size: 95%">
+                        Forms
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Present Levels" data-id="d41813dd-ece0-4d20-92b9-aa827ce20aed">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#PresentLevels">
+                            Present Levels
+                                <span class="required-sign">*</span>
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Goals" data-id="a070ad18-39c5-451b-998d-adfff89aca95">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_goals.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#Goals">
+                            Goals
+                                <span class="required-sign">*</span>
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection selected" data-title="Accommodations and Assessments" data-id="cd0debd5-e0cf-4cda-a82f-1ce41921f77c">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_accomodations.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#AccommodationsandAssessments">
+                            Accommodations and Assessments
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Accommodation Forms" data-id="11b2cc3e-03cc-4caf-b9ed-552687fda89d">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#AccommodationForms">
+                            Accommodation Forms
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Participation in State Accountability System" data-id="f59033b1-cf5b-4911-b34e-f2ac26cf9b09">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#ParticipationinStateAccountabilitySystem">
+                            Participation in State Accountability System
+                                <span class="required-sign">*</span>
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Special Considerations" data-id="d9beaa71-27e2-402a-b51b-fe15774a898c">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#SpecialConsiderations">
+                            Special Considerations
+                                <span class="required-sign">*</span>
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="LRE Checklist" data-id="3f30b240-ea18-4930-92e1-b5c9bba8b136">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#LREChecklist">
+                            LRE Checklist
+                                <span class="required-sign">*</span>
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Services and LRE" data-id="cda86b24-784b-4735-be10-e7689561c030">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_services.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#ServicesandLRE">
+                            Services and LRE
+                                <span class="required-sign">*</span>
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Transition Forms" data-id="b2bfee1d-31d1-4591-a51c-c3ce5c804e5a">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#TransitionForms">
+                            Transition Forms
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="FBA BIP" data-id="2b1abcca-97f5-4d07-948d-bd61ed29f065">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#FBABIP">
+                            FBA BIP
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Participants" data-id="3821a4bf-5a5a-4538-95c7-1f85ce43d561">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#Participants">
+                            Participants
+                                <span class="required-sign">*</span>
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Preschool" data-id="50a8b0a9-4c0e-40b8-b3fc-57cc59895024">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#Preschool">
+                            Preschool
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Prior Written Notice" data-id="cf16cc05-34c7-43a4-baa8-46177574bc0a">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#PriorWrittenNotice">
+                            Prior Written Notice
+                                <span class="required-sign">*</span>
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Medicaid Consent" data-id="e365f833-851b-4c01-a7fa-e1e2c52388e0">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#MedicaidConsent">
+                            Medicaid Consent
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-ingroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Consent Form" data-id="714a4319-e0d9-4652-8146-cfee889b8d67">
+                <td style="width: 20px; padding-left: 30px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_forms.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#ConsentForm">
+                            Consent Form
+                                <span class="required-sign">*</span>
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-nogroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Contact Log/Notes" data-id="f2c0b0e2-9962-461b-a215-0f412abe7ec9">
+                <td style="width: 20px; padding-left: 15px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_tasks.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#ContactLog/Notes">
+                            Contact Log/Notes
+                        </a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="k-section-nogroup k-item k-link js-lblSectionStatus js-eventSection" data-title="Attachments" data-id="44e3c93a-c0e3-4f3f-8392-125b68849cbd">
+                <td style="width: 20px; padding-left: 15px; padding-top: 8px; padding-bottom: 6px; vertical-align: top;">
+                    <img alt="" src="/IEP/Content/Images/Sections/section_attachments.png" />
+                </td>
+                <td style="padding-bottom: 8px; padding-top: 6px; padding-right: 4px;" class="w-full pL10">
+                    <span class="k-link">
+                        <a style="display: inline; padding: 0; font-size: 95%" class="k-link" href="#Attachments">
+                            Attachments
+                        </a>
+                    </span>
+                </td>
+            </tr>
+</tbody></table>
+            </td>
+            <td class="cell-right">
+                <h4 id="pnlEventTitle">Accommodations and Assessments</h4>
+                
+                <div class="pT10" id="pnlEventContent">
+
+<div class="mT10">
+    <h5>Assessments</h5>
+
+    <div style="display: none;" class="k-block k-success-colored panel-confirm mT10 mB10" id="pnlAssessmentAccommodationConfirm">
+        Assessment Accommodation has been updated successfully.
+    </div>
+
+    <div style="display: none;" class="k-block k-success-colored panel-confirm mT10 mB10" id="pnlAssessmentConfirm">
+        Assessment has been updated successfully.
+    </div>
+
+    <div id="pnlAssessments" data-role="grid" class="k-grid k-widget"><table role="grid"><colgroup><col /><col /><col /><col /><col /><col /><col style="width:10px" /><col style="width:10px" /></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row"><th id="5a2a31eb-e37c-41f3-9027-fcd88c79267d" data-index="0" data-title="School Year" rowspan="1" data-field="SchoolYear" role="columnheader" class="k-header" data-role="columnsorter" data-dir="asc" aria-sort="ascending"><a href="#" class="k-link">School Year<span class="k-icon k-i-arrow-n"></span></a></th><th id="28729c72-abbf-4b47-a6dd-89c6770f1dc0" data-index="1" data-title="Type" rowspan="1" data-field="AssessmentType" role="columnheader" class="k-header" data-role="columnsorter"><a href="#" class="k-link">Type</a></th><th id="1b76b7cc-57c4-4191-b349-2edfeb439428" data-index="2" data-title="Section" rowspan="1" data-field="AssessmentSection" role="columnheader" class="k-header" data-role="columnsorter"><a href="#" class="k-link">Section</a></th><th id="7bd50284-7ea0-41e2-b03f-15a83f493ff8" data-index="3" data-title="Grade" rowspan="1" data-field="Grade" role="columnheader" class="k-header" data-role="columnsorter"><a href="#" class="k-link">Grade</a></th><th id="61f7c99a-be5e-4be5-801c-fe2ff7add768" data-index="4" data-title="N/A" rowspan="1" data-field="IsApplicable" role="columnheader" class="k-header" data-role="columnsorter"><a href="#" class="k-link">N/A</a></th><th id="a0e10fd0-ee0b-4d30-a8a2-ba42f3090a3a" data-index="5" data-title="Justification" rowspan="1" data-field="Justification" role="columnheader" class="k-header" data-role="columnsorter"><a href="#" class="k-link">Justification</a></th><th id="fa3b550c-d36d-4491-ab9b-e71078999be3" data-index="6" data-title=" " rowspan="1" data-field="Modify" role="columnheader" class="k-header"> </th><th id="329c1233-0a8d-42c7-b79b-96437ad88dde" data-index="7" data-title=" " rowspan="1" data-field="Remove" role="columnheader" class="k-header"> </th></tr></thead><tbody role="rowgroup"><tr role="row" data-uid="511a1dba-94e5-4307-afd5-f2409b45719a"><td role="gridcell">2016-2017</td><td role="gridcell">SOL</td><td role="gridcell">History</td><td role="gridcell">Eighth</td><td role="gridcell"><input type="checkbox" disabled="disabled" /></td><td role="gridcell"></td><td role="gridcell"><a title="Modify" class="k-icon k-edit k-link" onclick='AssessmentsAccommodationsManager.viewAssessment("c3d8b401-e34d-4fbf-917d-a58a0103f7e9")' href="javascript:void(0);"></a></td><td role="gridcell"><a title="Remove" class="k-icon k-delete k-link" onclick='AssessmentsAccommodationsManager.removeAssessment("c3d8b401-e34d-4fbf-917d-a58a0103f7e9")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="cda30bb9-bc56-4518-b65e-153e9e2bc99f" class="k-alt"><td role="gridcell">2016-2017</td><td role="gridcell">District Assessment</td><td role="gridcell">Critical Skills Assessment Science</td><td role="gridcell">Eighth</td><td role="gridcell"><input type="checkbox" disabled="disabled" /></td><td role="gridcell"></td><td role="gridcell"><a title="Modify" class="k-icon k-edit k-link" onclick='AssessmentsAccommodationsManager.viewAssessment("0e229853-956c-4c1a-9c20-a58a0103f7e9")' href="javascript:void(0);"></a></td><td role="gridcell"><a title="Remove" class="k-icon k-delete k-link" onclick='AssessmentsAccommodationsManager.removeAssessment("0e229853-956c-4c1a-9c20-a58a0103f7e9")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="b98e48b6-562f-4ae3-b8bd-c9a2afd7fb23"><td role="gridcell">2016-2017</td><td role="gridcell">SOL</td><td role="gridcell">Writing</td><td role="gridcell">Eighth</td><td role="gridcell"><input type="checkbox" disabled="disabled" /></td><td role="gridcell"></td><td role="gridcell"><a title="Modify" class="k-icon k-edit k-link" onclick='AssessmentsAccommodationsManager.viewAssessment("27543b1e-d176-40cf-a285-a58a0103f7e9")' href="javascript:void(0);"></a></td><td role="gridcell"><a title="Remove" class="k-icon k-delete k-link" onclick='AssessmentsAccommodationsManager.removeAssessment("27543b1e-d176-40cf-a285-a58a0103f7e9")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="28ab46c5-ab0f-4197-a761-d62e86f73a16" class="k-alt"><td role="gridcell">2016-2017</td><td role="gridcell">District Assessment</td><td role="gridcell">Critical Skills Assessment Reading</td><td role="gridcell">Eighth</td><td role="gridcell"><input type="checkbox" disabled="disabled" /></td><td role="gridcell"></td><td role="gridcell"><a title="Modify" class="k-icon k-edit k-link" onclick='AssessmentsAccommodationsManager.viewAssessment("8316c5b4-5ff0-43bf-af06-a58a0103f7e9")' href="javascript:void(0);"></a></td><td role="gridcell"><a title="Remove" class="k-icon k-delete k-link" onclick='AssessmentsAccommodationsManager.removeAssessment("8316c5b4-5ff0-43bf-af06-a58a0103f7e9")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="03f9ec0d-74f8-4e8b-99d8-0b4ae4dc8d32"><td role="gridcell">2016-2017</td><td role="gridcell">SOL Plain English</td><td role="gridcell">Math</td><td role="gridcell">Eighth</td><td role="gridcell"><input type="checkbox" disabled="disabled" /></td><td role="gridcell"></td><td role="gridcell"><a title="Modify" class="k-icon k-edit k-link" onclick='AssessmentsAccommodationsManager.viewAssessment("b805d74d-264b-42b9-b090-a58a0103f7e9")' href="javascript:void(0);"></a></td><td role="gridcell"><a title="Remove" class="k-icon k-delete k-link" onclick='AssessmentsAccommodationsManager.removeAssessment("b805d74d-264b-42b9-b090-a58a0103f7e9")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="9bd36243-7074-44bc-a4b0-4e9407767034" class="k-alt"><td role="gridcell">2016-2017</td><td role="gridcell">District Assessment</td><td role="gridcell">Critical Skills Assessment Math</td><td role="gridcell">Eighth</td><td role="gridcell"><input type="checkbox" disabled="disabled" /></td><td role="gridcell"></td><td role="gridcell"><a title="Modify" class="k-icon k-edit k-link" onclick='AssessmentsAccommodationsManager.viewAssessment("4833a319-b386-451f-b13e-a58a0103f7e9")' href="javascript:void(0);"></a></td><td role="gridcell"><a title="Remove" class="k-icon k-delete k-link" onclick='AssessmentsAccommodationsManager.removeAssessment("4833a319-b386-451f-b13e-a58a0103f7e9")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="85d2a542-b51b-4b0b-bae5-e9ca72748199"><td role="gridcell">2016-2017</td><td role="gridcell">SOL</td><td role="gridcell">Reading</td><td role="gridcell">Eighth</td><td role="gridcell"><input type="checkbox" disabled="disabled" /></td><td role="gridcell"></td><td role="gridcell"><a title="Modify" class="k-icon k-edit k-link" onclick='AssessmentsAccommodationsManager.viewAssessment("1a4aecf3-5717-4463-b2b1-a58a0103f7e9")' href="javascript:void(0);"></a></td><td role="gridcell"><a title="Remove" class="k-icon k-delete k-link" onclick='AssessmentsAccommodationsManager.removeAssessment("1a4aecf3-5717-4463-b2b1-a58a0103f7e9")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="e771c30e-e438-42e5-9b8f-8d1f2dc97208" class="k-alt"><td role="gridcell">2016-2017</td><td role="gridcell">District Assessment</td><td role="gridcell">Critical Skills Assessment Writing</td><td role="gridcell">Eighth</td><td role="gridcell"><input type="checkbox" disabled="disabled" /></td><td role="gridcell"></td><td role="gridcell"><a title="Modify" class="k-icon k-edit k-link" onclick='AssessmentsAccommodationsManager.viewAssessment("5c0a5b0c-3344-4913-ba62-a58a0103f7e9")' href="javascript:void(0);"></a></td><td role="gridcell"><a title="Remove" class="k-icon k-delete k-link" onclick='AssessmentsAccommodationsManager.removeAssessment("5c0a5b0c-3344-4913-ba62-a58a0103f7e9")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="6976a354-3ccf-4848-8036-9719a0d10896"><td role="gridcell">2016-2017</td><td role="gridcell">SOL</td><td role="gridcell">Science</td><td role="gridcell">Eighth</td><td role="gridcell"><input type="checkbox" disabled="disabled" /></td><td role="gridcell"></td><td role="gridcell"><a title="Modify" class="k-icon k-edit k-link" onclick='AssessmentsAccommodationsManager.viewAssessment("a4bc8cc2-a054-42b7-bc35-a58a0103f7e9")' href="javascript:void(0);"></a></td><td role="gridcell"><a title="Remove" class="k-icon k-delete k-link" onclick='AssessmentsAccommodationsManager.removeAssessment("a4bc8cc2-a054-42b7-bc35-a58a0103f7e9")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="5d2f2776-ea16-4b84-b097-bab4dce3c61e" class="k-alt"><td role="gridcell">2017-2018</td><td role="gridcell">SOL</td><td role="gridcell">History VA and US History</td><td role="gridcell">Ninth</td><td role="gridcell"><input type="checkbox" disabled="disabled" /></td><td role="gridcell"></td><td role="gridcell"><a title="Modify" class="k-icon k-edit k-link" onclick='AssessmentsAccommodationsManager.viewAssessment("ee5b57f7-c4dc-4b94-807d-a58a0103f821")' href="javascript:void(0);"></a></td><td role="gridcell"><a title="Remove" class="k-icon k-delete k-link" onclick='AssessmentsAccommodationsManager.removeAssessment("ee5b57f7-c4dc-4b94-807d-a58a0103f821")' href="javascript:void(0);"></a></td></tr></tbody></table><div class="k-pager-wrap k-grid-pager k-widget k-floatwrap" data-role="pager"><a class="k-link k-pager-nav k-pager-first k-state-disabled" title="Go to the first page" href="#" data-page="1" tabindex="-1"><span class="k-icon k-i-seek-w">Go to the first page</span></a><a class="k-link k-pager-nav  k-state-disabled" title="Go to the previous page" href="#" data-page="1" tabindex="-1"><span class="k-icon k-i-arrow-w">Go to the previous page</span></a><ul class="k-pager-numbers k-reset"><li class="k-current-page"><span class="k-link k-pager-nav">1</span></li><li><span class="k-state-selected">1</span></li><li><a data-page="2" class="k-link" href="#" tabindex="-1">2</a></li><li><a data-page="3" class="k-link" href="#" tabindex="-1">3</a></li></ul><a class="k-link k-pager-nav" title="Go to the next page" href="#" data-page="2" tabindex="-1"><span class="k-icon k-i-arrow-e">Go to the next page</span></a><a class="k-link k-pager-nav k-pager-last" title="Go to the last page" href="#" data-page="3" tabindex="-1"><span class="k-icon k-i-seek-e">Go to the last page</span></a><span class="k-pager-sizes k-label"><span style="" title="" class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="eaa9212a-9156-4645-8f75-5fb1609e347b"><span class="k-dropdown-wrap k-state-default" unselectable="on"><span class="k-input" unselectable="on">10</span><span class="k-select" unselectable="on"><span class="k-icon k-i-arrow-s" unselectable="on">select</span></span></span><select data-role="dropdownlist" style="display: none;"><option value="5">5</option><option value="10">10</option><option value="20">20</option><option value="50">50</option><option value="100">100</option></select></span>items per page</span><a title="Refresh" class="k-pager-refresh k-link" href="#"><span class="k-icon k-i-refresh">Refresh</span></a><span class="k-pager-info k-label">1 - 10 of 26 items</span></div></div>
+    <div class="txt-r mT10">
+        <a id="btnCreateAssessment" data-role="button" class="k-button" role="button" aria-disabled="false" tabindex="0">Create Assessment</a>
+    </div>
+    
+    <div id="pnlCreateAssessment"></div>
+</div>
+
+
+<div>
+    <div class="mT10">
+        <h5>Classroom Accommodations</h5>
+
+        <div style="display: none;" class="k-block k-success-colored panel-confirm mT10 mB10" id="pnlClassroomAccommodationConfirm">
+            Classroom Accommodation has been updated successfully.
+        </div>
+
+        <div id="pnlAccommodations" data-role="grid" class="k-grid k-widget" style="height: 300px;"><div class="k-grid-header" style="padding-right: 17px;"><div class="k-grid-header-wrap k-auto-scrollable"><table role="grid"><colgroup><col class="k-group-col" /><col /><col style="width:400px" /><col style="width:70px" /><col style="width:80px" /></colgroup><thead role="rowgroup"><tr role="row"><th class="k-group-cell k-header"> </th><th id="afefcb5f-1841-4ce7-9ec7-2c6786e77f87" data-index="0" data-title="Accommodations" rowspan="1" data-field="Accommodation" role="columnheader" class="k-header">Accommodations</th><th id="8937c005-9102-477e-9025-f36d28867d88" data-index="1" data-title="Comments" rowspan="1" data-field="Comment" role="columnheader" class="k-header">Comments</th><th id="5a9c119b-29ea-4e9a-9659-67662e73b280" data-index="2" data-title="Classroom" rowspan="1" data-field="IsChecked" role="columnheader" class="k-header">Classroom</th><th id="221f3213-6bc0-423a-95cf-483621104bf1" data-index="3" data-title="Assessment" rowspan="1" data-field="Add" role="columnheader" class="k-header">Assessment</th></tr></thead></table></div></div><div class="k-grid-content" style="height: 272px;"><table role="grid" style="height: auto;"><colgroup><col class="k-group-col" /><col /><col style="width:400px" /><col style="width:70px" /><col style="width:80px" /></colgroup><tbody role="rowgroup"><tr class="k-grouping-row" role="row"><td aria-expanded="true" colspan="5"><p class="k-reset"><a tabindex="-1" href="#" class="k-icon k-i-collapse"></a>Category: Equipment</p></td></tr><tr role="row" data-uid="bd354655-0a61-49db-ae49-8c4d51df26d2"><td class="k-group-cell"> </td><td role="gridcell">Masks/markers to maintain place</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("18")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="65d7db62-f52e-4009-8fb6-5dd55c264e2f" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Amplification equipment</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("19")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="1aeec5ee-1a17-496a-99b9-442e52b4277e"><td class="k-group-cell"> </td><td role="gridcell">Magnifying glass</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("16")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="13735138-1c65-4b8b-a317-7a2335fab86e" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Large diameter/special grip pencil</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("39")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="194ed0a1-57a1-4399-8382-1199c29056d3"><td class="k-group-cell"> </td><td role="gridcell">Pencil grip</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("40")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="388a1ab2-d9fb-4dcd-bdc4-8820ce3039c5" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Brailler</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("41")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="f8d45a61-ab4b-4300-9d0f-ed028adde3ac"><td class="k-group-cell"> </td><td role="gridcell">Word Processor</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("42")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="50ff3e42-848f-4e58-8125-a712ba122257" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Augmentative Communication Device</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("43")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="424d362b-820a-4538-a963-407789f0aba5"><td class="k-group-cell"> </td><td role="gridcell">Spell Check (including spell checkers)</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("44")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="0e6f22a4-ea07-473f-aad8-bfdf36192ceb" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Spelling Dictionary</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("45")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="ca29069b-fb63-4ff0-bbc3-b73d8df69d4f"><td class="k-group-cell"> </td><td role="gridcell">Tape recorder (only for prewriting activity to tape response for English Writing test)</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("46")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="97627452-9126-4383-8561-362207e32a76" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Use of a calculator</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("48")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="958d155b-98a2-4f59-8261-15589aaa989a"><td class="k-group-cell"> </td><td role="gridcell">Use of a calculator on the computation section</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("49")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="6369642f-1e15-4180-a576-179861271929" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Use of arithmetic tables</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("50")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="235593ba-7d2d-4de5-8f13-ecb804c9e15b"><td class="k-group-cell"> </td><td role="gridcell">Use of arithmetic tables on the computation section</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("51")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="10bad9c6-7ece-4fb9-980c-3d30ab1b949a" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Use of a calculator with additional functions to those routinely supplied to all students</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("52")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="771ce103-ea3d-4931-9d53-954d3ad9ef63"><td class="k-group-cell"> </td><td role="gridcell">Number Line</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("53")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="d85cc4ef-befc-445d-ad17-7cd3493c02e3" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Counting Strip</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("54")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="12ae7a15-0e83-4703-afde-3e34dd645fe1"><td class="k-group-cell"> </td><td role="gridcell">Colored Shapes</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("55")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="d2193bdf-e5e9-4f6f-9a13-e28e5492e153" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Cuisenaire Rods</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("56")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="83e041fa-de9a-4d83-bdfa-90d927d7920a"><td class="k-group-cell"> </td><td role="gridcell">Blank Fraction Bars</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("57")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="64f9c9b2-ffce-4832-a85e-b33c3071a2b8" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Fraction Circles</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("58")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="55478c5e-29eb-42e7-b614-ec14bfbb902e"><td class="k-group-cell"> </td><td role="gridcell">Templates for aligning math problems</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("59")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="e2dede25-971c-4386-8d8f-e5018d7cb3eb" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Visual Aids (e.g., magnifying glass, large monitor, screen magnifier, templates to show only one item at a time, blank graphic organizer)</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("60")' href="javascript:void(0);"></a></td></tr><tr class="k-grouping-row" role="row"><td aria-expanded="true" colspan="5"><p class="k-reset"><a tabindex="-1" href="#" class="k-icon k-i-collapse"></a>Category: MathAids</p></td></tr><tr role="row" data-uid="91c9cec4-c2d4-49c9-baf8-f1266992921b"><td class="k-group-cell"> </td><td role="gridcell">Arithmetic tables (standard accommodation only if test allows a calculator)</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("37")' href="javascript:void(0);"></a></td></tr><tr class="k-grouping-row" role="row"><td aria-expanded="true" colspan="5"><p class="k-reset"><a tabindex="-1" href="#" class="k-icon k-i-collapse"></a>Category: Other</p></td></tr><tr role="row" data-uid="b31d84b5-5abd-434b-90e2-d82d29f8f796"><td class="k-group-cell"> </td><td role="gridcell">Other VA Accommodation</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("1")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="d67c058f-b3c2-47eb-8385-7f10d862c6a5" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Other #1</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("2")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="e8ea9dff-8b9f-449e-842a-d1a346428b84"><td class="k-group-cell"> </td><td role="gridcell">Other #2</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("61")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="486c9672-4336-4360-99d4-65b237e66627" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Other #3</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("62")' href="javascript:void(0);"></a></td></tr><tr class="k-grouping-row" role="row"><td aria-expanded="true" colspan="5"><p class="k-reset"><a tabindex="-1" href="#" class="k-icon k-i-collapse"></a>Category: Presentation</p></td></tr><tr role="row" data-uid="ee63c4fc-5d21-451f-9108-8a451299bfdc"><td class="k-group-cell"> </td><td role="gridcell">Plain English Math</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("33")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="ebc88dd7-b7e1-4e94-80eb-cce6a75a69b1" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Braille answer sheet</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("36")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="988918d7-647b-4711-9bd4-98788d7bca53"><td class="k-group-cell"> </td><td role="gridcell">Dictation to a scribe (writing sample component of the English writing test)</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("47")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="19743287-b1d7-4f08-8f3f-64e43a403625" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Reading of test items except on English: Reading/Literature and Research test</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("3")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="291a1316-db49-41e9-bd19-f3d71f593618"><td class="k-group-cell"> </td><td role="gridcell">Large print</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("20")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="e99b3d50-2352-48ab-a6e6-a84ccd98384c" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Reading directions to students</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("21")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="ef9f5c53-b8e2-48e9-9caf-b500ffb24a66"><td class="k-group-cell"> </td><td role="gridcell">Simplifying directions/clarify directions</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("22")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="43137b34-4a17-4c18-9e61-0b700a28ab2b" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Written directions to accompany oral directions</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("23")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="f6961541-39bd-4d39-b386-dd7736c4437d"><td class="k-group-cell"> </td><td role="gridcell">Increase size of answer bubbles/enlarge the answer document</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("24")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="fe0127ef-997d-4a74-ada6-ab765d4373f4" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Braille</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("25")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="dddb0801-59f6-499e-b9e7-8aebdbf231c0"><td class="k-group-cell"> </td><td role="gridcell">Audio form of test items (except on English:  Reading/Literature and Research test)</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("26")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="a6269267-3159-41a7-918d-665affc13bdf" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Increase spacing between items or reduce items on page</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("15")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="b4db3be4-c405-47b2-80f0-437680267ad7"><td class="k-group-cell"> </td><td role="gridcell">Templates</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("17")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="9035c135-b85a-40c0-b197-29ad62acb3c2" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Using a communication board/pictorial representation</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("29")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="96ffc5b5-bf78-4f94-98ed-8ab30908d721"><td class="k-group-cell"> </td><td role="gridcell">Reading test items aloud on the English/Literature and Research test to the student</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("30")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="515d6f91-3ec6-4266-9576-550804e2a418" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Audio form of the English Reading/Literature and Research test</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("31")' href="javascript:void(0);"></a></td></tr><tr class="k-grouping-row" role="row"><td aria-expanded="true" colspan="5"><p class="k-reset"><a tabindex="-1" href="#" class="k-icon k-i-collapse"></a>Category: Response</p></td></tr><tr role="row" data-uid="6696311f-fa82-4d96-a7af-153de544fd74"><td class="k-group-cell"> </td><td role="gridcell">Student marks in booklet and teacher/proctor transfers answers to answer sheet</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("34")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="17f66ca4-fcc2-44d8-ab85-33d7b2cb03c9" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Student responds verbally, points or indicates an answer and teacher/proctor marks answer sheet</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("35")' href="javascript:void(0);"></a></td></tr><tr class="k-grouping-row" role="row"><td aria-expanded="true" colspan="5"><p class="k-reset"><a tabindex="-1" href="#" class="k-icon k-i-collapse"></a>Category: TimingAccommodation</p></td></tr><tr role="row" data-uid="22df0968-bbef-49ab-8959-3016f44c92bc"><td class="k-group-cell"> </td><td role="gridcell">Interpreting (signing/cued speech) test items on the Reading/Literature and Research test</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("32")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="fe47f74f-d020-431a-9a94-56ea9430f150" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Interpreting/transliterating directions (signing/cued speech)</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("27")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="4b529949-69ae-42cc-a5d3-cf5dabfad6e2"><td class="k-group-cell"> </td><td role="gridcell">Interpreting/transliterating of test items except on English:  Reading/Literature and Research test</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("28")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="6ff7278d-c128-4961-9179-ba5f72b81043" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Time of day</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("4")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="2fa481f5-6a62-4ebb-b158-dacb75ec26c4"><td class="k-group-cell"> </td><td role="gridcell">Breaks during test</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("5")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="27e0915c-bcb7-4728-9cdb-e2b58d76f2bf" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Multiple test sessions</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("6")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="1031bb93-a614-4b68-9d14-2ea0bf118763"><td class="k-group-cell"> </td><td role="gridcell">Small group testing</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("7")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="beeacb58-f874-45ab-837f-d3a012173cb1" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Individual testing</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("8")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="98223240-03c6-4ec6-b84f-ccb18e4257b4"><td class="k-group-cell"> </td><td role="gridcell">Preferential seating (ex. front of room, study carrel)</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("9")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="1e8cd403-25bc-4c64-8043-1b3d2ab66bee" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Special lighting</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("10")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="6a4c6340-1ffb-404d-9326-4669e587ecc8"><td class="k-group-cell"> </td><td role="gridcell">Adaptive or Special Equipment/Furniture</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("11")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="52301e01-c6bd-40bd-ba1b-f994dd1c8898" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Test administered with minimal distractions</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("12")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="7df98918-583d-4bbb-bf0d-3b1b7c1a6138"><td class="k-group-cell"> </td><td role="gridcell">Noise buffers</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("13")' href="javascript:void(0);"></a></td></tr><tr role="row" data-uid="a0fc63d6-5fd1-40d4-aec9-4ea1ea766da6" class="k-alt"><td class="k-group-cell"> </td><td role="gridcell">Hospital/home/non-school setting</td><td role="gridcell"></td><td role="gridcell" style="text-align: center"><input type="checkbox" class="chkAccommodation" /></td><td role="gridcell" style="text-align: center"><a title="Add Accommodation" class="k-icon k-i-plus k-link" onclick='AssessmentsAccommodationsManager.addAssessment("14")' href="javascript:void(0);"></a></td></tr></tbody></table></div></div>
+        <div class="txt-r mT10">
+            <a id="btnUpdateAccommodation" data-role="button" class="k-button k-state-focused" role="button" aria-disabled="false" tabindex="0">Update Accommodations</a>
+            <a id="btnPrintAssessmentAcommodation" data-role="button" class="k-button" role="button" aria-disabled="false" tabindex="0">Print</a>
+        </div>
+    </div>
+</div></div>
+                <div class="txt-r mT10">
+                        <a id="btnLockEvent" data-role="button" class="k-button" role="button" aria-disabled="false" tabindex="0">Lock</a>
+                        <a id="btnCheckEventComplience" data-role="button" class="k-button" role="button" aria-disabled="false" tabindex="0">Compliance</a>
+                    <a id="btnPrintEvent" data-role="button" class="k-button" role="button" aria-disabled="false" tabindex="0">Print Event</a>
+                </div>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+
+<span id="autosaveNotification"></span>
+
+
+
+
+
+<style type="text/css">
+    .k-widget.k-tooltip {
+        border: 1px solid #ccc;
+        background: #efefef;
+    }
+</style>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="footer">
+<div>
+    <div class="left p5 txt-c">
+        <span class="version">2.29.9.231</span>
+    </div>
+    <a target="_blank" href="http://accelify.com/">Home</a>
+    <a href="http://accelify.com/Home/AboutUs" target="_blank" class="footerLink">About Us</a>
+    <a href="http://accelify.com/Services/Solutions" target="_blank" class="footerLink">Services</a>
+    <a href="http://accelify.com/Home/Testimonials" target="_blank" class="footerLink">Testimonials</a>
+    <a href="http://accelify.com/Home/NewsEvents" target="_blank" class="footerLink">Links</a>
+    <a href="http://accelify.com/Home/Faq" target="_blank" class="footerLink">Help</a>
+    <a href="http://accelify.com/Home/Contact" target="_blank" class="footerLink">Contact</a>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="display: none" id="pnlMessageBoxConfirm">
+    <div class="p10 form">
+        <div id="pnlMessageBoxConfirmMessage"></div>
+
+        <div class="txt-r mT10">
+            <a href="javascript:void(0);" id="btnMessageBoxConfirmCancel">Cancel</a>
+            <a href="javascript:void(0);" id="btnMessageBoxConfirmDiscard">Discard</a>
+            <a href="javascript:void(0);" id="btnMessageBoxConfirmSave">Save</a>
+        </div>
+    </div>
+</div>
+
+
+
+        <script type="text/javascript">
+            (function(i, s, o, g, r) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments);
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o);
+                m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-37185636-13', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+    
+<div class="k-widget k-window" style="padding-top: 29px; min-width: 90px; min-height: 50px; width: 600px; display: none; top: 0px; left: 0px;" data-role="draggable"><div class="k-window-titlebar k-header" style="margin-top: -29px;"> <span class="k-window-title" id="pnlItemSelector_wnd_title">Select Item</span><div class="k-window-actions"><a class="k-window-action k-link" href="#" role="button"><span class="k-icon k-i-close" role="presentation">Close</span></a></div></div><div id="pnlItemSelector" data-role="window" style="display: block;" class="k-window-content k-content" tabindex="0" role="dialog" aria-labelledby="pnlItemSelector_wnd_title"></div></div><div class="k-widget k-window" style="padding-top: 29px; min-width: 90px; min-height: 50px; width: 480px; display: none;" data-role="draggable"><div class="k-window-titlebar k-header" style="margin-top: -29px;"> <span class="k-window-title" id="pnlMessageBoxWarning_wnd_title">Warning</span><div class="k-window-actions"><a class="k-window-action k-link" href="#" role="button"><span class="k-icon k-i-close" role="presentation">Close</span></a></div></div><div style="" id="pnlMessageBoxWarning" data-role="window" class="k-window-content k-content" tabindex="0" role="dialog" aria-labelledby="pnlMessageBoxWarning_wnd_title">
+    <div class="p10 form">
+        <div id="pnlMessageBoxWarningMessage"></div>
+
+        <div class="txt-r mT10">
+            <a href="javascript:void(0);" id="pnlMessageBoxWarningOk" data-role="button" class="k-button" role="button" aria-disabled="false" tabindex="0">Ok</a>
+        </div>
+    </div>
+</div></div><div class="k-widget k-window" style="padding-top: 29px; min-width: 90px; min-height: 50px; width: 700px; height: 550px; display: none; top: 100px; left: 414px; position: fixed;" data-role="draggable"><div class="k-window-titlebar k-header" style="margin-top: -29px;"> <span class="k-window-title" id="pnlValidationSummaryLock_wnd_title">Summary</span><div class="k-window-actions"><a class="k-window-action k-link" href="#" role="button"><span class="k-icon k-i-close" role="presentation">Close</span></a></div></div><div id="pnlValidationSummaryLock" data-role="window" class="k-window-content k-content" tabindex="0" role="dialog" aria-labelledby="pnlValidationSummaryLock_wnd_title"></div></div><div class="k-widget k-window" style="padding-top: 29px; min-width: 90px; min-height: 50px; width: 300px; display: none; top: 252.233px; left: 174.5px;" data-role="draggable"><div class="k-window-titlebar k-header" style="margin-top: -29px;"> <span class="k-window-title" id="pnlPrintLanguage_wnd_title">Print Language</span><div class="k-window-actions"><a class="k-window-action k-link" href="#" role="button"><span class="k-icon k-i-close" role="presentation">Close</span></a></div></div><div style="" id="pnlPrintLanguage" data-role="window" class="k-window-content k-content" tabindex="0" role="dialog" aria-labelledby="pnlPrintLanguage_wnd_title">
+    <div class="p10 form">
+        Select available language for the printed form.
+        <br />
+        <div>
+            <div class="p10">
+                <span style="" class="k-widget k-combobox k-header"><span class="k-dropdown-wrap k-state-default" unselectable="on" tabindex="-1"><input type="text" autocomplete="off" class="k-input" style="width: 100%;" title="" role="combobox" aria-expanded="false" tabindex="0" aria-disabled="false" aria-readonly="false" aria-autocomplete="list" aria-owns="selLanguage_listbox" aria-busy="false" aria-activedescendant="ce00fe03-20b2-4a3a-bdee-964e9ecc8318" /><span class="k-select" unselectable="on" tabindex="-1"><span class="k-icon k-i-arrow-s" unselectable="on" role="button" tabindex="-1" aria-controls="selLanguage_listbox">select</span></span></span><select id="selLanguage" data-role="combobox" style="display: none;" aria-disabled="false" aria-readonly="false"><option value="1">English</option><option value="2">Spanish</option><option value="3">Creole</option></select></span>
+            </div>
+        </div>
+        <div class="txt-r mT10">
+            <a href="javascript:void(0);" id="btnOk" data-role="button" class="k-button" role="button" aria-disabled="false" tabindex="0">OK</a>
+        </div>
+    </div>
+</div></div><div class="k-list-container k-popup k-group k-reset" id="selLanguage-list" data-role="popup" style="position: absolute; height: auto; display: none;"><div style="display:none" class="k-group-header"></div><div unselectable="on" style="overflow: auto; position: relative; height: auto;"><ul class="k-list k-reset" unselectable="on" tabindex="-1" aria-hidden="true" id="selLanguage_listbox" aria-live="off" data-role="staticlist" role="listbox"><li data-offset-index="0" aria-selected="true" class="k-item k-state-selected k-state-focused" unselectable="on" role="option" tabindex="-1" id="ce00fe03-20b2-4a3a-bdee-964e9ecc8318">English</li><li data-offset-index="1" class="k-item" unselectable="on" role="option" tabindex="-1">Spanish</li><li data-offset-index="2" class="k-item" unselectable="on" role="option" tabindex="-1">Creole</li></ul></div></div><div class="k-widget k-window" style="padding-top: 29px; min-width: 90px; min-height: 50px; width: 480px; display: none; top: 832.767px; left: 174.5px;" data-role="draggable"><div class="k-window-titlebar k-header" style="margin-top: -29px;"> <span class="k-window-title" id="pnlConcurrencyConfirm_wnd_title">Warning</span><div class="k-window-actions"><a class="k-window-action k-link" href="#" role="button"><span class="k-icon k-i-close" role="presentation">Close</span></a></div></div><div style="" id="pnlConcurrencyConfirm" data-role="window" class="k-window-content k-content" tabindex="0" role="dialog" aria-labelledby="pnlConcurrencyConfirm_wnd_title">
+    <div class="p10 form">
+        Another users are currently working with this event. You can continue working with this document but all changes might be lost.
+        <br />
+        <br />
+        This event is currently viewed by: <span id="pnlMessage"></span>
+        <div class="txt-r mT10">
+            <a href="javascript:void(0);" id="btnOk" data-role="button" class="k-button" role="button" aria-disabled="false" tabindex="0">OK</a>
+        </div>
+    </div>
+</div></div><div class="k-widget k-window" style="padding-top: 29px; min-width: 90px; min-height: 50px; width: 800px; display: none; top: 215.6px; left: 414.5px;" data-role="draggable"><div class="k-window-titlebar k-header" style="margin-top: -29px;"> <span class="k-window-title" id="wndAssessmentAccommodation_wnd_title">Assessment  list</span><div class="k-window-actions"><a class="k-window-action k-link" href="#" role="button"><span class="k-icon k-i-close" role="presentation">Close</span></a></div></div><div class="container k-window-content k-content" id="wndAssessmentAccommodation" data-role="window" tabindex="0" role="dialog" aria-labelledby="wndAssessmentAccommodation_wnd_title">
+    <div>
+        <div id="pnlAssessmentAccommodation" data-role="grid" class="k-grid k-widget" style="height: 300px;"><div class="k-grid-header" style="padding-right: 17px;"><div class="k-grid-header-wrap k-auto-scrollable"><table role="grid"><colgroup><col style="width:30px" /><col style="width:100px" /><col /><col /><col style="width:70px" /></colgroup><thead role="rowgroup"><tr role="row"><th id="1560e124-ea8d-4ea3-bd33-f93cdc0e3436" data-index="0" data-title=" " rowspan="1" data-field="IsSelect" role="columnheader" class="k-header"><input type="checkbox" id="chkAllAssessment" /></th><th id="3058b2b0-a6d4-4462-89ae-9e32da7a3891" data-index="1" data-title="SchoolYear" rowspan="1" data-field="SchoolYear" role="columnheader" class="k-header">SchoolYear</th><th id="bcc1bd14-078a-44a5-b3e3-89c2af67421e" data-index="2" data-title="Assessment Type" rowspan="1" data-field="AssessmentType" role="columnheader" class="k-header">Assessment Type</th><th id="dc1a3216-7c80-456b-abaa-4d0420a39553" data-index="3" data-title="Section" rowspan="1" data-field="AssessmentSection" role="columnheader" class="k-header">Section</th><th id="c6a4b75b-e5e5-4a58-9091-3ab547c0de9b" data-index="4" data-title="Grade" rowspan="1" data-field="Grade" role="columnheader" class="k-header">Grade</th></tr></thead></table></div></div><div class="k-grid-content" style="height: 269px;"><table role="grid" style="height: auto;"><colgroup><col style="width:30px" /><col style="width:100px" /><col /><col /><col style="width:70px" /></colgroup><tbody role="rowgroup"><tr><td colspan="5">No items to display</td></tr></tbody></table><div class="k-grid-content-expander" style="width: 742px;"></div></div></div>
+    </div>
+
+    <div id="pnlPopupWndControls" style="display: none;">
+        <div style="padding: 10px" class="txt-r">
+            <a id="btnUpdateAssessmentAccommodations" data-role="button" class="k-button" role="button" aria-disabled="false" tabindex="0">Update</a>
+            <a id="btnCancelAssessmentAccommodations" data-role="button" class="k-button" role="button" aria-disabled="false" tabindex="0">Cancel</a>
+        </div>
+    </div>
+</div></div><div class="k-list-container k-popup k-group k-reset" data-role="popup" style="position: absolute; height: auto; display: none;"><div style="display:none" class="k-group-header"></div><div unselectable="on" style="overflow: auto; position: relative; height: auto;"><ul class="k-list k-reset" unselectable="on" tabindex="-1" aria-hidden="true" aria-live="off" data-role="staticlist" role="listbox"><li data-offset-index="0" class="k-item" unselectable="on" role="option" tabindex="-1">5</li><li data-offset-index="1" aria-selected="true" class="k-item k-state-selected k-state-focused" unselectable="on" role="option" tabindex="-1" id="eaa9212a-9156-4645-8f75-5fb1609e347b">10</li><li data-offset-index="2" class="k-item" unselectable="on" role="option" tabindex="-1">20</li><li data-offset-index="3" class="k-item" unselectable="on" role="option" tabindex="-1">50</li><li data-offset-index="4" class="k-item" unselectable="on" role="option" tabindex="-1">100</li></ul></div></div></body></html>

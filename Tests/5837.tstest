@@ -67,6 +67,47 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "8a9fd8b3-8e6f-42b3-b798-3b48362bc499",
+            "Description": "Execute test 'Login'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "Login",
+                "TestPath": "Methods\\Login.tstest",
+                "TestUniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "5837uvyflwqh.tab",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "55452c99-04ed-4b9d-b874-0b7abb7c6560",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
@@ -163,7 +204,7 @@
               }
             },
             "Enabled": true,
-            "Order": 2,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -272,7 +313,7 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -381,7 +422,7 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -484,7 +525,7 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -593,7 +634,7 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -704,7 +745,7 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -813,7 +854,7 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -922,7 +963,7 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1031,7 +1072,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1142,7 +1183,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1251,7 +1292,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1292,7 +1333,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1401,7 +1442,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1510,7 +1551,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1622,120 +1663,11 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
             "StepImageKey": "5837sceomsry.3ww",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "a7538de2-7c68-40b9-927e-59df7d794cf2",
-            "Description": "Click 'BtnValidateFormLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#PresentLevels&formId=8cb009fd-3fc8-4177-87b9-a58a00fce257",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor5"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "KVvizgfPdPw58Y4LJo8sQK9sP48=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "BtnValidateFormLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=btnValidateForm"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 17,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "5837ko3xq423.b5f",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1758,12 +1690,13 @@
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
                 "Pause": 0,
+                "RunsAgainst": 1,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
                     "ConstraintValues": {
-                      "RunsAgainst": "AllBrowsers"
+                      "RunsAgainst": "InternetExplorerOnly"
                     }
                   }
                 },
@@ -2006,6 +1939,49 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "96e52400-9892-44cd-9939-906af1688017",
+            "Description": "Handle 'Download' dialog.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DownloadDialogHandlerDescriptor",
+              "__value": {
+                "DownloadPath": "",
+                "HandlerTimeout": 25000,
+                "DialogType": 4,
+                "HandleButton": 1,
+                "InitializationTime": 250,
+                "WaitOnElements": false,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 21,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "58373cz4xzeg.xdi",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "725f45d1-c782-4bf0-bd96-7316263fc210",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
@@ -2102,7 +2078,7 @@
               }
             },
             "Enabled": true,
-            "Order": 21,
+            "Order": 22,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2145,7 +2121,7 @@
               }
             },
             "Enabled": true,
-            "Order": 22,
+            "Order": 23,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2262,7 +2238,7 @@
               }
             },
             "Enabled": true,
-            "Order": 23,
+            "Order": 24,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2303,7 +2279,7 @@
               }
             },
             "Enabled": true,
-            "Order": 24,
+            "Order": 25,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2412,7 +2388,7 @@
               }
             },
             "Enabled": true,
-            "Order": 25,
+            "Order": 26,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2521,7 +2497,7 @@
               }
             },
             "Enabled": true,
-            "Order": 26,
+            "Order": 27,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2633,210 +2609,11 @@
               }
             },
             "Enabled": true,
-            "Order": 27,
+            "Order": 28,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
             "StepImageKey": "5837vzp5in1r.lt0",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "29691824-3619-41d3-851a-3cb36b5d9caf",
-            "Description": "Click 'BtnValidateFormLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#PresentLevels&formId=8cb009fd-3fc8-4177-87b9-a58a00fce257",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor5"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "KVvizgfPdPw58Y4LJo8sQK9sP48=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "BtnValidateFormLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=btnValidateForm"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 28,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "5837n2ywvh5g.qv5",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "b1f00b48-3016-4203-9872-8a0bd32bb215",
-            "Description": "Handle 'OnBeforeUnload' dialog.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.OnBeforeUnloadDialogHandlerDescriptor",
-              "__value": {
-                "HandlerTimeout": 5000,
-                "DialogType": 5,
-                "HandleButton": 0,
-                "InitializationTime": 250,
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainst": 2,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainst": "FirefoxOnly"
-                    }
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 29,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "5837ggx3zb4d.lva",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "01a0faf6-9a59-40d8-aef3-776c423a0c17",
-            "Description": "Handle 'Alert' dialog.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.AlertDialogHandlerDescriptor",
-              "__value": {
-                "HandlerTimeout": 20000,
-                "DialogType": 0,
-                "HandleButton": 0,
-                "InitializationTime": 250,
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainst": 1,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainst": "InternetExplorerOnly"
-                    }
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 30,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "5837h10gbkie.uy1",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -2941,7 +2718,7 @@
               }
             },
             "Enabled": true,
-            "Order": 31,
+            "Order": 29,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3050,7 +2827,7 @@
               }
             },
             "Enabled": true,
-            "Order": 32,
+            "Order": 30,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3159,7 +2936,7 @@
               }
             },
             "Enabled": true,
-            "Order": 33,
+            "Order": 31,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3172,13 +2949,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a18808d4-9384-4666-aede-92fe688a44eb",
+            "Runtime ID": "4ce11104-ecc4-404a-aed4-0dd732d0035f",
             "Description": "Handle 'Download' dialog.",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DownloadDialogHandlerDescriptor",
               "__value": {
-                "DownloadPath": "D:\\",
+                "DownloadPath": "",
                 "HandlerTimeout": 25000,
                 "DialogType": 4,
                 "HandleButton": 1,
@@ -3202,11 +2979,11 @@
               }
             },
             "Enabled": true,
-            "Order": 34,
+            "Order": 32,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "5837nwbrg0xi.qcr",
+            "StepImageKey": "5837lkuwtimv.20j",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
