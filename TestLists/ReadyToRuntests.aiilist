@@ -13,11 +13,8 @@
           "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
           "__value": {
             "IsProfilingExecution": false,
-            "ExecutingBrowsers": [
-              1,
-              2
-            ],
-            "UseMultiBrowserExecution": true,
+            "ExecutingBrowsers": [],
+            "UseMultiBrowserExecution": false,
             "RecycleBrowser": false,
             "AspNetDevServerPort": -1,
             "LocalWebServer": 0,
@@ -62,7 +59,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
-          "Path": "Tests\\5836.tstest",
+          "Path": "Siute_1638_Events_Initial_IEP\\5836.tstest",
           "PathType": 0
         }
       },
@@ -70,7 +67,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "29a04310-7a1e-4ba8-85b3-2878888d3108",
-          "Path": "Tests\\5837.tstest",
+          "Path": "Siute_1638_Events_Initial_IEP\\5837.tstest",
           "PathType": 0
         }
       },
@@ -78,7 +75,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "f5bd083f-f346-4f04-904c-84b699226036",
-          "Path": "Tests\\5838.tstest",
+          "Path": "Siute_1638_Events_Initial_IEP\\5838.tstest",
           "PathType": 0
         }
       },
@@ -86,7 +83,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "cf11d5a9-a968-4197-a951-d4ed3ca26a9e",
-          "Path": "Tests\\5838 v2.tstest",
+          "Path": "Siute_1638_Events_Initial_IEP\\5838 v2.tstest",
           "PathType": 0
         }
       },
@@ -94,7 +91,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "7049c9b2-f6df-4878-848d-068d569a8553",
-          "Path": "Tests\\5839.tstest",
+          "Path": "Siute_1638_Events_Initial_IEP\\5839.tstest",
           "PathType": 0
         }
       },
@@ -102,7 +99,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "42a36964-86ea-4571-ab25-6c55439ea097",
-          "Path": "Tests\\5840.tstest",
+          "Path": "Siute_1638_Events_Initial_IEP\\5840.tstest",
           "PathType": 0
         }
       },
@@ -110,7 +107,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "e78486b6-c8db-4da1-9d71-000975adad6f",
-          "Path": "Tests\\6079_1.tstest",
+          "Path": "Siute_1638_Events_Initial_IEP\\6079_1.tstest",
           "PathType": 0
         }
       },
@@ -118,7 +115,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "246c6bbc-99b0-46b7-bf44-82f1a6c776a1",
-          "Path": "Tests\\6079_2.tstest",
+          "Path": "Siute_1638_Events_Initial_IEP\\6079_2.tstest",
           "PathType": 0
         }
       }

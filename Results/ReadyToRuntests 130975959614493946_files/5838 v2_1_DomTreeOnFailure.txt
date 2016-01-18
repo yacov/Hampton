@@ -1,0 +1,470 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="header">
+		<script src="Scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+		<script src="Scripts/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+		<script src="Scripts/jquery.json-2.2.min.js" type="text/javascript"></script>
+		<script src="Scripts/jquery.autogrow.js" type="text/javascript"></script>
+		<script src="Scripts/jquery.maskedinput-1.3.js" type="text/javascript"></script>
+		<script src="Scripts/jquery.maxlength.js" type="text/javascript"></script>
+		<script src="Scripts/jquery.cookie.js" type="text/javascript"></script>
+		<script src="Scripts/jquery.ui.touch-punch.js" type="text/javascript"></script>
+		<script src="https://asset0.zendesk.com/external/zenbox/v2.4/zenbox.js" type="text/javascript"></script>
+		<link href="App_Themes/Default/Images/favicon.ico" rel="shortcut icon">
+		<style type="text/css" media="screen, projection">
+			@import url(https://asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+		</style>
+	<link href="App_Themes/Default/jquery.cleditor.css" rel="stylesheet" type="text/css"><link href="App_Themes/Default/jquery.tooltip.css" rel="stylesheet" type="text/css"><link href="App_Themes/Default/jquery-ui-1.8.14.custom.css" rel="stylesheet" type="text/css"><link href="App_Themes/Default/StylesButton.css" rel="stylesheet" type="text/css"><link href="App_Themes/Default/StylesCommon.css" rel="stylesheet" type="text/css"><link href="App_Themes/Default/StylesDayPilot.css" rel="stylesheet" type="text/css"><link href="App_Themes/Default/StylesMenu.css" rel="stylesheet" type="text/css"><link href="App_Themes/Default/StylesOther.css" rel="stylesheet" type="text/css"><link href="App_Themes/Default/Yahoo/calendar.css" rel="stylesheet" type="text/css"><title>
+	Login
+</title><link class="skype_c2c" href="skypec2c://r/202" rel="stylesheet" type="text/css"><script class="skype_c2c" src="skypec2c://r/205" type="text/javascript"></script><script class="skype_c2c" src="skypec2c://r/206" type="text/javascript"></script><style class="skype_c2c" id="skype_c2c_menu_style">.skype_c2c_menu_click2call {background-image: url('skypec2c://r/203') !important;}.skype_c2c_menu_container div {height:20px !important;}</style></head>
+
+<body>
+	<div class="sessionExpired" id="pnlSessionCountdownIndicator" style="display: none;">
+		<div class="text">
+			<span class="warning">
+				Your login session will expire in <span id="timer"></span> seconds.
+			</span>
+			<span class="expired">
+				Your login session has expired.
+			</span>
+		</div>
+		<a class="button warning" onclick="SessionCounterManager.ResetSessionTimeout(); return false;">Click To Keep Session Alive</a>
+		<a class="button expired" onclick="SessionCounterManager.Check(); return false;">Please Sign In Again</a>
+	</div>
+	<form name="frmMain" id="frmMain" onsubmit="javascript:return WebForm_OnSubmit();" action="Login.aspx?ReturnUrl=%2fError.aspx" method="post">
+<div>
+<input name="__EVENTTARGET" id="__EVENTTARGET" type="hidden" value="">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" type="hidden" value="">
+<input name="__VIEWSTATE" id="__VIEWSTATE" type="hidden" value="/wEPDwULLTEzNzg4OTQ4NzcPFgIeE1ZhbGlkYXRlUmVxdWVzdE1vZGUCARYCZg9kFgICAw9kFgICAQ9kFgYCAg9kFgJmD2QWAgIBD2QWCAIBDw9kFgIeC3BsYWNlaG9sZGVyBQhVc2VybmFtZWQCBQ8PZBYCHwEFCFBhc3N3b3JkZAIJDxAPFgIeC18hRGF0YUJvdW5kZ2QQFQYNVGFrZSBtZSB0by4uLg5RdWljayBSZWNvcmRlchFTZXJ2aWNlIFNjaGVkdWxlchdTaW5nbGUgU2VydmljZSBSZWNvcmRlcghDYWxlbmRhcgpBY2NlbGlQTEFOFQYNVGFrZSBtZSB0by4uLg5RdWljayBSZWNvcmRlchFTZXJ2aWNlIFNjaGVkdWxlchdTaW5nbGUgU2VydmljZSBSZWNvcmRlcghDYWxlbmRhcgpBY2NlbGlQTEFOFCsDBmdnZ2dnZ2RkAg8PZBYEAgIPDxYCHgdWaXNpYmxlaGRkAgQPZBYCZg8PFgQeCENzc0NsYXNzBTN1aS1kaWFsb2cgdWktd2lkZ2V0IHVpLXdpZGdldC1jb250ZW50IHVpLWNvcm5lci1hbGweBF8hU0ICAmQWAmYPZBYCZg9kFgRmDxYCHgVjbGFzcwVEdWktZGlhbG9nLXRpdGxlYmFyIHVpLXdpZGdldC1oZWFkZXIgdWktY29ybmVyLWFsbCB1aS1oZWxwZXItY2xlYXJmaXgWBGYPFgQeCWlubmVyaHRtbAUUQ3JlZGVudGlhbHMgUmVtaW5kZXIfBgUPdWktZGlhbG9nLXRpdGxlZAIBDxYCHwYFJnVpLWRpYWxvZy10aXRsZWJhci1jbG9zZSB1aS1jb3JuZXItYWxsFgJmDxYCHwYFGnVpLWljb24gdWktaWNvbi1jbG9zZXRoaWNrZAIBDxYCHwYFI3VpLWRpYWxvZy1jb250ZW50IHVpLXdpZGdldC1jb250ZW50ZAIEDxYCHgRUZXh0Bb8BWW91IGNhbiBub3cgbW9uaXRvciB5b3VyIHN0dWRlbnQncyBJRVAgY29tcGxpYW5jZSBpbiByZWFsIHRpbWUuIEEgPHN0cm9uZz5QcmVzY3JpYmVkIHZzLiBEZWxpdmVyZWQ8L3N0cm9uZz4gcmVwb3J0IGlzIG5vdyBhdmFpbGFibGUgZm9yIHByb3ZpZGVycyB1bmRlciBTdHVkZW50IFJlcG9ydHMgaW4gdGhlIFJlcG9ydHMgc2VjdGlvbi5kAgUPZBYCAgIPDxYCHwgFEVZlcnNpb24gMi4yLjMwLjI2ZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFJmN0bDAwJHBsY0NvbnRlbnQkTG9naW5Db250cm9sJGxua0xvZ2luoXWERlbhUHMcVLS5eh1sAzsoFME=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['frmMain'];
+if (!theForm) {
+    theForm = document.frmMain;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=ageyVNSztu9arLhAdwVgyHkxCA0eSCRsxhX03c3nHqSpWnZ_XOl0UB1iitueK-rTi3EgaJQBzO6eOMuPCo-4_bYo5GM1&amp;t=635586452020000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=ojXFTSL8gSD9_DJ5H1ZBqJ1JgmV94FltN1D3hTuxQb-vC0FU_eESG_We7IkY46jXHHyutMJGIE049xT76LURSzrmyloFBvYwb0tKgzJjpQIDjyMEuRrXF3_BE8nzAxQGC4dMbQqHLGwGeOiosEZJSPdYFPQpFllm73KedbhQ_ciNBHqX0&amp;t=d2ceb2a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=N3FpMTSanOZlc69v8gfgnKVHTb24I1sLeFP88A0oTgG0TxUkwGJPiEqPOyOuUFa7FuLmrNAtzxSJU8c40Qeb_ga9w5wz3qESVadfFloLCMNIIOb11FMJhtEZGExaiOm-Cx7bjBw6iCliR5_s4a7sAncE9co1&amp;t=fffffffffe82416f" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+                        $('#plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_ctl08').live('mouseover', function() { $(this).addClass('ui-state-hover'); });
+                        $('#plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_ctl08').live('mouseout', function() { $(this).removeClass('ui-state-hover'); });
+                    });//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=iEf2ag3NLqIZQpOLqP-jU4yVNeI9GwAl918POqm7CISuZwsHl_qBXmvINBBdGlh_PE8gqeSG5_RbxRgUa1Tgm0VtSYadTlhAxKsbmRcyO9VWgZkznmSPlMBx1N2OPYDTpldHKSmqHOZ1ei8mJvq466lddFdMdJ92yEi71ZgBbYZj-Ig60&amp;t=7b689585" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=rWS6GFBJ-zBA-Y2KKI3W8xKZd_ajLJs-CU5ASZGA7LAQniCInft4n46Xb9BDYRcuvCqCoOiPvB692h_EBxEJMeEC-rvTrVbm8bqGTAzOLDT-EEgIJRvxXbzvmUcTxG_hEkmnH-ubGLbfN7EClaHalvm-A_IwDpCFARpnnMbI-WW7PeSt0&amp;t=7b689585" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=73jXJ7Do3SCi0rQT2g8dqGl4qndjfXvmop2Vger3NOvUUiIP8dA5s4cSTRhp5becuUl3Of7ihFJ4lqszgW3rlavx-7mseDZqxul4bv6DmvF6A8eSYSoFDU9eejxwDla6caoTWMICqQp-s9CQX1v96nvcdMQocP-yqawSa9luclt88ix7rDxa1MN7RozXcv3pantsyX3zPEVX3S0Tl6xQao7U5r6qc0V00GwVfu4s1lTPAsOJGW3vGPpKOFbOK9gI85ISduDIh_KG_6bS9tYpidkhXyASgJnqIAsfG5WnHk-Sp1VJFuapWmoMmmvZcfQlOw5N9IJR7oYF0xjbCi6ctV6YVB1TIKW5PoocXwAW4kI-Dl41vZv8o_5-CC3XhYTK8Vuom6Du99m_IM-q2pd6dG8Naqd1DnonNXVbwgLAHsXgRXgKYuIrvOT8YsL8fqwFLZt-SlGqCGvZasK6cGO53fPo8k08EM5Q6QNSMvaNbDSzC9pswpruqRGyEb0JTbxL4ZVIV4KouAO5bdeHNkDv1ZD0gMEJoNC-meuMktGQy0M9Hv4_2SODOGj-dAc2PrOUDACahOBFADddV9vTIKouaMw-yUMoFl7wBYmcK_F8lyev9-qax57z9HHVT_IoN3ldP3eNmU_szWbs4RDmcMfEa_gBh-BLjozIPPsJZaq0wuQqaETu8e8QkmWYZUwnxH8Nenm6yg2" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" type="hidden" value="C2EE9ABB">
+	<input name="__EVENTVALIDATION" id="__EVENTVALIDATION" type="hidden" value="/wEdABAuvdm/Ubm7QyiV0Rxb3HZmgGlSCsQHaxLfu/PsR1QMK7yYA++x6p8Pg+dP/+t/LyEvX+sEkP5G0S7mNnUbw3PgpSMDiLw4mGmCHo7loBUrGV2qXOckYVt2cVZupGOtTRUfgWfTfWgbncVB/H/da22hxx0YzPgKfrZi9t7X3B/EAh/f0027AmA3ONUhdkc2lCUU7pH3hm5aXjh2R2StsNagFG48nznlD9NCgp77k/1sB4WgIsnra06LQ7BjfWr6RHrwLUhILsabz9/hH0/btYlkPOnuEGyrNUD0I31ccHt17nTNn2aHANCc9J9G8Mmk+TJuQjcFAmiUiQwc8G2cJEJiGW5xTknl5e0MlnfvPYHNh0O9YLg=">
+</div>
+		<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager', 'frmMain', ['tctl00$plcContent$LoginControl$ctlCredentialsReminder$pnlCredentialsReminder$pnlModalPopupAjax','plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_pnlModalPopupAjax'], [], [], 3600, 'ctl00');
+//]]>
+</script>
+
+		<script type="text/javascript">
+			$(document).ajaxComplete(function (event, xhr, settings) {
+				SessionCounterManager.Register(240);
+			});
+			$(document).ajaxStart(function () {
+				SessionCounterManager.Check();
+			});
+
+			Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+			function EndRequestHandler(sender, args) {
+				var error = args.get_error();
+				if (error) {
+					args.set_errorHandled(true);
+					var message = '';
+					for (var errorMember in error) {
+						message += '\t' + errorMember + ':' + error[errorMember] + '\n';
+					}
+
+					ErrorManager(GetCurrentUrl() + "/WebServicesPublic.asmx/LogJavaScriptError")
+						.SendError(message, "", "");
+				}
+			}
+
+			function InitializeErrorManager() {
+				ErrorManager(GetCurrentUrl() + "/WebServicesPublic.asmx/LogJavaScriptError").Initialize();
+			}
+			
+			function GetCurrentUrl() {
+				return $(location).prop("protocol") + "//" + $(location).prop("host");
+			}
+
+			InitializeErrorManager();
+		</script>
+
+		
+	<div class="wrap">
+		<div class="header-panel">
+			<div class="login-header-left">
+				<img id="plcContent_imgAcceliTrackLogo" style="border-width: 0px;" alt="AcceliTRACK" src="App_Themes/Default/Images/logo-acceli-track.png">
+			</div>
+			<div align="right" class="login-header-right">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tbody><tr>
+						<td class="login-grey bold">Call us <span class="skype_c2c_print_container skype_c2c notranslate">(888)523-6107</span><span tabindex="-1" class="skype_c2c_container skype_c2c notranslate" id="skype_c2c_container" dir="ltr" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" data-numbertype="tollfree" data-ismobile="false" data-isrtl="false" data-isfreecall="true" data-numbertocall="+18885236107"><span class="skype_c2c_highlighting_inactive_common" dir="ltr" skypeaction="skype_dropdown"><span class="skype_c2c_textarea_span" id="free_num_ui"><img width="0" height="0" class="skype_c2c_logo_img" src="skypec2c://r/204"><span class="skype_c2c_text_span">(888)523-6107</span><span class="skype_c2c_free_text_span">&nbsp;FREE</span></span></span></span>
+						</td>
+						<td class="login-blue bold">
+							<a href="mailto:VAHelp@accelify.com">VAHelp@accelify.com</a>
+						</td>
+						<td>
+							<a id="plcContent_lnkLiveChat" onclick="OpenLiveChat(); return false;" href="javascript:__doPostBack('ctl00$plcContent$lnkLiveChat','')"><img title="Live Chat" id="plcContent_imgLiveChat" style="border-width: 0px;" src="App_Themes/Default/Images/btn-live-chat.png"></a>
+						</td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+
+		<table id="plcContent_LoginControl" style="border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0">
+	<tbody><tr>
+		<td>
+				<div id="plcContent_LoginControl_pnlLogin" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'plcContent_LoginControl_lnkLogin')">
+			
+					<div class="login-main">
+						<span class="login-main-span">Sign In</span>
+						<div id="signIn">
+							<table border="0" cellspacing="0" cellpadding="0">
+								<tbody><tr align="left">
+									<td>
+										<input name="ctl00$plcContent$LoginControl$UserName" class="login-enter enter" id="plcContent_LoginControl_UserName" style="width: 230px; height: 34px;" type="text" maxlength="50" placeholder="Username">
+									</td>
+									<td style="width: 10px;">
+										<span title="Username is a required field." id="plcContent_LoginControl_vldUserName" style="color: red; display: none;">*</span>
+									</td>
+									<td>
+										<input name="ctl00$plcContent$LoginControl$Password" class="login-enter enter" id="plcContent_LoginControl_Password" style="width: 230px; height: 34px;" onkeypress="Utils.ShowCapsLockTooltip(event, this)" type="password" maxlength="50" placeholder="Password">
+									</td>
+									<td style="width: 10px;">
+										<span title="Password is a required field." id="plcContent_LoginControl_vldPassword" style="color: red; display: none;">*</span>
+									</td>
+									<td class="login-quick-links">
+										<select name="ctl00$plcContent$LoginControl$lstQuickAccessLinks" id="plcContent_LoginControl_lstQuickAccessLinks" style="width: 175px; height: 39px;">
+				<option value="Take me to...">Take me to...</option>
+				<option value="Quick Recorder">Quick Recorder</option>
+				<option value="Service Scheduler">Service Scheduler</option>
+				<option value="Single Service Recorder">Single Service Recorder</option>
+				<option value="Calendar">Calendar</option>
+				<option value="AcceliPLAN">AcceliPLAN</option>
+
+			</select>
+									</td>
+									<td style="width: 7px;"></td>
+									<td>
+										
+										<input name="ctl00$plcContent$LoginControl$lnkLogin" title="Login" class="login-img" id="plcContent_LoginControl_lnkLogin" style="border-width: 0px;" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$plcContent$LoginControl$lnkLogin", "", true, "Login", "", false, false))' type="image" src="App_Themes/Default/Images/ui-login_button.png">
+									</td>
+								</tr>
+								<tr align="center">
+									<td class="login-m10" colspan="4">
+										<div id="plcContent_LoginControl_ctlCredentialsReminder_pnlPasswordReminder">
+				
+	<a class="login-main-link" id="plcContent_LoginControl_ctlCredentialsReminder_lnkPasswordReminder" href="javascript:__doPostBack('ctl00$plcContent$LoginControl$ctlCredentialsReminder$lnkPasswordReminder','')">Forgot your password?</a>
+
+			</div>
+
+
+
+<div style="text-align: left;">
+	<div id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder">
+				<div class="ui-dialog ui-widget ui-widget-content ui-corner-all" id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_pnlModalPopup" style="display: none;">
+					<div id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_pnlModalPopupAjax">
+						<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title">Credentials Reminder</span><a class="ui-dialog-titlebar-close ui-corner-all" id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_ctl08" onclick="$.modal.close();&#10;                    HideTooltips(); return false;"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content"><div>
+			<table class="form-table" border="0" cellspacing="0" cellpadding="0">
+				<tbody><tr id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_rowUserName">
+							<td style="width: 100px;">Username:<span class="txt-mark">*</span></td>
+							<td>
+						<input name="ctl00$plcContent$LoginControl$ctlCredentialsReminder$pnlCredentialsReminder$txtUserName" class="enter" id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName" style="width: 150px;" type="text" maxlength="50"><span title="Username is a required field." id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField" style="color: red; display: none;"> *</span>
+					</td>
+						</tr>
+						
+				<tr>
+					<td style="width: 100px;">Email:<span class="txt-mark">*</span></td>
+					<td>
+						<input name="ctl00$plcContent$LoginControl$ctlCredentialsReminder$pnlCredentialsReminder$txtEmail" class="enter" id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail" style="width: 150px;" type="text" maxlength="50"><span title="E-mail is a required field." id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField" style="color: red; display: none;"> *</span><span title="E-mail has invalid format." id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression" style="color: red; display: none;"> *</span>
+					</td>
+				</tr>
+			</tbody></table>
+		</div><div class="button-panel"><div style="display: inline;">
+			<a class="button-blue" id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_btnSend" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$plcContent$LoginControl$ctlCredentialsReminder$pnlCredentialsReminder$btnSend", "", true, "CredentialsReminder", "", false, true))'>Send</a>
+		</div><a class="button-blue" id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_btnCancel" onclick="$.modal.close();&#10;                    HideTooltips(); return false;" href="javascript:__doPostBack('ctl00$plcContent$LoginControl$ctlCredentialsReminder$pnlCredentialsReminder$btnCancel','')">Close</a></div><div>
+			<span class="validator" id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_lblReminderError"></span>
+			<span id="plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_lblReminderSuccess"></span>
+		</div></div>
+					</div>
+				</div>
+			</div>
+</div>
+									</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="5">
+										
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+					</div>
+				
+		</div>
+			</td>
+	</tr>
+</tbody></table>
+		
+		<div class="social-icons center">
+			<table>
+				<tbody><tr>
+					<td>
+						<div class="text">	
+							For more of What's New follow us!
+						</div>
+					</td>
+					<td>
+						<a href="https://www.facebook.com/pages/Accelify/207591305948728?ref=br_tf&amp;id=207591305948728&amp;sk=likes" target="_blank">
+							<img alt="" src="App_Themes/Default/Images/Facebook-Icon.png">
+						</a>
+					</td>
+					<td>
+						<a href="http://www.linkedin.com/company/accelify-llc" target="_blank">
+							<img alt="" src="App_Themes/Default/Images/Linked-In-Icon.png">
+						</a>
+					</td>
+					<td>
+						<a href="https://twitter.com/AccelifyLLC" target="_blank">
+							<img alt="" src="App_Themes/Default/Images/Twitter-Icon.png">
+						</a>
+					</td>
+					<td>
+						<a href="http://blog.accelify.com/" target="_blank">
+							<img alt="" src="App_Themes/Default/Images/Blog-Icon.png">
+						</a>
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+
+		<div class="login-center">
+			<img align="right" id="plcContent_imgSslCertificate" style="border-width: 0px;" src="App_Themes/Default/Images/ui-login_whats_new.png">
+			<div class="whats_up">What's New.</div>
+			<div class="under-whatsup">
+				You can now monitor your student's IEP compliance in real time. A <strong>Prescribed vs. Delivered</strong> report is now available for providers under Student Reports in the Reports section.
+			</div>
+		</div>
+
+		
+
+<div class="footer" id="Footer">
+	<img align="right" id="plcContent_ctlPageFooter_imgSslCertificate" style="border-width: 0px;" src="App_Themes/Default/Images/ssl-certificate.gif">
+	<div class="footer-body">
+		<div class="footer-links">
+			<a class="footerLink" href="http://accelify.com/" target="_blank">Home</a>
+			<a class="footerLink" href="http://accelify.com/Home/AboutUs" target="_blank">About Us</a>
+			<a class="footerLink" href="http://accelify.com/Services/Solutions" target="_blank">Services</a>
+			<a class="footerLink" href="http://accelify.com/Home/Testimonials" target="_blank">Testimonials</a>
+			<a class="footerLink" href="http://accelify.com/Home/NewsEvents" target="_blank">Links</a>
+			<a class="footerLink" href="http://accelify.com/Home/Faq" target="_blank">Help</a>
+			<a class="footerLink" href="http://accelify.com/Home/Contact" target="_blank">Contact</a>
+		</div>
+		<div class="footer-cory-right">
+			<div>
+				<span>
+					Copyright © 2016 Accelify. All Rights Reserved.
+				</span>
+			</div>
+			<img align="right" id="plcContent_ctlPageFooter_Image1" style="border-width: 0px;" src="App_Themes/Default/Images/logo-accelify.png">
+		</div>
+		<div class="footer-version">
+			<span class="version" id="plcContent_ctlPageFooter_lblVersion">Version 2.2.30.26</span>
+		</div>
+	</div>
+</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			if (navigator.appVersion.indexOf("MSIE 9") != -1 || navigator.appVersion.indexOf("MSIE 8") != -1) {
+				$("input.login-enter").each(function (index, element) {
+					var currentInput = $(element);
+
+					var placeAttr = $(element).attr('placeholder');
+					var label = $("<span class='login-span-placeholder'></span>").appendTo($(element).parent());
+					label.text(placeAttr);
+
+					if (currentInput.val().length != 0)
+						label.hide();
+
+					label.focus(function () {
+						currentInput.focus();
+					});
+
+					currentInput.focus(function () {
+						label.hide();
+					});
+					currentInput.blur(function () {
+						if (currentInput.val().length == 0)
+							label.show();
+					});
+				});
+			}
+		});
+	</script>
+
+
+		
+
+<script type="text/javascript">
+	/* This method is identical to the method in the MS javascript lib except that it adds a click function to anchors in non-IE browsers */
+	var __defaultFired = false;
+	function WebForm_FireDefaultButton(event, target) {
+		var element = event.target || event.srcElement;
+		if (!__defaultFired && event.keyCode == 13 && !(element && (element.tagName.toLowerCase() == "textarea"))) {
+			var defaultButton;
+			if (__nonMSDOMBrowser) {
+				defaultButton = document.getElementById(target);
+			} else {
+				defaultButton = document.all[target];
+			}
+
+			/* This is the only addition to this method, the rest is identical to MS version.*/
+			if (defaultButton && typeof (defaultButton.click) == "undefined") {
+				defaultButton.click = function() {
+					var result = true;
+					if (defaultButton.onclick)
+						result = b.onclick();
+					if (typeof (result) == "undefined" || result)
+						eval(unescape(defaultButton.href.substr(11)));
+				};
+			}
+
+			if (defaultButton && typeof (defaultButton.click) != "undefined") {
+				defaultButton.click();
+				event.cancelBubble = true;
+				if (event.stopPropagation) event.stopPropagation();
+				return false;
+			}
+		}
+		return true;
+	}
+</script>
+	
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("plcContent_LoginControl_vldUserName"), document.getElementById("plcContent_LoginControl_vldPassword"), document.getElementById("plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField"), document.getElementById("plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField"), document.getElementById("plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var plcContent_LoginControl_vldUserName = document.all ? document.all["plcContent_LoginControl_vldUserName"] : document.getElementById("plcContent_LoginControl_vldUserName");
+plcContent_LoginControl_vldUserName.controltovalidate = "plcContent_LoginControl_UserName";
+plcContent_LoginControl_vldUserName.focusOnError = "t";
+plcContent_LoginControl_vldUserName.errormessage = "Username is a required field.";
+plcContent_LoginControl_vldUserName.display = "Dynamic";
+plcContent_LoginControl_vldUserName.validationGroup = "Login";
+plcContent_LoginControl_vldUserName.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+plcContent_LoginControl_vldUserName.initialvalue = "";
+var plcContent_LoginControl_vldPassword = document.all ? document.all["plcContent_LoginControl_vldPassword"] : document.getElementById("plcContent_LoginControl_vldPassword");
+plcContent_LoginControl_vldPassword.controltovalidate = "plcContent_LoginControl_Password";
+plcContent_LoginControl_vldPassword.focusOnError = "t";
+plcContent_LoginControl_vldPassword.errormessage = "Password is a required field.";
+plcContent_LoginControl_vldPassword.display = "Dynamic";
+plcContent_LoginControl_vldPassword.validationGroup = "Login";
+plcContent_LoginControl_vldPassword.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+plcContent_LoginControl_vldPassword.initialvalue = "";
+var plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField = document.all ? document.all["plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField"] : document.getElementById("plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField");
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField.controltovalidate = "plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField.focusOnError = "t";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField.errormessage = "Username is a required field.";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField.display = "Dynamic";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField.validationGroup = "CredentialsReminder";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField.initialvalue = "";
+var plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField = document.all ? document.all["plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField"] : document.getElementById("plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField");
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField.controltovalidate = "plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField.focusOnError = "t";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField.errormessage = "E-mail is a required field.";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField.display = "Dynamic";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField.validationGroup = "CredentialsReminder";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField.initialvalue = "";
+var plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression = document.all ? document.all["plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression"] : document.getElementById("plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression");
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression.controltovalidate = "plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression.focusOnError = "t";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression.errormessage = "E-mail has invalid format.";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression.display = "Dynamic";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression.validationGroup = "CredentialsReminder";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression.validationexpression = "^([\\w-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([\\w-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('plcContent_LoginControl_vldUserName').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('plcContent_LoginControl_vldUserName'));
+}
+
+document.getElementById('plcContent_LoginControl_vldPassword').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('plcContent_LoginControl_vldPassword'));
+}
+
+document.getElementById('plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtUserName_vldRequiredField'));
+}
+
+document.getElementById('plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRequiredField'));
+}
+
+document.getElementById('plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('plcContent_LoginControl_ctlCredentialsReminder_pnlCredentialsReminder_txtEmail_vldRegularExpression'));
+}
+//]]>
+</script>
+</form>
+
+<div class="skype_c2c_menu_container skype_c2c notranslate" id="skype_c2c_menu_container" style="display: none;" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" data-uilang="en" data-uiid="1" data-p2murl="https://c2c-p2m-secure.skype.com/p2m/v1/push" data-murl="https://pipe.skype.com/Client/2.0/" data-fp="{44E1082E-C751-4651-83B6-78161E8F8056}"><div class="skype_c2c_menu_click2call"><a class="skype_c2c_menu_click2call_action" id="skype_c2c_menu_click2call_action" target="_self">Call</a></div><div class="skype_c2c_menu_push_to_mobile"><a class="skype_c2c_menu_push_to_mobile_action" id="skype_c2c_menu_push_to_mobile_action">Call from mobile</a></div><div class="skype_c2c_menu_click2sms"><a class="skype_c2c_menu_click2sms_action" id="skype_c2c_menu_click2sms_action" target="_self">Send SMS</a></div><div class="skype_c2c_menu_add2skype"><a class="skype_c2c_menu_add2skype_text" id="skype_c2c_menu_add2skype_text" target="_self">Add to Skype</a></div><div class="skype_c2c_menu_toll_info"><span class="skype_c2c_menu_toll_callcredit">You'll need Skype Credit</span><span class="skype_c2c_menu_toll_free">Free via Skype</span></div></div></body></html>

@@ -395,7 +395,11 @@
       ".git\\objects\\36",
       ".git\\objects\\b6",
       ".git\\objects\\c0",
-      ".git\\objects\\d0"
+      ".git\\objects\\d0",
+      ".git\\objects\\22",
+      ".git\\objects\\88",
+      ".git\\objects\\d6",
+      ".git\\objects\\ed"
     ],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
