@@ -68,7 +68,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "1676a429-7739-499b-9b3c-36d7e2d97eba",
-            "Description": "Execute test 'Login.tstest'",
+            "Description": "Execute test 'Login'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -76,7 +76,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login.tstest",
+                "TestName": "Login",
                 "TestPath": "Methods\\Login.tstest",
                 "TestUniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
                 "Pause": 0,
@@ -218,7 +218,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "b98f40ac-2961-434b-92b8-245edd34751f",
-            "Description": "Execute test 'GoToInitialIep.tstest'",
+            "Description": "Execute test 'GoToInitialIep'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -226,7 +226,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "GoToInitialIep.tstest",
+                "TestName": "GoToInitialIep",
                 "TestPath": "Methods\\FillForms\\GoToInitialIep.tstest",
                 "TestUniqueId": "fdc696df-1f0b-4883-8311-a9c0809c0748",
                 "Pause": 0,
@@ -586,7 +586,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "3060a6c1-3ffe-4a69-8666-cd0f523a2912",
-            "Description": "Execute test 'FillGoalSection.tstest'",
+            "Description": "Execute test 'FillGoalSection'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -594,7 +594,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "FillGoalSection.tstest",
+                "TestName": "FillGoalSection",
                 "TestPath": "Methods\\FillForms\\FillGoalSection.tstest",
                 "TestUniqueId": "27e63087-0e6e-45df-8d8a-e3b3b407a7db",
                 "Pause": 0,
@@ -798,6 +798,7 @@
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
+    "CustomProperty1": "Ready",
     "TestLinks": [],
     "Description": "Fill Goal section",
     "Name": "5839",

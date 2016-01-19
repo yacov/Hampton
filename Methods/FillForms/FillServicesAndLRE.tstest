@@ -135,6 +135,45 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "211255d2-4309-4f1b-9353-17d88cb31b1e",
+            "Description": "Wait for '250' msec.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SleepActionDescriptor",
+              "__value": {
+                "WaitTime": 250,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillServicesAndLRE0k4gf133.fk0",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "b20d625a-21ef-4b4c-b635-704b6eaa199c",
             "Description": "Click 'SelectSpan'",
             "CustomDescription": null,
@@ -182,7 +221,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "sLk+2iNwMOk0THvgFYl9mFSzeQg=",
+                          "uniqueKey": "Atw3PZ1bNbtZSuXAsEXXRybtX+k=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "SelectSpan",
@@ -203,6 +242,12 @@
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
                                         "Clause": "TagIndex=span:5"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "InnerText=select"
                                       }
                                     }
                                   ],
@@ -233,11 +278,50 @@
               }
             },
             "Enabled": true,
-            "Order": 2,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "FillServicesAndLREloba01md.l4l",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c05e4ecc-2d91-4540-814e-5d24626e3090",
+            "Description": "Wait for '100' msec.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SleepActionDescriptor",
+              "__value": {
+                "WaitTime": 100,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillServicesAndLREfjkwmedg.qid",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -293,7 +377,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "2pIlkFbvB0laU/zhQTM1/mSyD9g=",
+                          "uniqueKey": "GX808TKdpGnFDHcnNEkoadWf46U=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "ESYListItem",
@@ -304,12 +388,6 @@
                                 "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
                                 "__value": {
                                   "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=li:162"
-                                      }
-                                    },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
@@ -348,7 +426,7 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -457,7 +535,7 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -568,7 +646,7 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -671,7 +749,7 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -780,7 +858,7 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -897,7 +975,7 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1000,7 +1078,7 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1109,7 +1187,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1220,7 +1298,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1280,7 +1358,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "uNND2P3b95Pqbrt3dvMnlsAMnxg=",
+                          "uniqueKey": "/9FAcyqS5F6EyDldUq86KicFuxs=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "HomeAges0ListItem",
@@ -1294,19 +1372,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=li:177"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
                                         "Clause": "TextContent=Home (Ages: 0-5)"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "HtmlPath=/body[0]/div[id=LocationId-list]/div[1]/ul[id=LocationId_listbox]/li[1]"
                                       }
                                     }
                                   ],
@@ -1316,7 +1382,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[20]/div[2]/ul[1]/li[2]",
+                          "BackupSearchClause": null,
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1335,7 +1401,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1444,7 +1510,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1458,12 +1524,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "27255e2c-19e6-4396-9486-1f44ff8ac442",
-            "Description": "Enter text '2' in 'MinutesLimitText'",
+            "Description": "Enter text '1' in 'MinutesLimitText'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "2",
+                "RawText": "1",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -1574,7 +1640,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1683,7 +1749,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1794,7 +1860,7 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1903,7 +1969,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 19,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2012,7 +2078,7 @@
               }
             },
             "Enabled": true,
-            "Order": 18,
+            "Order": 20,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2121,7 +2187,7 @@
               }
             },
             "Enabled": true,
-            "Order": 19,
+            "Order": 21,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2230,7 +2296,7 @@
               }
             },
             "Enabled": true,
-            "Order": 20,
+            "Order": 22,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2244,15 +2310,15 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "a56b5a86-0951-48bf-8785-383079791d32",
-            "Description": "KendoGrid: [7, 0]Cell text 'Exact' '2 Weekly'",
+            "Description": "KendoGridCell: [7, 0]Cell text 'Contains' '1 Weekly'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.Grid.KendoUIGridDataCellVerificationDescriptor",
               "__value": {
-                "CellText": "2 Weekly",
+                "CellText": "1 Weekly",
                 "HIndex": 7,
                 "VIndex": 0,
-                "CompareType": 0,
+                "CompareType": 2,
                 "ControlName": "KendoGrid",
                 "UseBackupSearch": true,
                 "DataBindVariableName": null,
@@ -2364,7 +2430,7 @@
               }
             },
             "Enabled": true,
-            "Order": 21,
+            "Order": 23,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2552,6 +2618,65 @@
                 }
               ],
               "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/IEP/Events/ViewEvent",
+              "Query": "?eventId=35c50ac1-fe26-48ea-ac67-a59200515f34",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
+              "EquivalentUrls": [],
+              "Fragment": "#ServicesandLRE",
+              "Title": "Accelify - Initial IEP for Eli Aaron",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyInitialIEPFor24"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": null,
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "ESYListItem1",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TagIndex=li:166"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[20]/div[2]/ul[1]/li[2]",
               "DataBindingExpressions": {}
             }
           },

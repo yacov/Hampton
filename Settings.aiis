@@ -158,11 +158,10 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-    "RecorderBaseUrl": "http://Hampton-demo.accelidemo.com",
+    "RecorderBaseUrl": "http:\\\\Hampton-pilot.acceliplan.com",
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
-    "DisableUIAUsage": false,
     "SimulateRealSilverlightUserByDefault": true,
     "DefaultDropDownSelection": 2,
     "QuickExecutionElementWaitTimeout": 20000,
@@ -399,7 +398,12 @@
       ".git\\objects\\22",
       ".git\\objects\\88",
       ".git\\objects\\d6",
-      ".git\\objects\\ed"
+      ".git\\objects\\ed",
+      ".git\\objects\\f4",
+      ".git\\objects\\d2",
+      ".git\\objects\\b5",
+      ".git\\objects\\5a",
+      ".git\\objects\\0d"
     ],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
@@ -409,6 +413,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{0}",
-    "SelectedBrowserOption": 3
+    "SelectedBrowserOption": 2
   }
 }

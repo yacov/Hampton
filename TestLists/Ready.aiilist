@@ -1,10 +1,10 @@
 {
   "__type": "ArtOfTest.WebAii.Design.Execution.TestList",
   "__value": {
-    "TestListId": "6f9b027e-c692-435a-a82b-147cd9bbf0b1",
-    "Id": "6f9b027e-c692-435a-a82b-147cd9bbf0b1",
-    "TestListName": "ReadyToRuntests",
-    "CreationDate": "2016-01-17T12:34:21",
+    "TestListId": "c93265df-801a-4892-a17b-6d1771de4348",
+    "Id": "c93265df-801a-4892-a17b-6d1771de4348",
+    "TestListName": "Ready",
+    "CreationDate": "2016-01-19T15:47:38",
     "OwnerName": null,
     "Settings": {
       "__type": "ArtOfTest.WebAii.Core.Settings",
@@ -22,7 +22,7 @@
             "WebAppPhysicalPath": "",
             "DefaultBrowser": 1,
             "EnableScriptLogging": false,
-            "BaseUrl": "http://Hampton-demo.accelidemo.com",
+            "BaseUrl": "http:\\\\Hampton-pilot.acceliplan.com",
             "KillBrowserProcessOnClose": false,
             "UseHttpProxy": false,
             "EnableSilverlight": false,
@@ -40,16 +40,16 @@
         "CreateLogFile": true,
         "LogLocation": "C:\\WebAiiLog\\",
         "QueryEventLogErrorsOnExit": false,
-        "LogAnnotations": true,
+        "LogAnnotations": false,
         "SimulatedMouseMoveSpeed": 0.3,
         "WaitCheckInterval": 500,
         "ElementWaitTimeout": 30000,
         "ExecuteCommandTimeout": 20000,
-        "ExecutionDelay": 100,
+        "ExecutionDelay": 0,
         "UnexpectedDialogAction": 1,
         "AnnotateExecution": true,
         "AnnotationMode": 0,
-        "XMultiMgr": true,
+        "XMultiMgr": false,
         "ClientReadyTimeout": 60000,
         "DisableDialogMonitoring": false
       }
@@ -58,16 +58,32 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
-          "Path": "Siute_1638_Events_Initial_IEP\\5836.tstest",
+          "Id": "246c6bbc-99b0-46b7-bf44-82f1a6c776a1",
+          "Path": "Siute_1638_Events_Initial_IEP\\6079_2.tstest",
           "PathType": 0
         }
       },
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "29a04310-7a1e-4ba8-85b3-2878888d3108",
-          "Path": "Siute_1638_Events_Initial_IEP\\5837.tstest",
+          "Id": "e78486b6-c8db-4da1-9d71-000975adad6f",
+          "Path": "Siute_1638_Events_Initial_IEP\\6079_1.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "42a36964-86ea-4571-ab25-6c55439ea097",
+          "Path": "Siute_1638_Events_Initial_IEP\\5840.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "7049c9b2-f6df-4878-848d-068d569a8553",
+          "Path": "Siute_1638_Events_Initial_IEP\\5839.tstest",
           "PathType": 0
         }
       },
@@ -90,32 +106,16 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "7049c9b2-f6df-4878-848d-068d569a8553",
-          "Path": "Siute_1638_Events_Initial_IEP\\5839.tstest",
+          "Id": "29a04310-7a1e-4ba8-85b3-2878888d3108",
+          "Path": "Siute_1638_Events_Initial_IEP\\5837.tstest",
           "PathType": 0
         }
       },
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "42a36964-86ea-4571-ab25-6c55439ea097",
-          "Path": "Siute_1638_Events_Initial_IEP\\5840.tstest",
-          "PathType": 0
-        }
-      },
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
-          "Id": "e78486b6-c8db-4da1-9d71-000975adad6f",
-          "Path": "Siute_1638_Events_Initial_IEP\\6079_1.tstest",
-          "PathType": 0
-        }
-      },
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
-          "Id": "246c6bbc-99b0-46b7-bf44-82f1a6c776a1",
-          "Path": "Siute_1638_Events_Initial_IEP\\6079_2.tstest",
+          "Id": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
+          "Path": "Siute_1638_Events_Initial_IEP\\5836.tstest",
           "PathType": 0
         }
       }
@@ -123,9 +123,15 @@
     "Filter": {
       "__type": "ArtOfTest.WebAii.Design.Execution.Filter",
       "__value": {
-        "Keys": [],
-        "Comparisons": [],
-        "Values": []
+        "Keys": [
+          "CustomProperty1"
+        ],
+        "Comparisons": [
+          "ArtOfTest.WebAii.Design.Execution.FilterComparison||Equals"
+        ],
+        "Values": [
+          "Ready"
+        ]
       }
     },
     "ListType": 0,

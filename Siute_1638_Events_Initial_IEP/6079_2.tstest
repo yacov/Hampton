@@ -68,7 +68,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "7314ff66-cb8f-47b4-b866-23edd6c2115e",
-            "Description": "Execute test 'Login.tstest'",
+            "Description": "Execute test 'Login'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -76,7 +76,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login.tstest",
+                "TestName": "Login",
                 "TestPath": "Methods\\Login.tstest",
                 "TestUniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
                 "Pause": 0,
@@ -218,7 +218,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "dbe12720-529b-4bcd-823e-14bd8e5a5d36",
-            "Description": "Execute test 'GoToInitialIep.tstest'",
+            "Description": "Execute test 'GoToInitialIep'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -226,7 +226,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "GoToInitialIep.tstest",
+                "TestName": "GoToInitialIep",
                 "TestPath": "Methods\\FillForms\\GoToInitialIep.tstest",
                 "TestUniqueId": "fdc696df-1f0b-4883-8311-a9c0809c0748",
                 "Pause": 0,
@@ -587,27 +587,27 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "b6b28f2d-be45-4b3b-a854-3ec3f37eeea3",
-            "Description": "Enter text 'Some Comment' in 'CommentText'",
+            "Runtime ID": "848dbfb8-c75b-4162-9e72-abc23c72a553",
+            "Description": "Enter text 'New Comment' in 'CommentTextInput'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "Some Comment",
+                "RawText": "New Comment",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
                 "IsPassword": false,
                 "TypingInfo": {
-                  "ElementText": "Ы ",
-                  "TypedText": "",
-                  "CaretPosition": 2,
+                  "ElementText": "New ",
+                  "TypedText": "New ",
+                  "CaretPosition": -1,
                   "IsTextArea": false,
                   "IsBackSpace": false
                 },
                 "Encrypt": false,
                 "SupportUnicode": true,
-                "UsejQuery": false,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -619,7 +619,9 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
@@ -632,14 +634,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?EventId=9a48af05-ab9a-4358-a4ef-a58b003b56cd",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=35c50ac1-fe26-48ea-ac67-a59200515f34",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#AccommodationsandAssessments",
-                          "Title": "Accelify - Initial IEP for Jaziyah Aaron",
+                          "Title": "Accelify - Initial IEP for Eli Aaron",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor21"
+                          "FriendlyName": "AccelifyInitialIEPFor25"
                         }
                       },
                       "Frame": null,
@@ -650,7 +652,7 @@
                           "uniqueKey": "CRR7Vd8FVnAoNu652YGdlJSTPWM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "CommentText",
+                          "Name": "CommentTextInput",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -677,7 +679,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[2]/div[1]/div[2]/div[2]/table[1]/tbody[1]/tr[2]/td[3]/input[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -702,7 +704,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "6079_2g35wcnd0.s2y",
+            "StepImageKey": "6079_2f4skk41m.uhr",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -711,16 +713,16 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "8a0ed50d-8d4e-4c42-a7b3-04c7bb450d09",
+            "Runtime ID": "5d6b6c27-530b-4d3b-b2eb-9e97b9cb1557",
             "Description": "Check 'CheckBox' to be 'True'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckActionDescriptor",
               "__value": {
                 "CheckedState": true,
-                "InvokeOnClick": false,
-                "InvokeOnChange": false,
-                "UsejQuery": false,
+                "InvokeOnClick": true,
+                "InvokeOnChange": true,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -732,7 +734,9 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
@@ -745,14 +749,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?EventId=9a48af05-ab9a-4358-a4ef-a58b003b56cd",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=35c50ac1-fe26-48ea-ac67-a59200515f34",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#AccommodationsandAssessments",
-                          "Title": "Accelify - Initial IEP for Jaziyah Aaron",
+                          "Title": "Accelify - Initial IEP for Eli Aaron",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor21"
+                          "FriendlyName": "AccelifyInitialIEPFor25"
                         }
                       },
                       "Frame": null,
@@ -760,7 +764,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "Eoh7JfybltrR60teoBx+8i9uYqw=",
+                          "uniqueKey": "blce3tOlG1CrzhNG1C11U88XuQI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "CheckBox",
@@ -774,25 +778,17 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlAccommodations"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=input:0"
+                                        "Clause": "xpath=/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[2]/div[1]/div[2]/div[2]/table[1]/tbody[1]/tr[2]/td[4]/input[1]"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[2]/div[1]/div[2]/div[2]/table[1]/tbody[1]/tr[2]/td[4]/input[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -815,7 +811,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "6079_2ydbqt0xh.vys",
+            "StepImageKey": "6079_2ez5fdkrj.03d",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -824,126 +820,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "1dff8610-7297-4744-97a2-e102b50f98dc",
-            "Description": "Verify 'TextContent' 'Contains' 'Some Comment' on 'SomeCommentTableCell'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
-              "__value": {
-                "CompareType": 2,
-                "SegmentType": 3,
-                "ExpectedString": "Some Comment",
-                "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "textTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "textTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?EventId=9a48af05-ab9a-4358-a4ef-a58b003b56cd",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#AccommodationsandAssessments",
-                          "Title": "Accelify - Initial IEP for Jaziyah Aaron",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor21"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "PQknCkWzOmVMPG1MlZXrEiesVKA=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "SomeCommentTableCell",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Some Comment"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=td"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[2]/div[1]/div[2]/div[2]/table[1]/tbody[1]/tr[2]/td[3]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlTableCell",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 2,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 10,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "6079_2eh32mpt3.cx2",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "5f561183-74be-40bf-b26e-fc4c7c030eb4",
+            "Runtime ID": "6349524e-0e9d-40f7-91dd-248b1b0eb360",
             "Description": "Click 'BtnUpdateAccommodationLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": false,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -955,7 +839,9 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
@@ -968,14 +854,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?EventId=9a48af05-ab9a-4358-a4ef-a58b003b56cd",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=35c50ac1-fe26-48ea-ac67-a59200515f34",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#AccommodationsandAssessments",
-                          "Title": "Accelify - Initial IEP for Jaziyah Aaron",
+                          "Title": "Accelify - Initial IEP for Eli Aaron",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor21"
+                          "FriendlyName": "AccelifyInitialIEPFor25"
                         }
                       },
                       "Frame": null,
@@ -983,7 +869,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "X1pgKf4ui+4lqh/LCWN6sWwqdtU=",
+                          "uniqueKey": "qx6zci7mfBE98JGDRf0orf+PgDM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "BtnUpdateAccommodationLink",
@@ -997,13 +883,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "TextContent=^Update Accommod"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=btnUpdateAccommodation"
+                                        "Clause": "tagname=a"
                                       }
                                     }
                                   ],
@@ -1013,7 +899,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[2]/div[1]/div[3]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1032,11 +918,11 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "6079_2ekrus1lf.okw",
+            "StepImageKey": "6079_2qkmggtwm.443",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1045,7 +931,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "7c2a0015-f1ba-4ffe-9055-e0cfb646f506",
+            "Runtime ID": "dad78709-6b8f-418a-bfe8-2e886a71d3f2",
             "Description": "Verify 'TextContent' 'Contains' 'Classroom Accommodation has been updated successfully.' on 'PnlClassroomAccommodationConfirmDiv'",
             "CustomDescription": null,
             "Step": {
@@ -1067,7 +953,9 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
@@ -1080,14 +968,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?EventId=9a48af05-ab9a-4358-a4ef-a58b003b56cd",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=35c50ac1-fe26-48ea-ac67-a59200515f34",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#AccommodationsandAssessments",
-                          "Title": "Accelify - Initial IEP for Jaziyah Aaron",
+                          "Title": "Accelify - Initial IEP for Eli Aaron",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor21"
+                          "FriendlyName": "AccelifyInitialIEPFor25"
                         }
                       },
                       "Frame": null,
@@ -1144,11 +1032,11 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "6079_24rrehl15.fbr",
+            "StepImageKey": "6079_2rbnk05qa.gzr",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1241,6 +1129,71 @@
           "TechnologyType": 1,
           "Version": 200
         }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/IEP/Events/ViewEvent",
+              "Query": "?eventId=35c50ac1-fe26-48ea-ac67-a59200515f34",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
+              "EquivalentUrls": [],
+              "Fragment": "#AccommodationsandAssessments",
+              "Title": "Accelify - Initial IEP for Eli Aaron",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyInitialIEPFor25"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "CRR7Vd8FVnAoNu652YGdlJSTPWM=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "CommentTextInput",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "name=Comment"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[2]/div[1]/div[2]/div[2]/table[1]/tbody[1]/tr[2]/td[3]/input[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
       }
     ],
     "HtmlDescription": "",
@@ -1284,6 +1237,7 @@
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
+    "CustomProperty1": "Ready",
     "TestLinks": [],
     "Description": "Update Accommodation",
     "Name": "6079_2",

@@ -72,14 +72,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "588c60f1-e280-4299-91cc-37c3e3811b3b",
-            "Description": "Navigate to : 'http://Hampton-demo.accelidemo.com'",
+            "Description": "Navigate to : 'http:\\\\Hampton-pilot.acceliplan.com'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
-                "NavigateURL": "http://Hampton-demo.accelidemo.com",
-                "BaseUrl": "",
+                "NavigateURL": "http:\\\\Hampton-pilot.acceliplan.com",
+                "BaseUrl": "http:\\\\Hampton-pilot.acceliplan.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,

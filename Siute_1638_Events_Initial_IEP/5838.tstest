@@ -2286,6 +2286,7 @@
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
+    "CustomProperty1": "Ready",
     "TestLinks": [],
     "Description": " Workflow - v.1 set parent permission to 'NO'",
     "Name": "5838",

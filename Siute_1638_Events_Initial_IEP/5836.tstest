@@ -804,9 +804,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "TfdzrSPnKk7LcigbxCY5ueeni98=",
+                          "uniqueKey": "3ASKpyyDGvLvI2kR2zPe+wMcDAk=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "EventsLink",
@@ -826,7 +826,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=a:3"
+                                        "Clause": "TextContent=Events"
                                       }
                                     }
                                   ],
@@ -838,7 +838,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[1]/ul[1]/li[3]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -2972,6 +2972,7 @@
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
+    "CustomProperty1": "Ready",
     "TestLinks": [],
     "Description": " 1. Create event",
     "Name": "5836",
