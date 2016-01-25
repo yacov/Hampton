@@ -1235,7 +1235,7 @@
           "__value": {
             "Runtime ID": "c9bdf212-4132-4147-a2c7-8413b853d070",
             "Description": "Verify 'TextContent' 'Contains' 'Student has been removed successfully.' on 'PnlCaseloadConfirmDiv0'",
-            "CustomDescription": null,
+            "CustomDescription": "Verify that message 'Student has been removed successfully' appears",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
