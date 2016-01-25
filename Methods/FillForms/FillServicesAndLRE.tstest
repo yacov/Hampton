@@ -63,7 +63,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -476,7 +476,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -799,7 +799,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -1128,7 +1128,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -1451,7 +1451,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -1690,7 +1690,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -2019,7 +2019,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -2237,7 +2237,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -2652,7 +2652,7 @@
           "FindExpression": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
             "__value": {
-              "uniqueKey": null,
+              "uniqueKey": "lv5tC4XVv867S4iiznJflAgaZdU=",
               "NodeKind": 4,
               "TechnologyType": 1,
               "Name": "ESYListItem1",

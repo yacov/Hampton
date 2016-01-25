@@ -68,7 +68,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "7314ff66-cb8f-47b4-b866-23edd6c2115e",
-            "Description": "Execute test 'Login'",
+            "Description": "Execute test 'LoginAsAdmin.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -76,8 +76,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login",
-                "TestPath": "Methods\\Login.tstest",
+                "TestName": "LoginAsAdmin.tstest",
+                "TestPath": "Methods\\LoginAsAdmin.tstest",
                 "TestUniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -145,7 +145,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -295,7 +295,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }

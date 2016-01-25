@@ -68,7 +68,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c7ae3536-c33d-4bbc-8fe8-5dd334a73c95",
-            "Description": "Execute test 'Login'",
+            "Description": "Execute test 'LoginAsAdmin'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -76,8 +76,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login",
-                "TestPath": "Methods\\Login.tstest",
+                "TestName": "LoginAsAdmin",
+                "TestPath": "Methods\\LoginAsAdmin.tstest",
                 "TestUniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -145,7 +145,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -295,7 +295,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -515,7 +515,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -735,7 +735,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -968,7 +968,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -1186,7 +1186,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -1407,7 +1407,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -1625,7 +1625,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -1843,7 +1843,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyStudents"
                         }
@@ -1915,7 +1915,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4dca2343-65b4-49d9-b26d-0d6a554ac061",
+            "Runtime ID": "f8baa80f-d519-4578-bd87-746cf20824f5",
             "Description": "Execute test 'FillNoticeOfMeeting'",
             "CustomDescription": null,
             "Step": {
@@ -1946,207 +1946,8 @@
             "Order": 20,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "58381z2al40z.ot4",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "fe2dd0e4-ed63-47d6-a723-980545d67584",
-            "Description": "Click 'BtnLockEventLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=2db6a3e6-e9d2-4460-b628-a58b001fb9f1",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=23454e9c-e110-434b-911f-a58b001fba12",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting4"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "9E6vDUuHXj93/hDFQp+A8Q/X3fs=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "BtnLockEventLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=btnLockEvent"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/a[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": false,
-            "Order": 21,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "5838w34aejpz.vph",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "eb07a3bc-014d-44c5-bcce-64a7c334caad",
-            "Description": "Handle 'Confirm' dialog.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ConfirmDialogHandlerDescriptor",
-              "__value": {
-                "HandlerTimeout": 5000,
-                "DialogType": 1,
-                "HandleButton": 1,
-                "InitializationTime": 250,
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainst": 1,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainst": "InternetExplorerOnly"
-                    }
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": false,
-            "Order": 22,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "58385jpwkmw5.qod",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "ac9b8327-8372-4830-8452-d8a60419d7df",
-            "Description": "Handle 'OnBeforeUnload' dialog.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.OnBeforeUnloadDialogHandlerDescriptor",
-              "__value": {
-                "HandlerTimeout": 5000,
-                "DialogType": 5,
-                "HandleButton": 1,
-                "InitializationTime": 250,
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainst": 2,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainst": "FirefoxOnly"
-                    }
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": false,
-            "Order": 23,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "5838h5pofs2m.prg",
+            "ContinueOnFailure": false,
+            "StepImageKey": "5838 v20fr3uaaw.s0e",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -2301,7 +2102,7 @@
               "EquivalentUrls": [],
               "Fragment": "",
               "Title": "Accelify - Students",
-              "CompareMode": 2,
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
               "FriendlyName": "AccelifyStudents"
             }
@@ -2496,7 +2297,7 @@
               "EquivalentUrls": [],
               "Fragment": "",
               "Title": "Accelify - Students",
-              "CompareMode": 2,
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
               "FriendlyName": "AccelifyStudents"
             }

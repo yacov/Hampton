@@ -9,7 +9,7 @@
     "MenuHoldTime": 1.0,
     "SilverlightConnectTimeout": 60000,
     "BaseClassName": "BaseWebAiiTest",
-    "UrlRecordMode": 2,
+    "UrlRecordMode": 4,
     "HighlightBorderColor": -65536,
     "HighlightBorderSize": 1,
     "CodeGenerationElementIdentificationType": 1,
@@ -158,7 +158,7 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-    "RecorderBaseUrl": "http:\\\\Hampton-pilot.acceliplan.com",
+    "RecorderBaseUrl": "http://Hampton-pilot.acceliplan.com",
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
@@ -403,7 +403,17 @@
       ".git\\objects\\d2",
       ".git\\objects\\b5",
       ".git\\objects\\5a",
-      ".git\\objects\\0d"
+      ".git\\objects\\0d",
+      ".git\\objects\\f7",
+      ".git\\objects\\f0",
+      ".git\\objects\\e9",
+      ".git\\objects\\82",
+      ".git\\objects\\7e",
+      ".git\\objects\\4c",
+      ".git\\objects\\38",
+      ".git\\objects\\2c",
+      ".git\\objects\\2a",
+      ".git\\objects\\15"
     ],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
@@ -413,6 +423,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{0}",
-    "SelectedBrowserOption": 2
+    "SelectedBrowserOption": 4
   }
 }

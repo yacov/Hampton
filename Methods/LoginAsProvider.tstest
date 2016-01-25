@@ -117,12 +117,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "80134f35-4ebb-47a2-abd2-aae00e8a8a02",
-            "Description": "Enter text 'Superlion' in 'UserNameField'",
+            "Description": "Enter text 'TraceyAnthony' in 'UserNameField'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "Superlion",
+                "RawText": "TraceyAnthony",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -241,12 +241,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "bb9ef312-b6bb-42c3-8a4d-51856f5bd9b5",
-            "Description": "Enter text 'CTAKAH' in 'PasswordField'",
+            "Description": "Enter text 'Luke4' in 'PasswordField'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "CTAKAH",
+                "RawText": "Luke4",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -661,7 +661,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\Login.resx",
+    "ResourceFilePath": "Methods\\LoginAsProvider.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -691,13 +691,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Login",
-    "Owner": null,
-    "Path": "Methods\\Login.tstest",
+    "Name": "LoginAsProvider",
+    "Owner": "",
+    "Path": "Methods\\LoginAsProvider.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
-    "Id": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
+    "UniqueId": "a140b38c-476a-4072-8743-0b51eba6b1cc",
+    "Id": "a140b38c-476a-4072-8743-0b51eba6b1cc",
     "ProjectId": "7d61be20-2d29-4ea9-9e8e-ea340f823939",
     "Version": 200
   }
