@@ -1,0 +1,110 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.TestList",
+  "__value": {
+    "TestListId": "3a8baca5-b8cd-4eb1-8905-3e68254bc390",
+    "Id": "3a8baca5-b8cd-4eb1-8905-3e68254bc390",
+    "TestListName": "Performance Home Page",
+    "CreationDate": "2016-01-25T23:12:20",
+    "OwnerName": null,
+    "Settings": {
+      "__type": "ArtOfTest.WebAii.Core.Settings",
+      "__value": {
+        "Web": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
+          "__value": {
+            "IsProfilingExecution": true,
+            "ExecutingBrowsers": [],
+            "UseMultiBrowserExecution": false,
+            "RecycleBrowser": false,
+            "AspNetDevServerPort": -1,
+            "LocalWebServer": 0,
+            "EnableUILessRequestViewing": false,
+            "WebAppPhysicalPath": "",
+            "DefaultBrowser": 1,
+            "EnableScriptLogging": false,
+            "BaseUrl": "http://Hampton-pilot.acceliplan.com",
+            "KillBrowserProcessOnClose": false,
+            "UseHttpProxy": false,
+            "EnableSilverlight": false,
+            "VerboseHttpProxy": false,
+            "SilverlightConnectTimeout": 60000,
+            "SilverlightApplicationPath": null
+          }
+        },
+        "Wpf": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WpfSettings",
+          "__value": {
+            "DefaultApplicationPath": null
+          }
+        },
+        "CreateLogFile": true,
+        "LogLocation": "C:\\WebAiiLog\\",
+        "QueryEventLogErrorsOnExit": false,
+        "LogAnnotations": false,
+        "SimulatedMouseMoveSpeed": 0.3,
+        "WaitCheckInterval": 500,
+        "ElementWaitTimeout": 30000,
+        "ExecuteCommandTimeout": 20000,
+        "ExecutionDelay": 0,
+        "UnexpectedDialogAction": 2,
+        "AnnotateExecution": false,
+        "AnnotationMode": 0,
+        "XMultiMgr": true,
+        "ClientReadyTimeout": 60000,
+        "DisableDialogMonitoring": false
+      }
+    },
+    "Tests": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "5aab8c2c-6ef1-483b-b4fe-d3b6b90064c0",
+          "Path": "Section ID (1641) - Home\\5849 Check Main Page Vidgets.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "13e23209-2a5a-458d-9bb8-97bdc5cdadf6",
+          "Path": "Section ID (1641) - Home\\5850 Check list of students from watchlist.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "2300f854-7b54-41c9-b2e8-8c0d27e39d03",
+          "Path": "Section ID (1641) - Home\\5850 Watchlist manage.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "a551a190-1538-4d0e-84e4-e41ac6e6897e",
+          "Path": "Section ID (1641) - Home\\5851 Check CaseLoad status.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "c9447734-6cf6-4aca-8892-ec2e4b1ae9a3",
+          "Path": "Section ID (1641) - Home\\5851.2 Creating link with student as Admin.tstest",
+          "PathType": 0
+        }
+      }
+    ],
+    "Filter": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Filter",
+      "__value": {
+        "Keys": [],
+        "Comparisons": [],
+        "Values": []
+      }
+    },
+    "ListType": 2,
+    "ProjectId": "7d61be20-2d29-4ea9-9e8e-ea340f823939"
+  }
+}

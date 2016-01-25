@@ -419,7 +419,16 @@
       ".git\\objects\\72",
       ".git\\objects\\85",
       ".git\\objects\\9c",
-      ".git\\objects\\ae"
+      ".git\\objects\\ae",
+      ".git\\objects\\20",
+      ".git\\objects\\4f",
+      ".git\\objects\\77",
+      ".git\\objects\\97",
+      ".git\\objects\\9f",
+      ".git\\objects\\a9",
+      ".git\\objects\\ca",
+      ".git\\objects\\de",
+      ".git\\objects\\eb"
     ],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
