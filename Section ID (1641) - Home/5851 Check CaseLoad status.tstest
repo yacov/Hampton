@@ -68,8 +68,8 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "9b81d5ed-7f04-411d-877f-7f966faa737d",
-            "Description": "Execute test 'LoginAsAdmin'",
-            "CustomDescription": null,
+            "Description": "Login As Admin",
+            "CustomDescription": "Login As Admin",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
@@ -110,7 +110,7 @@
           "__value": {
             "Runtime ID": "3b8109a3-181c-44c2-8ef1-a2b52cbbc0c8",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
-            "CustomDescription": null,
+            "CustomDescription": "Wait for Loading",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
               "__value": {
@@ -445,7 +445,7 @@
           "__value": {
             "Runtime ID": "5559147c-7749-4435-a2de-87e517366f93",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
-            "CustomDescription": null,
+            "CustomDescription": "Wait for Loading",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
               "__value": {
@@ -1007,7 +1007,7 @@
           "__value": {
             "Runtime ID": "d59fb245-62ef-48c5-90e7-d3b46485f0c9",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
-            "CustomDescription": null,
+            "CustomDescription": "Wait for Loading",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
               "__value": {
@@ -1116,7 +1116,7 @@
           "__value": {
             "Runtime ID": "2c6f240a-0295-4196-8ff9-65b44023afc4",
             "Description": "Verify 'TextContent' 'Contains' 'Name:' on 'NameTableCell'",
-            "CustomDescription": null,
+            "CustomDescription": "Verify that grid  contains 'Name:' ",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
@@ -1151,14 +1151,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Students/ViewStudent",
-                          "Query": "?commonStudentId=45459",
+                          "Query": "?CommonStudentId=11250&studentViewType=Events&programType=HamptonIEP",
                           "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - test student",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Eli Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyTestStudent"
+                          "FriendlyName": "AccelifyEliAaron1"
                         }
                       },
                       "Frame": null,
@@ -1230,7 +1230,7 @@
           "__value": {
             "Runtime ID": "7c1e0953-1543-40b4-83d0-efd493538b06",
             "Description": "Verify 'TextContent' 'Contains' 'Student ID:' on 'StudentIDTableCell'",
-            "CustomDescription": null,
+            "CustomDescription": "Verify  that grid  contains ' 'Student ID:'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
@@ -1265,14 +1265,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Students/ViewStudent",
-                          "Query": "?commonStudentId=45459",
+                          "Query": "?CommonStudentId=11250&studentViewType=Events&programType=HamptonIEP",
                           "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - test student",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Eli Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyTestStudent"
+                          "FriendlyName": "AccelifyEliAaron1"
                         }
                       },
                       "Frame": null,
@@ -1344,7 +1344,7 @@
           "__value": {
             "Runtime ID": "248b99a1-269f-47ad-8afd-97449f7cf119",
             "Description": "Verify 'TextContent' 'Contains' 'Grade:' on 'GradeTableCell'",
-            "CustomDescription": null,
+            "CustomDescription": "Verify that grid  contains 'Grade:'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
@@ -1379,14 +1379,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Students/ViewStudent",
-                          "Query": "?commonStudentId=45459",
+                          "Query": "?CommonStudentId=11250&studentViewType=Events&programType=HamptonIEP",
                           "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - test student",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Eli Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyTestStudent"
+                          "FriendlyName": "AccelifyEliAaron1"
                         }
                       },
                       "Frame": null,
@@ -1458,7 +1458,7 @@
           "__value": {
             "Runtime ID": "6eaf5049-2f7a-4505-a45b-5926a38ae22c",
             "Description": "Verify 'TextContent' 'Contains' 'School:' on 'SchoolTableCell'",
-            "CustomDescription": null,
+            "CustomDescription": "Verify that grid  contains  'School:' ",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
@@ -1493,14 +1493,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Students/ViewStudent",
-                          "Query": "?commonStudentId=45459",
+                          "Query": "?CommonStudentId=11250&studentViewType=Events&programType=HamptonIEP",
                           "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - test student",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Eli Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyTestStudent"
+                          "FriendlyName": "AccelifyEliAaron1"
                         }
                       },
                       "Frame": null,
@@ -1583,7 +1583,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Section ID (1641) - Home\\5851.resx",
+    "ResourceFilePath": "Section ID (1641) - Home\\5851 Check CaseLoad status.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1611,11 +1611,12 @@
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
+    "CustomProperty1": "ready",
     "TestLinks": [],
     "Description": "Checks that Widget contains list of students from caseload current provider.",
-    "Name": "5851",
-    "Owner": null,
-    "Path": "Section ID (1641) - Home\\5851.tstest",
+    "Name": "5851 Check CaseLoad status",
+    "Owner": "",
+    "Path": "Section ID (1641) - Home\\5851 Check CaseLoad status.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "a551a190-1538-4d0e-84e4-e41ac6e6897e",
