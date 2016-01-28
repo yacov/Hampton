@@ -3,7 +3,7 @@
   "__value": {
     "TestListId": "c93265df-801a-4892-a17b-6d1771de4348",
     "Id": "c93265df-801a-4892-a17b-6d1771de4348",
-    "TestListName": "Ready",
+    "TestListName": "All tests ready automatically added in this list",
     "CreationDate": "2016-01-19T15:47:38",
     "OwnerName": null,
     "Settings": {
@@ -58,6 +58,46 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
+          "Id": "c9447734-6cf6-4aca-8892-ec2e4b1ae9a3",
+          "Path": "Section ID (1641) - Home\\5851.2 Creating link with student as Admin.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "a551a190-1538-4d0e-84e4-e41ac6e6897e",
+          "Path": "Section ID (1641) - Home\\5851 Check CaseLoad status.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "2300f854-7b54-41c9-b2e8-8c0d27e39d03",
+          "Path": "Section ID (1641) - Home\\5850 Watchlist manage.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "13e23209-2a5a-458d-9bb8-97bdc5cdadf6",
+          "Path": "Section ID (1641) - Home\\5850 Check list of students from watchlist.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "5aab8c2c-6ef1-483b-b4fe-d3b6b90064c0",
+          "Path": "Section ID (1641) - Home\\5849 Check Main Page Vidgets.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
           "Id": "246c6bbc-99b0-46b7-bf44-82f1a6c776a1",
           "Path": "Siute_1638_Events_Initial_IEP\\6079_2.tstest",
           "PathType": 0
@@ -68,14 +108,6 @@
         "__value": {
           "Id": "e78486b6-c8db-4da1-9d71-000975adad6f",
           "Path": "Siute_1638_Events_Initial_IEP\\6079_1.tstest",
-          "PathType": 0
-        }
-      },
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
-          "Id": "42a36964-86ea-4571-ab25-6c55439ea097",
-          "Path": "Siute_1638_Events_Initial_IEP\\5840.tstest",
           "PathType": 0
         }
       },
@@ -116,6 +148,30 @@
         "__value": {
           "Id": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
           "Path": "Siute_1638_Events_Initial_IEP\\5836.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "57ca03ed-cf66-4e11-94ca-f9aa5486054b",
+          "Path": "Section ID (1643) - Caseload\\5859 MyCaseloadView.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "44e774c0-0cb6-484d-8df2-0025d2c2d1e0",
+          "Path": "Section ID (1643) - Caseload\\5861 MyCaseloadTable.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "5fe5b5b2-8316-45aa-844b-72a8defe5f9d",
+          "Path": "Section ID (1643) - Caseload\\5860 FilterFields.tstest",
           "PathType": 0
         }
       }

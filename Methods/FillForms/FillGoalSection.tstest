@@ -26,8 +26,226 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "3126ecf7-af12-46ca-b627-8f552763963a",
+            "Description": "Click 'BtnCreateGoal'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/IEP/Events/ViewEvent",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyInitialIEPFor26"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "kwHORvzS6Y0WdDqzxSrVw0cRpss=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "BtnCreateGoal",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=btnCreateGoal"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[3]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "FillGoalSectionr3hyxzla.nba",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "507995d3-688f-4323-8430-545d6b824476",
+            "Description": "Wait for Loading",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "ExistsNot": true,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/IEP/Students",
+                          "Query": "",
+                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - Students",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyStudents"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "rRN3QE5UtPLd+oyl909MjWUAIcw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoadingDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=^Loading, please"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "FillGoalSectiongsdgxqry.pom",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "bc8055be-240a-4705-a9ca-640375636860",
-            "Description": "Set Domain '3' item",
+            "Description": "KendoListBox: select item by index '8' - DataDriven: [$(Col1)]",
             "CustomDescription": "Set Domain '8' item",
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
@@ -63,14 +281,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Isaac Abakpa",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor15"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -123,11 +341,13 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {}
+                "DataBindingExpressions": {
+                  "SelectionIndex": "$(Col1)"
+                }
               }
             },
             "Enabled": true,
-            "Order": 1,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -175,14 +395,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -233,7 +453,7 @@
               }
             },
             "Enabled": true,
-            "Order": 2,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -247,7 +467,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "850660a1-658a-4a6d-af72-7a007a40ac4f",
-            "Description": "Set bank '1' item",
+            "Description": "KendoListBox: select item by index '4' - DataDriven: [$(Col2)]",
             "CustomDescription": "Set bank '4' item",
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
@@ -283,14 +503,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Isaac Abakpa",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor15"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -343,11 +563,13 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {}
+                "DataBindingExpressions": {
+                  "SelectionIndex": "$(Col2)"
+                }
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -395,14 +617,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -453,7 +675,7 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -466,15 +688,133 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6d451e8d-2268-4d0c-9252-852be5c3f360",
-            "Description": "Set grade 5 item",
-            "CustomDescription": "Set grade 5 item",
+            "Runtime ID": "d0c2e7d9-e9a7-4cf5-8151-d6e93d80aca0",
+            "Description": "KendoInput: Combo open ",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "Telerik.TestStudio.Translators.KendoUI.Input.InputComboToggle",
+              "__value": {
+                "ComboOpened": "False",
+                "CustomPrefix": "KendoInput",
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "KendoInput": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "KendoInput",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/IEP/Events/ViewEvent",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyInitialIEPFor26"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "967Sd/kueXewjJZYWrrxNgyGLF4=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "Span0",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=span"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "class=~k-widget"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "GroupIndex=5"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[30]/div[2]/form[1]/div[1]/div[4]/div[2]/span[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoInput",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "FillGoalSectionrb5qvodp.fy1",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "df9b72e9-b02f-47fa-afee-a7364688262f",
+            "Description": "KendoListBox: select item by text 'Preschool' - DataDriven: [$(Col3)]",
+            "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 1,
-                "SelectionText": "Kindergarten",
-                "SelectionIndex": 5,
+                "SelectionType": 0,
+                "SelectionText": "Preschool",
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -503,14 +843,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Isaac Abakpa",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor15"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -532,13 +872,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=GradeType_listbox"
+                                        "Clause": "tagname=ul"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=ul"
+                                        "Clause": "id=GradeType_listbox"
                                       }
                                     }
                                   ],
@@ -548,7 +888,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[14]/div[1]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[37]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -563,15 +903,17 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {}
+                "DataBindingExpressions": {
+                  "SelectionText": "$(Col3)"
+                }
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSectionnmq5ij1d.uy4",
+            "StepImageKey": "FillGoalSection5j4tmcmo.bp2",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -615,14 +957,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -673,7 +1015,7 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -686,15 +1028,15 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "d3831bf8-93eb-4a51-8057-259951d0e1cb",
-            "Description": "Set Area Of concern '1' item",
-            "CustomDescription": "Set Area Of concern '1' item",
+            "Runtime ID": "12b0f98e-37a0-4b48-bb54-61d1402d188a",
+            "Description": "KendoListBox: select item by text 'Listening and  Speaking' - DataDriven: [$(Col4)]",
+            "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 1,
-                "SelectionText": "Community Safety",
-                "SelectionIndex": 1,
+                "SelectionType": 0,
+                "SelectionText": "Listening and  Speaking",
+                "SelectionIndex": 0,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -723,14 +1065,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Isaac Abakpa",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor15"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -752,13 +1094,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=ul"
+                                        "Clause": "id=GoalAreaIds_listbox"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=GoalAreaIds_listbox"
+                                        "Clause": "tagname=ul"
                                       }
                                     }
                                   ],
@@ -768,7 +1110,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[18]/div[1]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[38]/div[1]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -783,15 +1125,17 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {}
+                "DataBindingExpressions": {
+                  "SelectionText": "$(Col4)"
+                }
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSectionvveqn3x0.05x",
+            "StepImageKey": "FillGoalSection2vq01gwy.gvc",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -835,14 +1179,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -893,7 +1237,7 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -906,13 +1250,16 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "db5e3023-3990-4e9b-9a8a-645051fbab22",
-            "Description": "Click 'GoalTypeRadio'",
+            "Runtime ID": "b0b927f6-c356-431c-9184-7b4733e04aa9",
+            "Description": "KendoListBox: select item by text 'Aural Comprehension'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SimulateRealClick": false,
+                "SelectionType": 0,
+                "SelectionText": "Aural Comprehension",
+                "SelectionIndex": 0,
+                "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -925,27 +1272,29 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
-                  "target": {
+                  "KendoListBox": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "target",
+                      "Name": "KendoListBox",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -953,336 +1302,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "VO5es6HyoQVdjKlxW0VKRT8eoCM=",
+                          "uniqueKey": "AaKw3utOAY0ssJVPLmKNngR7mKc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "GoalTypeRadio",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=input"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "value=Goal"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputRadioButton",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 9,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSectionbplukv2i.qyl",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "e0c7891a-0d2e-4956-ac4b-19e42aa8f6ee",
-            "Description": "Click 'GoalLABELTag'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "3VT3DBMNJfUvqqbKeduXrjmdr/c=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "GoalLABELTag",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=label"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Goal"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 10,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSection1z1smqfg.ie0",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "e27cc111-f62a-4ba3-bd12-59879cbd5ae1",
-            "Description": "Desktop command: LeftClick on GoalsList",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
-              "__value": {
-                "Focus": true,
-                "DesktopActionType": 0,
-                "OffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "0, 0, Percentage, AbsoluteCenter"
-                },
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "/yWSFdVVRcELHQTZI8wvJlFwBuI=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "GoalsList",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "InnerMarkup=~GoalDefinitionIds_taglist"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 11,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSectionx11cj5rw.vt1",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "0fe20518-93f4-4bdf-89ba-94d4d3fe1ade",
-            "Description": "Click 'GoalsFirstRow'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "UssfjawQU86KyS8fxWQat5wbjw4=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "GoalsFirstRow",
+                          "Name": "GoalDefinitionIdsListboxUnorderedList",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1299,23 +1322,21 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=li"
+                                        "Clause": "tagname=ul"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[19]/div[1]/div[2]/ul[1]/li[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[39]/div[1]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoListBox",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -1334,7 +1355,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSectionizsurmwh.1kl",
+            "StepImageKey": "FillGoalSection53cs3rg3.qz0",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1378,14 +1399,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1449,14 +1470,16 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "daf011e5-a6d4-445c-8c9a-5d8a302e3823",
-            "Description": "Click 'GoalTypeRadio'",
+            "Runtime ID": "f624781a-cf79-4aa6-8524-7e4e337b006f",
+            "Description": "Check 'GoalTypeRadio' to be 'True'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckActionDescriptor",
               "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
+                "CheckedState": true,
+                "InvokeOnClick": true,
+                "InvokeOnChange": true,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -1468,27 +1491,29 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
-                  "target": {
+                  "checkBox": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "target",
+                      "Name": "checkBox",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1510,13 +1535,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=input"
+                                        "Clause": "value=Custom"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "value=Custom"
+                                        "Clause": "tagname=input"
                                       }
                                     }
                                   ],
@@ -1526,7 +1551,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[30]/div[2]/form[1]/div[1]/div[7]/div[1]/label[1]/input[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1549,7 +1574,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSectionlcd1uxdz.ozx",
+            "StepImageKey": "FillGoalSectiongl3mhlv4.kmc",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1558,132 +1583,21 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6dd5bf38-3984-42aa-ba93-87c6c0e0036e",
-            "Description": "Click 'CustomLabelTag'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": true,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Isaac Abakpa",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor15"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "JEzpUA7kDiPWp32UdsEhwzg0jEM=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "CustomLabelTag",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Custom"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=label"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[2]/form[1]/div[1]/div[7]/div[1]/label[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 15,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSectionq2v1kagx.zo5",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "796a4f19-46a7-40be-a629-1fb401c81d18",
-            "Description": "Enter text 'This is custom goal' in 'NameText'",
+            "Runtime ID": "c59f866e-2a66-481b-a7dd-e1dd8ee60608",
+            "Description": "Enter text 'Custom' in 'NameText' - DataDriven: [$(Col5)]",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "This is custom goal",
+                "RawText": "Custom",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
                 "IsPassword": false,
                 "TypingInfo": {
-                  "ElementText": "This is ",
-                  "TypedText": "TThhiiss  iiss  ",
-                  "CaretPosition": 8,
+                  "ElementText": "Custom",
+                  "TypedText": "CCuussttoomm",
+                  "CaretPosition": 6,
                   "IsTextArea": false,
                   "IsBackSpace": false
                 },
@@ -1716,14 +1630,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Isaac Abakpa",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor15"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1782,17 +1696,19 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {},
+                "DataBindingExpressions": {
+                  "Text": "$(Col5)"
+                },
                 "_canEncrypt": false,
                 "_cipher": null
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSection2xzji5lx.ayr",
+            "StepImageKey": "FillGoalSectiongmxh5bbt.r30",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1835,14 +1751,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1853,7 +1769,7 @@
                           "uniqueKey": "iigfNlsJnjKvqySAkESAdULjDgw=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "NameText",
+                          "Name": "NameText0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1899,7 +1815,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1912,14 +1828,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "2fc8f77a-1fb7-479e-8feb-5f4f689dabeb",
+            "Runtime ID": "6aab1d90-a58c-434a-9c74-26f882d8187f",
             "Description": "Click 'BtnSaveGoalLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": false,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -1931,7 +1847,9 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
@@ -1944,14 +1862,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1973,13 +1891,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "id=btnSaveGoal"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=btnSaveGoal"
+                                        "Clause": "tagname=a"
                                       }
                                     }
                                   ],
@@ -1989,7 +1907,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[30]/div[2]/form[1]/div[1]/div[8]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -2008,11 +1926,11 @@
               }
             },
             "Enabled": true,
-            "Order": 18,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSectionki2u0p4n.ivc",
+            "StepImageKey": "FillGoalSection5pkmlcox.mom",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -2021,24 +1939,21 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "07fea4c6-4ef3-4332-a65f-8f922442d7ca",
-            "Description": "Verify 'TextContent' 'Contains' '' on 'OLDLabelTag' - DataDriven: [$(Goal)]",
+            "Runtime ID": "b8f6d114-618c-46f6-8249-dbf2c39d52f7",
+            "Description": "Wait for Loading",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
               "__value": {
-                "CompareType": 2,
-                "SegmentType": 3,
-                "ExpectedString": "",
-                "UseBackupSearch": true,
-                "DataBindVariableName": "OLDLabelTag",
+                "ExistsNot": true,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
                 "Timeout": 30000,
                 "CheckInterval": 500,
                 "EnsureStateIsCurrent": false,
                 "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -2047,23 +1962,23 @@
                   }
                 },
                 "Elements": {
-                  "textTarget": {
+                  "target": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "textTarget",
+                      "Name": "target",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
+                          "Path": "/IEP/Students",
+                          "Query": "",
                           "BaseUrl": "http://hampton-demo.accelidemo.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "",
+                          "Title": "Accelify - Students",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor17"
+                          "FriendlyName": "AccelifyStudents"
                         }
                       },
                       "Frame": null,
@@ -2071,10 +1986,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "QKqFyyRgCmmEOt/CLKAZpgY9q5A=",
+                          "uniqueKey": "rRN3QE5UtPLd+oyl909MjWUAIcw=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "OLDLabelTag",
+                          "Name": "LoadingDiv",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -2085,13 +2000,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=^OLD Comprehensi"
+                                        "Clause": "TextContent=^Loading, please"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=label"
+                                        "Clause": "tagname=div"
                                       }
                                     }
                                   ],
@@ -2101,11 +2016,11 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/form[1]/div[1]/label[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -2113,20 +2028,18 @@
                     }
                   }
                 },
-                "StepType": 2,
+                "StepType": 1,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {
-                  "ExpectedString": "$(Goal)"
-                }
+                "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
-            "Order": 19,
+            "Enabled": true,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSectionamdfwbfa.z00",
+            "StepImageKey": "FillGoalSectionhfi1zkaz.h03",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -2144,14 +2057,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2209,14 +2122,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2268,14 +2181,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2327,14 +2240,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2386,14 +2299,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2445,14 +2358,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2516,14 +2429,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2575,14 +2488,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2634,14 +2547,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2705,14 +2618,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2770,14 +2683,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Eli Aaron",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor17"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2829,14 +2742,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=adff6095-1003-4f95-a2e9-a58a00fce249",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Eli Aaron",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor17"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2894,14 +2807,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=a4eb50d9-7d80-4097-a8ef-a58c007898d7",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Isaac Abakpa",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor15"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2923,13 +2836,13 @@
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "id=GradeType_listbox"
+                            "Clause": "tagname=ul"
                           }
                         },
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "tagname=ul"
+                            "Clause": "id=GradeType_listbox"
                           }
                         }
                       ],
@@ -2939,11 +2852,70 @@
                   }
                 }
               ],
-              "BackupSearchClause": "/html[1]/body[1]/div[14]/div[1]/div[2]/ul[1]",
+              "BackupSearchClause": "/html[1]/body[1]/div[37]/div[2]/ul[1]",
               "DataBindingExpressions": {}
             }
           },
           "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoListBox",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "textTarget",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/IEP/Events/ViewEvent",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
+              "EquivalentUrls": [],
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyInitialIEPFor26"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "OcbrSNKHt9bEBpY/487bupZA36c=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "NameText1",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "xpath=/html[1]/body[1]/div[30]/div[2]/form[1]/div[1]/div[7]/div[2]/input[1]"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[30]/div[2]/form[1]/div[1]/div[7]/div[2]/input[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
           "IsIndependent": true,
           "DomStateKey": "",
           "TechnologyType": 1,
@@ -2976,9 +2948,24 @@
         "DataTableName": "",
         "DataProvider": "",
         "DataEnabled": true,
-        "HasBuiltinGrid": false,
-        "DataType": 4,
-        "BuiltInData": null,
+        "HasBuiltinGrid": true,
+        "DataType": 0,
+        "BuiltInData": [
+          {
+            "Col1": "8",
+            "Col2": "4",
+            "Col3": "Preschool",
+            "Col4": "Listening and  Speaking",
+            "Col5": "Goal number one"
+          },
+          {
+            "Col1": "8",
+            "Col2": "4",
+            "Col3": "Preschool",
+            "Col4": "Listening and speaking",
+            "Col5": "Goal Number two"
+          }
+        ],
         "BuiltInDocumentKey": null,
         "TSQL": ""
       }

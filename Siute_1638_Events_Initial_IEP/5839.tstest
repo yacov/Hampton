@@ -68,7 +68,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "1676a429-7739-499b-9b3c-36d7e2d97eba",
-            "Description": "Execute test 'LoginAsAdmin.tstest'",
+            "Description": "Execute test 'LoginAsAdmin'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -76,7 +76,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "LoginAsAdmin.tstest",
+                "TestName": "LoginAsAdmin",
                 "TestPath": "Methods\\LoginAsAdmin.tstest",
                 "TestUniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
                 "Pause": 0,
@@ -399,14 +399,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=9a48af05-ab9a-4358-a4ef-a58b003b56cd",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - Initial IEP for Jaziyah Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor13"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -417,7 +417,7 @@
                           "uniqueKey": "ryQLEiEw6SgvfM1jEbkEZIsjLwg=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "GoalsLink",
+                          "Name": "GoalsLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -477,7 +477,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "91c9c153-9268-4f66-b1e2-e8cc9a702438",
-            "Description": "Click 'BtnCreateGoalLink'",
+            "Description": "Click 'BtnCreateGoal'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -508,14 +508,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=9a48af05-ab9a-4358-a4ef-a58b003b56cd",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for Jaziyah Aaron",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor14"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -526,7 +526,7 @@
                           "uniqueKey": "kwHORvzS6Y0WdDqzxSrVw0cRpss=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "BtnCreateGoalLink0",
+                          "Name": "BtnCreateGoal",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -635,14 +635,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=9a48af05-ab9a-4358-a4ef-a58b003b56cd",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Jaziyah Aaron",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor14"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -700,14 +700,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=9a48af05-ab9a-4358-a4ef-a58b003b56cd",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "#Goals",
-              "Title": "Accelify - Initial IEP for Jaziyah Aaron",
-              "CompareMode": 2,
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor14"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -715,10 +715,10 @@
           "FindExpression": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
             "__value": {
-              "uniqueKey": "vJfY3mzRDM0lw+hJFZ7gRKb+Ee8=",
+              "uniqueKey": "kwHORvzS6Y0WdDqzxSrVw0cRpss=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "BtnCreateGoalLink",
+              "Name": "BtnCreateGoal",
               "FindExpressions": [
                 {
                   "Key": 1,
@@ -729,13 +729,13 @@
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "TextContent=Create"
+                            "Clause": "tagname=a"
                           }
                         },
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "tagname=a"
+                            "Clause": "id=btnCreateGoal"
                           }
                         }
                       ],

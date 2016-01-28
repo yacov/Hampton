@@ -56,15 +56,7 @@ namespace Siute_1638_Events_Initial_IEP
             var myList = new List<string>();
             double r = grid.Rows.Count;
             var item = "";
-            bool alreadyExist = false;
-            // Grab the VirtualizingPanel contained in the RadGridView. This is used to control the viewable portion of the grid.
-            //FrameworkElement VirtualizingPanel = grid.Find.ByType("GridViewVirtualizingPanel");
             
-            // Detect the view port height and the extent height
-            
-            //get the Header Row Cells and iterate through them
-            
-            // Walk through the entire grid verifying the data
             
                   for (int i = 1; i < (r-1); i++)
                   {

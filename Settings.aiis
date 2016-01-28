@@ -428,16 +428,50 @@
       ".git\\objects\\a9",
       ".git\\objects\\ca",
       ".git\\objects\\de",
-      ".git\\objects\\eb"
+      ".git\\objects\\eb",
+      ".git\\objects\\ea"
     ],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
-    "BugTrackerPersistableSettings": {},
-    "ActiveBugTrackers": [],
+    "BugTrackerPersistableSettings": {
+      "JIRA Server": {
+        "__type": "Telerik.TestStudio.Jira.BugTracking.JiraConnectionModel",
+        "__value": {
+          "ServerName": "https://jira.intetics.com",
+          "User": "lshum@accelify.com",
+          "Password": {
+            "__type": "Telerik.TestStudio.Jira.BugTracking.Base64String",
+            "__value": {
+              "Base64value": "RjU0aDc4aGRmMw=="
+            }
+          },
+          "SelectedProject": {
+            "__type": "Telerik.TestStudio.Jira.BugTracking.JiraProject",
+            "__value": {
+              "self": "https://jira.intetics.com/rest/api/2/project/10146",
+              "id": 10146,
+              "key": "CW0575",
+              "name": "CW-0575 (Accelify)",
+              "avatarUrls": {
+                "16x16": "https://jira.intetics.com/secure/projectavatar?size=xsmall&pid=10146&avatarId=10011",
+                "24x24": "https://jira.intetics.com/secure/projectavatar?size=small&pid=10146&avatarId=10011",
+                "32x32": "https://jira.intetics.com/secure/projectavatar?size=medium&pid=10146&avatarId=10011",
+                "48x48": "https://jira.intetics.com/secure/projectavatar?pid=10146&avatarId=10011"
+              }
+            }
+          },
+          "CurrentVersion": "2015.3.1314.0",
+          "XmlBlob": null
+        }
+      }
+    },
+    "ActiveBugTrackers": [
+      "JIRA Server"
+    ],
     "BugTitleMask": "{0} step on {1} test failed.",
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{0}",
-    "SelectedBrowserOption": 4
+    "SelectedBrowserOption": 2
   }
 }

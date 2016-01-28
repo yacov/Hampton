@@ -58,14 +58,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=1dcff508-3f44-4554-aebf-a58b0015d886",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting2"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -143,13 +143,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "06ccce9c-9864-4a52-8d44-41eb2e218aa1",
-            "Description": "Click 'ArrowOpenList'",
+            "Runtime ID": "37fc2f3e-b93e-42fa-a99f-f04dc67e40ae",
+            "Description": "KendoInput: Combo open ",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "Telerik.TestStudio.Translators.KendoUI.Input.InputComboToggle",
               "__value": {
-                "SimulateRealClick": false,
+                "ComboOpened": "False",
+                "CustomPrefix": "KendoInput",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -162,27 +163,29 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
-                  "target": {
+                  "KendoInput": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "target",
+                      "Name": "KendoInput",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=2db6a3e6-e9d2-4460-b628-a58b001fb9f1",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=23454e9c-e110-434b-911f-a58b001fba12",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting4"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -190,10 +193,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "a4vsAK4NrVCCtdVcK/+b1A3o+mI=",
+                          "uniqueKey": "VLItCeOTGe1rS8xIZjfRnDy8EJA=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ArrowOpenList",
+                          "Name": "Span2",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -204,29 +207,33 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=frmFormDetails"
+                                        "Clause": "tagname=span"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=span:33"
+                                        "Clause": "class=~k-widget"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "InnerText=Manifestation DeterminationselectManifestation DeterminationReferral To Child StudyTransferInitial Eligibility Committee MeetingTriennial Component Review MeetingCSC MeetingRevoke Special Ed ServicesAnnual IEPInitial IEPReevaluation MeetingWithdrawalIEP AddendumSp Ed MigrationEligibility Committee MeetingPermission To Evaluate"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[2]/div[7]/div[2]/div[2]/span[1]/span[1]/span[1]/span[2]/span[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[2]/div[7]/div[2]/div[2]/span[1]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoInput",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -245,7 +252,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "FillNoticeOfMeetingjohezz3k.jyq",
+            "StepImageKey": "FillNoticeOfMeetingl0ezfkwd.rw2",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -254,13 +261,16 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "81c61101-d2ce-4380-bd19-6309c4022fd0",
-            "Description": "Click 'ManifestationListItem'",
+            "Runtime ID": "c74d1bbb-5dd8-4cb4-8919-c903b1d4ba51",
+            "Description": "KendoListBox: select item by text 'Manifestation Determination'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SimulateRealClick": false,
+                "SelectionType": 0,
+                "SelectionText": "Manifestation Determination",
+                "SelectionIndex": 1,
+                "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -273,38 +283,40 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
-                  "target": {
+                  "KendoListBox": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "target",
+                      "Name": "KendoListBox",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=3eec307f-9d3f-430a-8859-a58a0103f25d",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=6f41f24c-4a5e-415f-b136-a58a0103f274",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "cUOT5KNjOr460loWi0yQv3dgenY=",
+                          "uniqueKey": "tndMWHgSttrXwQbfF0GQGo6JgKw=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ManifestationListItem",
+                          "Name": "FormFieldValuesBd96f23e647a460dA8cb265d02e2aad5ValueLookupValueIdListboxUnorderedList",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -315,13 +327,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagName=option"
+                                        "Clause": "id=FormFieldValues_bd96f23e-647a-460d-a8cb-265d02e2aad5__ValueLookupValueId_listbox"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=~Manifestation Determination"
+                                        "Clause": "tagname=ul"
                                       }
                                     }
                                   ],
@@ -331,11 +343,11 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[2]/div[7]/div[2]/div[2]/span[1]/span[1]/select[1]/option[2]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[11]/div[1]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoListBox",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -354,7 +366,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "FillNoticeOfMeetingrfy3trir.wix",
+            "StepImageKey": "FillNoticeOfMeetinggbuh01ed.v0q",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -408,14 +420,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=af378453-fc01-4e89-94dd-a58a01190a82",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=d6edbcd5-8e73-47a9-abff-a58a01190a9e",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting1"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -532,14 +544,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=af378453-fc01-4e89-94dd-a58a01190a82",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=d6edbcd5-8e73-47a9-abff-a58a01190a9e",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting1"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -643,14 +655,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=af378453-fc01-4e89-94dd-a58a01190a82",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=d6edbcd5-8e73-47a9-abff-a58a01190a9e",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting1"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -754,14 +766,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=af378453-fc01-4e89-94dd-a58a01190a82",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=d6edbcd5-8e73-47a9-abff-a58a01190a9e",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting1"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -865,14 +877,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=3eec307f-9d3f-430a-8859-a58a0103f25d",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=6f41f24c-4a5e-415f-b136-a58a0103f274",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -883,7 +895,7 @@
                           "uniqueKey": "rJIAGmYKLMXpx0c0hvRVm5hKmEM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "BtnUpdateFormLink",
+                          "Name": "BtnUpdateFormLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -977,14 +989,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=3eec307f-9d3f-430a-8859-a58a0103f25d",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=6f41f24c-4a5e-415f-b136-a58a0103f274",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Eli Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1063,14 +1075,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=af378453-fc01-4e89-94dd-a58a01190a82",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#NoticeOfMeeting&formId=d6edbcd5-8e73-47a9-abff-a58a01190a9e",
-              "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyNoticeOfMeeting1"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -1128,14 +1140,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=af378453-fc01-4e89-94dd-a58a01190a82",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#NoticeOfMeeting&formId=d6edbcd5-8e73-47a9-abff-a58a01190a9e",
-              "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyNoticeOfMeeting1"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -1195,14 +1207,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=af378453-fc01-4e89-94dd-a58a01190a82",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#NoticeOfMeeting&formId=d6edbcd5-8e73-47a9-abff-a58a01190a9e",
-              "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyNoticeOfMeeting1"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -1260,14 +1272,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=2db6a3e6-e9d2-4460-b628-a58b001fb9f1",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#NoticeOfMeeting&formId=23454e9c-e110-434b-911f-a58b001fba12",
-              "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyNoticeOfMeeting4"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -1333,14 +1345,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=2db6a3e6-e9d2-4460-b628-a58b001fb9f1",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#NoticeOfMeeting&formId=23454e9c-e110-434b-911f-a58b001fba12",
-              "Title": "Accelify - Notice of Meeting - Initial IEP for Jaziyah Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyNoticeOfMeeting4"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,

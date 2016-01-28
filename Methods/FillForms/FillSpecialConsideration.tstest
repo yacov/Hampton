@@ -61,14 +61,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -79,7 +79,7 @@
                           "uniqueKey": "RcFFx4HRocRDSq/zOF6oLcAvRY0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span",
+                          "Name": "Span1",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -134,7 +134,7 @@
             "Order": 1,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationhe11pgkz.kes",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -181,14 +181,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -248,119 +248,8 @@
             "Order": 2,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationuhy4ol34.iko",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "6c91f859-f401-41c4-ba71-12620eb3651a",
-            "Description": "Click 'BtnUpdateFormLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": true,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "5kx9dHk+EUcBGs3B7+aLG8I3glA=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "BtnUpdateFormLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Update"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/a[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 3,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "FillSpecialConsiderationdlhgdz5w.rui",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -404,14 +293,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -474,10 +363,10 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsideration3lyh42mg.qur",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -488,12 +377,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "47cd9e31-db74-44ae-8112-28aff795ab2e",
-            "Description": "KendoListBox: select item by text 'No specialized communication devices needed'",
+            "Description": "KendoListBox: select item by index '3'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "No specialized communication devices needed",
                 "SelectionIndex": 3,
                 "CustomPrefix": "KendoListBox",
@@ -524,14 +413,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -588,10 +477,10 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationft2l3x5u.cuv",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -636,14 +525,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -706,10 +595,10 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationv45y0gzj.wpn",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -720,12 +609,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "9424d26c-7128-4ba1-bc4d-0b2bb30b3326",
-            "Description": "KendoListBox: select item by text 'Language needs have been considered not included'",
+            "Description": "KendoListBox: select item by index '3'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "Language needs have been considered not included",
                 "SelectionIndex": 3,
                 "CustomPrefix": "KendoListBox",
@@ -756,14 +645,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -820,10 +709,10 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationcwbh2z15.k2f",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -867,14 +756,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -885,7 +774,7 @@
                           "uniqueKey": "8RCOEC7RgUZ0BfYGpZfi6mDtI+o=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span0",
+                          "Name": "Span00",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -925,10 +814,10 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationdnp24ey5.pmt",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -939,12 +828,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "cee52d15-703d-4dc4-a38e-bfacc683982e",
-            "Description": "KendoListBox: select item by text 'Communication needs are addressed on IEP'",
+            "Description": "KendoListBox: select item by index '2'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "Communication needs are addressed on IEP",
                 "SelectionIndex": 2,
                 "CustomPrefix": "KendoListBox",
@@ -975,14 +864,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1039,10 +928,10 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsideration1ersdtbm.wdx",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1087,14 +976,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1157,10 +1046,10 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsideration0phenm2k.aud",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1171,12 +1060,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "69ba39d5-7c5a-4c14-97b9-dcb334d8fce6",
-            "Description": "KendoListBox: select item by text 'AT needs met with standard classroom tools'",
+            "Description": "KendoListBox: select item by index '3'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "AT needs met with standard classroom tools",
                 "SelectionIndex": 3,
                 "CustomPrefix": "KendoListBox",
@@ -1207,14 +1096,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1271,10 +1160,10 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationbbusfppt.jcu",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1319,14 +1208,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1389,10 +1278,10 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationolumacox.w11",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1403,12 +1292,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "e7263d50-23d9-46f7-b388-8d647f9984f1",
-            "Description": "KendoListBox: select item by text 'Is not scheduled for state testing during this IEP'",
+            "Description": "KendoListBox: select item by index '2'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "Is not scheduled for state testing during this IEP",
                 "SelectionIndex": 2,
                 "CustomPrefix": "KendoListBox",
@@ -1439,14 +1328,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1503,10 +1392,10 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationyuobi0d4.24j",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1551,14 +1440,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1621,10 +1510,10 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationzgyrlexc.jjn",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1635,12 +1524,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "d7a5b612-7e81-4c24-9a07-b08de6b89b7b",
-            "Description": "KendoListBox: select item by text 'Will not be 14 or older during this IEP'",
+            "Description": "KendoListBox: select item by index '2'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "Will not be 14 or older during this IEP",
                 "SelectionIndex": 2,
                 "CustomPrefix": "KendoListBox",
@@ -1671,14 +1560,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1735,10 +1624,10 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationrrcmnq2x.jcg",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1783,14 +1672,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1853,10 +1742,10 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsideration25hoaqgs.uvg",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1867,12 +1756,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "6391f017-f4be-445a-8675-03bab4ec8b08",
-            "Description": "KendoListBox: select item by text 'ESY services to be considered at next IEP meeting'",
+            "Description": "KendoListBox: select item by index '3'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "ESY services to be considered at next IEP meeting",
                 "SelectionIndex": 3,
                 "CustomPrefix": "KendoListBox",
@@ -1903,14 +1792,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -1967,10 +1856,10 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationzeqrucoh.vcj",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -2015,14 +1904,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -2033,7 +1922,7 @@
                           "uniqueKey": "1fCWSKhQFfZQ681BrluKfLUzLSY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span1",
+                          "Name": "Span10",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -2085,10 +1974,10 @@
               }
             },
             "Enabled": true,
-            "Order": 18,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationmlhvrm34.olw",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -2099,12 +1988,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "257c2a79-2902-405a-8b52-367dfb284638",
-            "Description": "KendoListBox: select item by text 'Will participate in the SOL with no accommodations'",
+            "Description": "KendoListBox: select item by index '3'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "Will participate in the SOL with no accommodations",
                 "SelectionIndex": 3,
                 "CustomPrefix": "KendoListBox",
@@ -2135,14 +2024,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -2199,10 +2088,10 @@
               }
             },
             "Enabled": true,
-            "Order": 19,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationypwzeno5.vl0",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -2247,14 +2136,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -2317,10 +2206,10 @@
               }
             },
             "Enabled": true,
-            "Order": 20,
+            "Order": 19,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationqwnilgev.gyq",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -2331,12 +2220,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "6bd9dfb7-5673-4d22-b052-31b34d2a1ec5",
-            "Description": "KendoListBox: select item by text 'Will participate in specially adapted Family Life Education'",
+            "Description": "KendoListBox: select item by index '2'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "Will participate in specially adapted Family Life Education",
                 "SelectionIndex": 2,
                 "CustomPrefix": "KendoListBox",
@@ -2367,14 +2256,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -2431,10 +2320,10 @@
               }
             },
             "Enabled": true,
-            "Order": 21,
+            "Order": 20,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationco4bbpa1.3b5",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -2479,14 +2368,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -2549,10 +2438,10 @@
               }
             },
             "Enabled": true,
-            "Order": 22,
+            "Order": 21,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillSpecialConsiderationd5fw20es.dsr",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -2563,14 +2452,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "f24cc7c1-9cea-437e-9892-01c3698656c3",
-            "Description": "KendoListBox: select item by text 'Will be referred to the Adaptive PE specialist'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "Will be referred to the Adaptive PE specialist",
-                "SelectionIndex": 3,
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -2599,14 +2488,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-                          "Title": "Accelify - Initial IEP for Phillip Aaron",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor12"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
@@ -2614,10 +2503,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "jcDtA7csZX6gyOVUm//TIBc3XoM=",
+                          "uniqueKey": "vLotlqmk3aD5MLoFIkqhIYYM40A=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "AdaptiveSpecialistBox",
+                          "Name": "Pysikal",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -2628,7 +2517,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=FormFieldValues_a68aeeec-79ad-43fd-9215-1066be6ba078__ValueLookupValueId_listbox"
+                                        "Clause": "id=FormFieldValues_f6d2c5ad-78cc-4d50-a3f1-3e70ae38ae88__ValueLookupValueId_listbox"
                                       }
                                     },
                                     {
@@ -2644,7 +2533,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[54]/div[1]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[53]/div[1]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -2663,11 +2552,122 @@
               }
             },
             "Enabled": true,
+            "Order": 22,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "FillSpecialConsiderationd31faxvd.su5",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6a434184-aec0-415f-8db7-db55325b93cd",
+            "Description": "Click 'BtnUpdateFormLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/IEP/Events/ViewEvent",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyInitialIEPFor26"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "5kx9dHk+EUcBGs3B7+aLG8I3glA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "BtnUpdateFormLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Update"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
             "Order": 23,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "FillSpecialConsiderationd31faxvd.su5",
+            "StepImageKey": "FillSpecialConsiderationehndvtbf.vn5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -2685,14 +2685,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2756,14 +2756,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2827,14 +2827,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2898,14 +2898,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -2969,14 +2969,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -3040,14 +3040,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -3111,14 +3111,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -3182,14 +3182,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -3253,14 +3253,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -3324,14 +3324,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -3395,14 +3395,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/IEP/Events/ViewEvent",
-              "Query": "?eventId=32a1fb81-8815-41c7-905e-a58a00f72fb4",
-              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "#SpecialConsiderations&formId=9e69e104-4029-49b6-9f05-a58a00f7301c",
-              "Title": "Accelify - Initial IEP for Phillip Aaron",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyInitialIEPFor12"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -3451,6 +3451,136 @@
             }
           },
           "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoInput",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/IEP/Events/ViewEvent",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
+              "EquivalentUrls": [],
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyInitialIEPFor26"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+            "__value": {
+              "uniqueKey": "vLotlqmk3aD5MLoFIkqhIYYM40A=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "Pysikal",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=ul"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=FormFieldValues_f6d2c5ad-78cc-4d50-a3f1-3e70ae38ae88__ValueLookupValueId_listbox"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[53]/div[1]/div[2]/ul[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoListBox",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "KendoListBox",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/IEP/Events/ViewEvent",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
+              "EquivalentUrls": [],
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyInitialIEPFor26"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+            "__value": {
+              "uniqueKey": "zH7CsRjR98ZAJPgc3LDUrFCaZF8=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "AdaptiveSpecialistBox",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=ul"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=^FormFieldValues"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[9]/div[1]/div[2]/ul[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoListBox",
           "IsIndependent": true,
           "DomStateKey": "",
           "TechnologyType": 1,
